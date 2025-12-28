@@ -18,6 +18,7 @@
   --ifm-color-primary-darkest: #145b4f;
   --ifm-color-primary-light: #34cdab;
   --ifm-color-primary-lighter: #64e4c3;
+
   --ifm-color-primary-lightest: #9df2da;
 
   /* eVAL Link Colors */
@@ -281,6 +282,25 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(27, 180, 148, 0.15);
   padding: 0.125rem 0.25rem;
   border-radius: 0.25rem;
+}
+
+/* ============================================
+   Search Results Dropdown - docusaurus-search-local
+   Override plugin styles directly using actual class patterns
+   ============================================ */
+
+/* Target the dropdown and all suggestions */
+[class*="searchBar_"] [class*="dropdownMenu_"] [class*="suggestion_"],
+[class*="searchBar_"] [class*="dropdownMenu_"] [class*="suggestion_"] * {
+  color: #333 !important;
+  background-color: #fff !important;
+}
+
+/* Selected/cursor state */
+[class*="searchBar_"] [class*="dropdownMenu_"] [class*="suggestion_"][class*="cursor_"],
+[class*="searchBar_"] [class*="dropdownMenu_"] [class*="suggestion_"][class*="cursor_"] * {
+  color: #333 !important;
+  background-color: #e9ecef !important;
 }
 
 /* ============================================

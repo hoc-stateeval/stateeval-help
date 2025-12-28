@@ -408,5 +408,5 @@ If you work in multiple districts, each evaluation uses its respective district'
 
 ## Related Topics
 
-- [Understanding Your Role](../getting-started/your-role)
-- [Navigating Work Areas](../getting-started/work-areas)
+- [Understanding Work Areas](../getting-started/work-areas)
+- [Modules and Settings](./modules-settings)

@@ -6,38 +6,61 @@ roles: [SA]
 
 # School Administrator Guide
 
-As a School Administrator, you manage staff and evaluations at your school.
+As a School Administrator, you may configure settings and manage evaluator assignments for your school (depending on what your district allows).
 
-## Key Responsibilities
+:::tip New School Year?
+See [Start of Year Setup](../getting-started/start-of-year) for the sequence of tasks. Note: Framework selection must be done by your District Admin first.
+:::
 
-### Staff Management
-- [Adding staff to your school](../staff-management/adding-staff)
-- [Sending account invitations](../staff-management/sending-invitations)
-- [Assigning evaluators to teachers](../staff-management/assigning-evaluators)
+## Your Responsibilities
 
-### Evaluation Oversight
-- Monitoring evaluation progress at your school
-- Ensuring evaluations are completed on time
+| Area | What You Can Do |
+|------|-----------------|
+| **Assignments** | Assign evaluators to teachers (if delegated by district) |
+| **Settings** | Override district settings (where allowed) |
+| **Prompt Bank** | Add school-level prompts for observations and student growth |
+| **Resources** | Add school-level resources for evaluations |
+| **Oversight** | Monitor evaluation progress at your school |
 
-## What You Can Do
+## What You Control vs. District
 
-- Add and manage staff at your school
-- Assign evaluators to teachers (principals and assistant principals)
-- View evaluation progress for your school
-- Send and resend account invitations
+| Task | You | District Admin |
+|------|-----|----------------|
+| Select evaluation frameworks | No | Yes |
+| Enable/disable optional modules | If allowed | Yes |
+| Override module settings | If allowed | Yes |
+| Assign evaluators | If delegated | Yes |
+| Configure DTE/DPE assignments | No | Yes |
 
-## What District Admins Handle
+## Key Concepts
 
-Some tasks are managed at the district level:
-- District-wide roster uploads
-- Evaluation framework configuration
-- District-level evaluator assignments (DPE, DTE)
+### Settings Inheritance
+Your settings layer on top of district settings. See [How Settings Are Inherited](../reference/settings-inheritance):
+- **Additive areas** (prompts, resources): Your additions combine with district's
+- **Override areas** (module settings): Your settings replace district's (if allowed)
 
-## Common Tasks
+### School Override
+For each optional module and setting, the district controls whether you can override. Look for the "Allow Schools to Override" toggle - if it's not enabled at the district level, you'll see the setting but can't change it.
 
-| Task | Where to Go |
-|------|-------------|
-| Add a new teacher | Staff Admin > All Staff > Add Staff |
-| Assign evaluator to teacher | Staff Admin > School Roster |
-| Send invitation | Staff Admin > Invitations |
-| View school progress | Dashboard |
+See [Modules and Settings](../reference/modules-settings) for what each setting does.
+
+### Teacher Evaluations Only
+School-level settings only apply to **teacher evaluations conducted by school principals**. They're bypassed for:
+- Principal evaluations (always use district settings)
+- Teacher evaluations by DTEs (district-level evaluators)
+
+See [Settings Inheritance](../reference/settings-inheritance#inheritance-by-evaluation-scenario) for the full matrix.
+
+## Common Questions
+
+**Why can't I change a setting?**
+The district hasn't enabled school-level override for that setting. Contact your District Admin if you need it changed.
+
+**Why don't my settings apply to a teacher's evaluation?**
+Check who the evaluator is. If it's a DTE (not a school principal), district settings apply instead. See [Settings Inheritance](../reference/settings-inheritance#inheritance-by-evaluation-scenario).
+
+**Can I assign evaluators?**
+Only if your district has enabled "Assignments Delegated." Otherwise, the District Admin manages all assignments.
+
+**What prompts/resources will teachers see?**
+They'll see everything from the district level plus anything you've added at the school level. The lists combine (additive pattern).

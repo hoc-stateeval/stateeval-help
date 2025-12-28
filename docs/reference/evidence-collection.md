@@ -54,7 +54,7 @@ Both you and your evaluator can submit artifacts as evidence. Artifacts can be:
 - **Links** - URLs to external resources, portfolios, or online work
 - **Narrative text** - Written descriptions or reflections
 
-[Learn more about submitting artifacts](../artifacts/submitting-artifacts)
+[Learn more about working with artifacts](../artifacts/)
 
 ### Observations
 
@@ -115,5 +115,5 @@ This alignment helps you and your evaluator see how evidence supports ratings ac
 ## Related Topics
 
 - [How Workflows Work](./workflows) - Learn how each evidence collection moves through its lifecycle
-- [Submitting Artifacts](../artifacts/submitting-artifacts)
+- [Working with Artifacts](../artifacts/)
 - [Understanding Your Evaluation](./evaluation-basics)

@@ -20,8 +20,9 @@ Welcome to the eVAL Help Center. Find guides, tutorials, and answers to help you
 ### Popular Topics
 
 - [Getting Started](./getting-started/)
-- [Managing Staff](./staff-management/)
+- [Start of Year Setup](./getting-started/start-of-year)
 - [Working with Artifacts](./artifacts/)
+- [FAQ](./faq)
 
 ## Need Help?
 

@@ -11,37 +11,11 @@ const sidebars: SidebarsConfig = {
         id: 'getting-started/index',
       },
       items: [
-        'getting-started/logging-in',
+        'getting-started/start-of-year',
         'getting-started/work-areas',
-        'getting-started/your-role',
       ],
     },
-    {
-      type: 'category',
-      label: 'Staff Management',
-      link: {
-        type: 'doc',
-        id: 'staff-management/index',
-      },
-      items: [
-        'staff-management/adding-staff',
-        'staff-management/sending-invitations',
-        'staff-management/assigning-evaluators',
-        'staff-management/roster-uploads',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Artifacts',
-      link: {
-        type: 'doc',
-        id: 'artifacts/index',
-      },
-      items: [
-        'artifacts/submitting-artifacts',
-        'artifacts/reviewing-artifacts',
-      ],
-    },
+    'artifacts/index',
     {
       type: 'category',
       label: 'Role Guides',

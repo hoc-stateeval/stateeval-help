@@ -6,38 +6,60 @@ roles: [DA]
 
 # District Administrator Guide
 
-As a District Administrator, you have full access to manage staff, configure evaluations, and view reports across all schools in your district.
+As a District Administrator, you select evaluation frameworks, configure settings, manage assignments, and oversee evaluation completion district-wide.
 
-## Key Responsibilities
+:::tip New School Year?
+See [Start of Year Setup](../getting-started/start-of-year) for the required sequence of tasks, starting with framework selection.
+:::
 
-### Staff Management
-- [Adding new staff members](../staff-management/adding-staff)
-- [Sending account invitations](../staff-management/sending-invitations)
-- [Uploading staff rosters](../staff-management/roster-uploads)
-- [Assigning evaluators](../staff-management/assigning-evaluators)
+## Your Responsibilities
 
-### Evaluation Configuration
-- Setting up evaluation frameworks
-- Configuring school year settings
-- Managing evaluation timelines
+| Area | What You Control |
+|------|------------------|
+| **Framework Setup** | Select evaluation frameworks for the school year |
+| **Assignments** | Assign evaluators to evaluatees (or delegate to schools) |
+| **Configuration** | Enable/disable modules, configure settings |
+| **Prompt Bank** | Pre-define prompts for observations, student growth, summatives |
+| **Resources** | Add district-wide resources for evaluations |
+| **Oversight** | Monitor progress, generate reports, intervene when needed |
 
-### Reports & Oversight
-- Viewing district-wide evaluation progress
-- Generating compliance reports
-- Monitoring school completion rates
+## Key Concepts
 
-## Getting Started
+### Modules and Settings
+You control which features are available and how they behave. See [Modules and Settings](../reference/modules-settings):
+- **Optional Modules**: Enable/disable features like Coded Notes, Mid-Year, Self-Assessments
+- **Settings**: Configure behavior like workflow modes, scoring options, carry-forward limits
+- **School Override**: Allow or prevent schools from overriding your settings
 
-1. **Set up your staff** - Import or add staff members for the school year
-2. **Send invitations** - Ensure all staff have account access
-3. **Assign evaluators** - Match evaluatees with their evaluators
-4. **Monitor progress** - Track evaluation completion across schools
+### How Settings Flow Down
+Your settings are the baseline for all evaluations. Schools can override some settings (if you allow it), but the evaluator's position determines what applies. See [How Settings Are Inherited](../reference/settings-inheritance) - this is especially important for understanding why DTE/DPE evaluations bypass school settings.
 
-## Common Tasks
+### Workflow Modes
+You configure whether evaluations use [Simple or Formal completion](../reference/workflows#completion-modes-simple-vs-formal):
+- **Simple**: Faster, evaluator completes directly
+- **Formal**: Evaluatee must acknowledge, provides digital signatures
 
-| Task | Where to Go |
-|------|-------------|
-| Add a new teacher | Staff Admin > All Staff > Add Staff |
-| Upload a roster | Staff Admin > District Roster > Upload |
-| View unassigned staff | Staff Admin > District Roster |
-| Send invitations | Staff Admin > Invitations |
+Consider Formal for high-stakes summatives, Simple for high-volume observations.
+
+## Common Questions
+
+**Should I delegate assignments to schools?**
+The "Assignments Delegated" setting lets School Admins manage their own evaluator assignments. Useful for large districts; keep centralized for tighter control. See [Administration Settings](../reference/modules-settings#administration-settings).
+
+**What happens if I change a setting mid-year?**
+Settings apply to new work. Existing observations/evaluations keep their original settings. For plan type changes, consider the "Keep Plan Type in Sync" settings.
+
+**Can I override a locked evaluation?**
+Yes - District Admins can revert any summative evaluation to Draft without evaluatee approval. This is the only role with this power. See [Summative Workflow](../reference/workflows#detailed-workflows).
+
+## Teacher vs. Principal Evaluations
+
+You configure these separately. Key differences:
+
+| Setting | Teachers | Principals |
+|---------|----------|------------|
+| Observations | Required | Optional |
+| Student Growth Goals | Enabled by default | Disabled by default |
+| School-level settings | Apply | Bypassed |
+
+See [Modules and Settings](../reference/modules-settings#teacher-vs-principal-differences) for full comparison.

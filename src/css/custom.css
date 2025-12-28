@@ -1,0 +1,839 @@
+/**
+ * eVAL Help Center - Custom Styles
+ * Colors derived from eVAL frontend application
+ * Inspired by Cloudflare Docs styling
+ */
+
+/* Import Poppins font to match eVAL app */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ============================================
+   CSS Variables - eVAL Color Palette
+   ============================================ */
+:root {
+  /* Primary Colors - eVAL Brand Green */
+  --ifm-color-primary: #1bb494;
+  --ifm-color-primary-dark: #128f78;
+  --ifm-color-primary-darker: #137261;
+  --ifm-color-primary-darkest: #145b4f;
+  --ifm-color-primary-light: #34cdab;
+  --ifm-color-primary-lighter: #64e4c3;
+  --ifm-color-primary-lightest: #9df2da;
+
+  /* eVAL Link Colors */
+  --eval-link: #1bb494;
+  --eval-link-hover: #128f78;
+
+  /* Semantic Colors */
+  --eval-success: #4BBF73;
+  --eval-info: #1F9BCF;
+  --eval-warning: #E5A54B;
+  --eval-danger: #d9534f;
+  --eval-dark: #2E4051;
+
+  /* Grays */
+  --eval-gray-100: #f4f7f9;
+  --eval-gray-200: #e2e8ee;
+  --eval-gray-300: #dee6ed;
+  --eval-gray-600: #6c757d;
+  --eval-gray-700: #495057;
+
+  /* Typography */
+  --ifm-font-family-base: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --ifm-heading-font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --ifm-font-weight-semibold: 500;
+  --ifm-font-weight-bold: 600;
+
+  /* Layout */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(63, 128, 234, 0.1);
+  --ifm-global-radius: 0.375rem;
+  --ifm-pre-border-radius: 0.5rem;
+
+  /* Navbar */
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --ifm-navbar-height: 4rem;
+
+  /* Sidebar */
+  --doc-sidebar-width: 280px;
+  --ifm-menu-link-padding-vertical: 0.5rem;
+  --ifm-menu-link-padding-horizontal: 1rem;
+}
+
+/* Dark mode */
+[data-theme='dark'] {
+  --ifm-color-primary: #34cdab;
+  --ifm-color-primary-dark: #1bb494;
+  --ifm-color-primary-darker: #128f78;
+  --ifm-color-primary-darkest: #137261;
+  --ifm-color-primary-light: #64e4c3;
+  --ifm-color-primary-lighter: #9df2da;
+  --ifm-color-primary-lightest: #cef9ec;
+  --docusaurus-highlighted-code-line-bg: rgba(27, 180, 148, 0.2);
+  --ifm-navbar-background-color: #1b1b1d;
+  --eval-link: #34cdab;
+  --eval-link-hover: #64e4c3;
+}
+
+/* ============================================
+   Typography
+   ============================================ */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--ifm-font-weight-semibold);
+  color: var(--eval-gray-700);
+}
+
+[data-theme='dark'] h1,
+[data-theme='dark'] h2,
+[data-theme='dark'] h3,
+[data-theme='dark'] h4,
+[data-theme='dark'] h5,
+[data-theme='dark'] h6 {
+  color: #e3e3e3;
+}
+
+/* ============================================
+   Navbar - Dark top bar like Cloudflare
+   ============================================ */
+.navbar {
+  background-color: #293042 !important;
+  border-bottom: 1px solid #3a4356;
+  padding: 0 1.5rem;
+  --ifm-navbar-background-color: #293042;
+}
+
+.navbar__inner {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.navbar__brand {
+  margin-right: 1.5rem;
+}
+
+.navbar__logo {
+  height: 2rem;
+  margin-right: 0.75rem;
+}
+
+.navbar__title {
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: #fff !important;
+}
+
+.navbar__items {
+  gap: 0.25rem;
+}
+
+.navbar__link {
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.5rem 0.875rem;
+  border-radius: var(--ifm-global-radius);
+  transition: background-color 0.15s ease;
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.navbar__link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff !important;
+}
+
+.navbar__link--active {
+  color: #fff !important;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Navbar buttons - eVAL green button style */
+.navbar__items--left .navbar__link,
+.navbar__items:not(.navbar__items--right) .navbar__link {
+  background-color: #1bb494 !important;
+  color: #fff !important;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+}
+
+.navbar__items--left .navbar__link:hover,
+.navbar__items:not(.navbar__items--right) .navbar__link:hover {
+  background-color: #128f78 !important;
+  color: #fff !important;
+}
+
+/* Search Bar Styling - Dark navbar */
+.navbar__search {
+  margin-left: auto;
+}
+
+.navbar__search-input {
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem 0.5rem 2.5rem;
+  font-size: 0.875rem;
+  width: 240px;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
+.navbar__search-input:focus {
+  width: 320px;
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 3px rgba(27, 180, 148, 0.2);
+  outline: none;
+}
+
+/* Local Search Plugin Styling - Dark navbar */
+.search-bar-container {
+  margin-left: auto;
+}
+
+/* Search bar in navbar - dark style */
+.navbar .navbar__search,
+.navbar [class*="searchBar"],
+.navbar [class*="SearchBar"] {
+  background-color: #3a4356 !important;
+  border: 1px solid #4a5568 !important;
+  border-radius: 0.5rem !important;
+}
+
+.navbar .navbar__search input,
+.navbar [class*="searchBar"] input,
+.navbar [class*="SearchBar"] input {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+.navbar .navbar__search input::placeholder,
+.navbar [class*="searchBar"] input::placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.search-bar button,
+.DocSearch-Button,
+.aa-DetachedSearchButton,
+.navbar button[class*="search"],
+.navbar [class*="searchButton"] {
+  background-color: #3a4356 !important;
+  border: 1px solid #4a5568 !important;
+  border-radius: 0.5rem !important;
+  padding: 0.5rem 1rem !important;
+  height: 2.5rem !important;
+  min-width: 200px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+.search-bar button:hover,
+.DocSearch-Button:hover,
+.aa-DetachedSearchButton:hover {
+  border-color: #5a6a7e !important;
+  background-color: #4a5568 !important;
+}
+
+.search-bar button span,
+.DocSearch-Button-Placeholder,
+.navbar [class*="search"] span {
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-size: 0.875rem !important;
+}
+
+.search-bar button kbd,
+.DocSearch-Button-Key,
+.navbar [class*="search"] kbd {
+  background: #4a5568 !important;
+  border-radius: 0.25rem !important;
+  padding: 0.125rem 0.375rem !important;
+  font-size: 0.75rem !important;
+  font-family: inherit !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.DocSearch-Button-Keys {
+  display: flex !important;
+  gap: 0.25rem;
+}
+
+/* Search icon color - same as nav links */
+.DocSearch-Search-Icon,
+.search-bar svg,
+[class*="searchIcon"],
+.navbar svg:not(.navbar__logo img),
+.navbar path,
+.navbar__search svg,
+.navbar button svg,
+.navbar [class*="search"] svg {
+  color: rgba(255, 255, 255, 0.85) !important;
+  stroke: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* Search Modal */
+.search-result-match {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  background: rgba(27, 180, 148, 0.15);
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+}
+
+/* ============================================
+   Sidebar - eVAL Dark Style
+   ============================================ */
+.theme-doc-sidebar-container {
+  --ifm-navbar-background-color: #293042;
+  border-right: none;
+}
+
+/* Dark sidebar background */
+.theme-doc-sidebar-container > div {
+  background-color: #293042;
+}
+
+nav.menu {
+  background-color: #293042;
+  padding: 1rem 0.75rem;
+}
+
+/* Top-level category styling */
+.menu > .menu__list > .menu__list-item {
+  margin-bottom: 0.5rem;
+}
+
+.menu > .menu__list > .menu__list-item > .menu__list-item-collapsible > .menu__link,
+.menu > .menu__list > .menu__list-item > .menu__link {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 0.375rem 0.75rem;
+}
+
+.menu > .menu__list > .menu__list-item > .menu__list-item-collapsible:hover {
+  background: transparent;
+}
+
+.menu > .menu__list > .menu__list-item > .menu__list-item-collapsible > .menu__link:hover {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Nested menu items */
+.menu__list .menu__list {
+  padding-left: 0;
+  margin-top: 0.25rem;
+}
+
+.menu__list .menu__list .menu__link {
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
+  color: rgba(255, 255, 255, 0.85);
+  padding: 0.5rem 0.75rem;
+  padding-left: 1rem;
+  border-radius: 0;
+  border-left: 3px solid transparent;
+  margin-left: 0.5rem;
+  transition: all 0.15s ease;
+}
+
+.menu__list .menu__list .menu__link:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  border-left-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu__list .menu__list .menu__link--active {
+  background-color: rgba(63, 128, 234, 0.2);
+  color: #fff;
+  font-weight: 500;
+  border-left-color: var(--ifm-color-primary);
+}
+
+/* Collapsible arrow - white for dark sidebar */
+.menu__caret,
+.menu__list-item-collapsible .menu__caret {
+  padding: 0.25rem;
+}
+
+.menu__caret:before,
+.menu__list-item-collapsible .menu__caret:before,
+.menu__link--sublist-caret:after {
+  filter: invert(1);
+  opacity: 0.6;
+}
+
+/* Hide default hover background on collapsible */
+.menu__list-item-collapsible:hover {
+  background: transparent;
+}
+
+/* Sidebar scrollbar */
+.menu::-webkit-scrollbar {
+  width: 6px;
+}
+
+.menu::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.menu::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.menu::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Dark mode - sidebar stays the same */
+[data-theme='dark'] .theme-doc-sidebar-container > div,
+[data-theme='dark'] nav.menu {
+  background-color: #1e2433;
+}
+
+/* Hide the right-side TOC and expand content to full width */
+.theme-doc-toc-desktop,
+.tableOfContents_src-theme-TOC-styles-module,
+[class*="tableOfContents"],
+.table-of-contents,
+.col.col--3 {
+  display: none !important;
+}
+
+/* Force full width on all doc containers */
+.container,
+.docPage_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-styles-module,
+[class*="docPage"],
+[class*="docMainContainer"],
+[class*="docItemContainer"],
+[class*="docItemCol"],
+[class*="docItemWrapper"],
+.theme-doc-markdown,
+article,
+main,
+.main-wrapper {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Override the doc item row layout */
+.row {
+  margin-right: 0 !important;
+}
+
+.row > .col {
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+  padding-right: 0 !important;
+}
+
+/* Ensure markdown content fills space */
+.markdown {
+  max-width: 100% !important;
+}
+
+/* Add some padding to the content for readability */
+[class*="docItemContainer"] {
+  padding: 0 2rem !important;
+}
+
+/* ============================================
+   Content Area
+   ============================================ */
+.markdown h1:first-child {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.markdown h2 {
+  margin-top: 2.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--eval-gray-200);
+}
+
+[data-theme='dark'] .markdown h2 {
+  border-bottom-color: #3a3a3a;
+}
+
+/* ============================================
+   Tables - Cloudflare style
+   ============================================ */
+table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.875rem;
+}
+
+table thead {
+  background-color: var(--eval-gray-100);
+}
+
+[data-theme='dark'] table thead {
+  background-color: #2a2a2a;
+}
+
+table th {
+  font-weight: 600;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border-bottom: 2px solid var(--eval-gray-200);
+  color: var(--eval-gray-700);
+}
+
+[data-theme='dark'] table th {
+  border-bottom-color: #3a3a3a;
+  color: #e3e3e3;
+}
+
+table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--eval-gray-200);
+  vertical-align: top;
+}
+
+[data-theme='dark'] table td {
+  border-bottom-color: #3a3a3a;
+}
+
+table tbody tr:hover {
+  background-color: var(--eval-gray-100);
+}
+
+[data-theme='dark'] table tbody tr:hover {
+  background-color: #2a2a2a;
+}
+
+/* ============================================
+   Admonitions - Enhanced styling
+   ============================================ */
+.alert {
+  border-radius: 0.5rem;
+  border-left-width: 4px;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.alert--info {
+  --ifm-alert-background-color: rgba(31, 155, 207, 0.1);
+  --ifm-alert-border-color: var(--eval-info);
+}
+
+.alert--success {
+  --ifm-alert-background-color: rgba(75, 191, 115, 0.1);
+  --ifm-alert-border-color: var(--eval-success);
+}
+
+.alert--warning {
+  --ifm-alert-background-color: rgba(229, 165, 75, 0.1);
+  --ifm-alert-border-color: var(--eval-warning);
+}
+
+.alert--danger {
+  --ifm-alert-background-color: rgba(217, 83, 79, 0.1);
+  --ifm-alert-border-color: var(--eval-danger);
+}
+
+.admonition-heading h5 {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+/* ============================================
+   Tabs - eVAL style (teal/green)
+   ============================================ */
+:root {
+  --eval-brand-primary-600: #128f78;
+  --eval-brand-primary-700: #137261;
+}
+
+.tabs {
+  border-bottom: 1px solid var(--eval-gray-200);
+  margin-bottom: 1.5rem;
+  gap: 0.5rem;
+}
+
+[data-theme='dark'] .tabs {
+  border-bottom-color: #3a3a3a;
+}
+
+.tabs__item {
+  border-bottom: 2px solid transparent;
+  padding: 0.5rem 0.25rem 0.75rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--eval-gray-600);
+  transition: color 0.15s ease, border-color 0.15s ease;
+  margin-bottom: -1px;
+  background: transparent;
+}
+
+.tabs__item:hover {
+  color: var(--eval-brand-primary-700);
+  background: transparent;
+}
+
+.tabs__item--active {
+  border-bottom-color: var(--eval-brand-primary-600);
+  color: var(--eval-brand-primary-700);
+  background: transparent;
+  font-weight: 600;
+}
+
+[data-theme='dark'] .tabs__item--active {
+  border-bottom-color: #34cdab;
+  color: #64e4c3;
+}
+
+/* ============================================
+   Code Blocks
+   ============================================ */
+pre {
+  border: 1px solid var(--eval-gray-200);
+}
+
+[data-theme='dark'] pre {
+  border-color: #3a3a3a;
+}
+
+code {
+  border-radius: 0.25rem;
+  padding: 0.125rem 0.375rem;
+  font-size: 0.875em;
+}
+
+/* ============================================
+   Custom Components - Badges
+   ============================================ */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.625rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 9999px;
+  line-height: 1.4;
+}
+
+.badge--primary {
+  background-color: rgba(63, 128, 234, 0.15);
+  color: var(--ifm-color-primary-dark);
+}
+
+.badge--success {
+  background-color: rgba(75, 191, 115, 0.15);
+  color: #2d8049;
+}
+
+.badge--warning {
+  background-color: rgba(229, 165, 75, 0.15);
+  color: #a06b1c;
+}
+
+.badge--info {
+  background-color: rgba(31, 155, 207, 0.15);
+  color: #1a7ba3;
+}
+
+.badge--additive {
+  background-color: rgba(31, 155, 207, 0.15);
+  color: #1a7ba3;
+  border: 1px solid rgba(31, 155, 207, 0.3);
+}
+
+.badge--override {
+  background-color: rgba(229, 165, 75, 0.15);
+  color: #a06b1c;
+  border: 1px solid rgba(229, 165, 75, 0.3);
+}
+
+/* ============================================
+   Custom Components - Cards
+   ============================================ */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.card {
+  background: var(--ifm-card-background-color);
+  border: 1px solid var(--eval-gray-200);
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 12px rgba(63, 128, 234, 0.1);
+}
+
+[data-theme='dark'] .card {
+  border-color: #3a3a3a;
+}
+
+[data-theme='dark'] .card:hover {
+  border-color: var(--ifm-color-primary);
+}
+
+.card__title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--eval-gray-700);
+}
+
+[data-theme='dark'] .card__title {
+  color: #e3e3e3;
+}
+
+.card__description {
+  font-size: 0.875rem;
+  color: var(--eval-gray-600);
+  margin: 0;
+}
+
+/* ============================================
+   Custom Components - Flow Diagrams
+   ============================================ */
+.flow-container {
+  background: var(--eval-gray-100);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+[data-theme='dark'] .flow-container {
+  background: #2a2a2a;
+}
+
+.flow-step {
+  background: white;
+  border: 2px solid var(--ifm-color-primary);
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  margin: 0.75rem auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+[data-theme='dark'] .flow-step {
+  background: #1b1b1d;
+}
+
+.flow-step__title {
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.25rem;
+}
+
+.flow-step__subtitle {
+  font-size: 0.875rem;
+  color: var(--eval-gray-600);
+}
+
+.flow-arrow {
+  text-align: center;
+  color: var(--ifm-color-primary);
+  font-size: 1.5rem;
+  margin: 0.25rem 0;
+}
+
+.flow-step--bypassed {
+  border-color: var(--eval-warning);
+  border-style: dashed;
+  opacity: 0.7;
+}
+
+.flow-step--result {
+  background: linear-gradient(135deg, var(--eval-success), #5cc987);
+  border-color: var(--eval-success);
+  color: white;
+}
+
+.flow-step--result .flow-step__title,
+.flow-step--result .flow-step__subtitle {
+  color: white;
+}
+
+/* ============================================
+   Mermaid Diagrams
+   ============================================ */
+.mermaid {
+  margin: 1.5rem 0;
+}
+
+/* ============================================
+   Inheritance Matrix Styling
+   ============================================ */
+.matrix-table {
+  font-size: 0.8125rem;
+}
+
+.matrix-table th:first-child,
+.matrix-table td:first-child {
+  font-weight: 600;
+}
+
+/* Pattern badges in tables */
+.matrix-table .badge {
+  font-size: 0.6875rem;
+  padding: 0.125rem 0.5rem;
+}
+
+/* ============================================
+   Footer
+   ============================================ */
+.footer {
+  background-color: var(--eval-dark);
+}
+
+.footer__title {
+  font-weight: 600;
+}
+
+/* ============================================
+   Responsive Adjustments
+   ============================================ */
+@media (max-width: 996px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  table {
+    font-size: 0.8125rem;
+  }
+
+  table th,
+  table td {
+    padding: 0.5rem 0.75rem;
+  }
+}
+
+/* ============================================
+   Print Styles
+   ============================================ */
+@media print {
+  .navbar,
+  .footer,
+  .pagination-nav {
+    display: none;
+  }
+
+  .main-wrapper {
+    padding: 0;
+  }
+}

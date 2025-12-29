@@ -55,7 +55,7 @@ function urlToMarkdownPath(url) {
 const appSearchIndex = {
   version: '1.0',
   generated: new Date().toISOString(),
-  baseUrl: 'https://help.eval-wa.org', // Update when deployed
+  baseUrl: 'https://stateeval-help.onrender.com',
   documents: documents.map(doc => {
     const mdPath = urlToMarkdownPath(doc.u);
     const keywords = mdPath ? extractKeywords(mdPath) : [];

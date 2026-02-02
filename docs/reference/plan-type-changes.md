@@ -19,8 +19,9 @@ When you create evidence (observations, coded notes, artifacts, etc.), it's asso
 
 When an evaluator changes the summative plan type, eVAL checks each evidence collection to determine if it can be automatically updated:
 
+- **Draft artifacts** - Automatically updated to match the new plan type (rubric alignments adjust to new scope)
 - **Empty draft collections** - Automatically updated to match the new plan type
-- **Draft collections with evidence** - Cannot be auto-updated (would hide existing evidence), so you'll see a notification
+- **Draft collections with evidence** (observations, coded notes, etc.) - Cannot be auto-updated (would hide existing evidence), so you'll see a notification
 - **Locked collections** - Cannot be updated, so you'll see a notification
 
 ### Evidence Outside Summative Focus

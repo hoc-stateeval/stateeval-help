@@ -17,9 +17,11 @@ When you create evidence (observations, coded notes, artifacts, etc.), it's asso
 
 ## What Happens When Your Plan Type Changes
 
-When an evaluator changes the summative plan type, eVAL automatically updates evidence collections that are still in draft (not yet locked). This keeps your evidence in sync with the new plan type.
+When an evaluator changes the summative plan type, eVAL checks each evidence collection to determine if it can be automatically updated:
 
-However, evidence collections that have already been **locked** (completed) cannot be automatically updated. In these cases, eVAL notifies you so you can decide what to do.
+- **Empty draft collections** - Automatically updated to match the new plan type
+- **Draft collections with evidence** - Cannot be auto-updated (would hide existing evidence), so you'll see a notification
+- **Locked collections** - Cannot be updated, so you'll see a notification
 
 ### Evidence Outside Summative Focus
 
@@ -68,9 +70,13 @@ When you see the notification on a locked evidence collection, you have a few op
 
 2. **Request an unlock** - If the evidence collection supports unlock requests, you can ask your evaluator to unlock it so you can make adjustments.
 
-### For Draft Evidence Collections
+### For Draft Evidence Collections With Evidence
 
-Draft evidence collections are automatically updated when the plan type changes. No action is needed on your part.
+If a draft evidence collection has existing evidence and the plan type changes, you'll see the same notification. Your options are:
+
+1. **Leave it as-is** - The evidence remains accessible in the evidence collection but won't appear in the summative.
+
+2. **Manually adjust** - Since the collection is still in draft, you can edit or remove evidence as needed.
 
 ## Tips
 

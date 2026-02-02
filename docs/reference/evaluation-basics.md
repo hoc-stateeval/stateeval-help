@@ -62,6 +62,10 @@ A focused evaluation assesses **one criterion** that you select, along with rela
 When you're on a Focused evaluation, your scores from your last Comprehensive evaluation carry forward. The Focused evaluation lets you dive deeper into one area while maintaining your overall rating.
 :::
 
+:::tip Plan Type Changes
+If your plan type changes during the year, some evidence may be affected. See [Plan Type Changes](./plan-type-changes) to learn how eVAL handles these situations.
+:::
+
 ## Performance Levels
 
 Your evaluation results in one of four performance levels:

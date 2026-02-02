@@ -32,6 +32,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'reference/evaluation-basics',
         'reference/evidence-collection',
+        'reference/plan-type-changes',
         'reference/workflows',
         'reference/state-framework',
         'reference/modules-settings',

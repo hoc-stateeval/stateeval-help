@@ -68,10 +68,6 @@ If you aligned an artifact to multiple rubric components, each alignment shows u
 
 Embedded artifacts must be shared before the parent evidence collection is submitted, or they won't be included in the published evidence.
 
-## Plan Type Changes
-
-When an evaluatee's plan type changes (Comprehensive ↔ Focused), artifact alignments automatically update to match the new plan type scope. This happens automatically — no manual intervention required.
-
 ## Best Practices
 
 **For Evaluatees:**

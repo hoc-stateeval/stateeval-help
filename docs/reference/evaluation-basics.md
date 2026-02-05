@@ -63,7 +63,7 @@ When you're on a Focused evaluation, your scores from your last Comprehensive ev
 :::
 
 :::tip Plan Type Changes
-If your plan type changes during the year, some evidence may be affected. See [Plan Type Changes](./plan-type-changes) to learn how eVAL handles these situations.
+If your plan type changes during the year, some evidence may be affected. See [Plan Type Changes](./plan-type-changes.md) to learn how eVAL handles these situations.
 :::
 
 ## Performance Levels
@@ -102,6 +102,6 @@ A typical evaluation year follows this pattern:
 
 ## Next Steps
 
-- [For Teachers: Participating in your evaluation](../role-guides/teacher)
-- [For Evaluators: Conducting evaluations](../role-guides/evaluator)
-- [Working with Artifacts](../artifacts/)
+- [For Teachers: Participating in your evaluation](../role-guides/teacher.md)
+- [For Evaluators: Conducting evaluations](../role-guides/evaluator.md)
+- [Working with Artifacts](../artifacts/index.md)

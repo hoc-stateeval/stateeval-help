@@ -89,6 +89,6 @@ If a draft evidence collection has existing evidence and the plan type changes, 
 
 ## Related Topics
 
-- [Understanding Your Evaluation](./evaluation-basics) - Learn about Comprehensive vs. Focused evaluations
-- [Evidence Collection](./evidence-collection) - How evidence is organized in eVAL
-- [How Workflows Work](./workflows) - Understanding evidence collection lifecycles
+- [Understanding Your Evaluation](./evaluation-basics.md) - Learn about Comprehensive vs. Focused evaluations
+- [Evidence Collection](./evidence-collection.md) - How evidence is organized in eVAL
+- [How Workflows Work](./workflows.md) - Understanding evidence collection lifecycles

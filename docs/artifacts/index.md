@@ -42,7 +42,7 @@ Artifacts follow a simple workflow:
 
 Unlike observations or evaluations, artifacts **can be updated after sharing**. If you update a shared artifact, re-share to push the changes.
 
-See [Artifact Workflow](../reference/workflows#detailed-workflows) for the complete workflow diagram.
+See [Artifact Workflow](../reference/workflows.md#detailed-workflows) for the complete workflow diagram.
 
 ## Best Practices
 
@@ -60,4 +60,4 @@ See [Artifact Workflow](../reference/workflows#detailed-workflows) for the compl
 
 ## Plan Type Sync
 
-If an evaluatee's plan type changes (Comprehensive ↔ Focused), artifacts can optionally update automatically. This depends on the "Keep Artifact Plan Type in Sync" setting. See [Artifact Settings](../reference/modules-settings#artifacts-module-settings).
+If an evaluatee's plan type changes (Comprehensive ↔ Focused), artifacts can optionally update automatically. This depends on the "Keep Artifact Plan Type in Sync" setting. See [Artifact Settings](../reference/modules-settings.md#artifacts-module-settings).

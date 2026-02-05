@@ -26,7 +26,7 @@ When viewing a single rubric component, the Rubric Alignment section displays th
 
 ### Selecting Rubric Text for Evidence Packages
 
-When you are creating an evidence package, you can highlight a contiguous selection of text from one performance level descriptor. This selected text becomes the rubric alignment for your evidence package, connecting your evidence to a specific aspect of the rubric. See [Evidence Packages](./evidence-packages) for details.
+When you are creating an evidence package, you can highlight a contiguous selection of text from one performance level descriptor. This selected text becomes the rubric alignment for your evidence package, connecting your evidence to a specific aspect of the rubric. See [Evidence Packages](./evidence-packages.md) for details.
 
 ## Critical Attributes (Danielson Framework)
 

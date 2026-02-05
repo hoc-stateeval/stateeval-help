@@ -45,7 +45,7 @@ Each evaluatee is assigned either a **Comprehensive** or **Focused** plan type f
 - **Comprehensive** — All eight state criteria are evaluated and scored
 - **Focused** — One selected criterion is the focus, along with student growth. Scores from the prior Comprehensive evaluation carry forward for the other criteria.
 
-Your plan type affects which rubric components are in scope for evidence collection activities and what appears in the Summative evaluation. See [Understanding Your Evaluation](../reference/evaluation-basics) for more detail.
+Your plan type affects which rubric components are in scope for evidence collection activities and what appears in the Summative evaluation. See [Understanding Your Evaluation](../reference/evaluation-basics.md) for more detail.
 
 ## Evidence Collecting Activities
 
@@ -78,6 +78,6 @@ A Low student growth impact rating will downgrade a Distinguished criteria score
 
 ## Related Topics
 
-- [Understanding Your Evaluation](../reference/evaluation-basics) — Plan types, performance levels, the eight criteria
-- [State Evaluation Framework](../reference/state-framework) — Frameworks, criteria details, student growth
-- [Work Areas](./work-areas) — How to navigate eVAL based on your role
+- [Understanding Your Evaluation](../reference/evaluation-basics.md) — Plan types, performance levels, the eight criteria
+- [State Evaluation Framework](../reference/state-framework.md) — Frameworks, criteria details, student growth
+- [Work Areas](./work-areas.md) — How to navigate eVAL based on your role

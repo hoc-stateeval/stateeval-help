@@ -33,7 +33,7 @@ eVAL serves several types of users:
 - **Administrators** — configure settings, manage assignments, oversee evaluation progress
 
 :::tip Where to Go Next
-- **New to eVAL?** See [Roles](./roles) to understand your role, then [Work Areas](./work-areas) to find where things are
-- **Administrator setting up a new year?** Go directly to [Start of Year Setup](./start-of-year)
-- **Looking for help with a specific task?** Check your [Role Guide](../role-guides/district-admin) or the [FAQ](../faq)
+- **New to eVAL?** See [Roles](./roles.md) to understand your role, then [Work Areas](./work-areas.md) to find where things are
+- **Administrator setting up a new year?** Go directly to [Start of Year Setup](./start-of-year.md)
+- **Looking for help with a specific task?** Check your [Role Guide](../role-guides/district-admin.md) or the [FAQ](../faq.md)
 :::

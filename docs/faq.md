@@ -69,10 +69,10 @@ Contact your District Admin or School Admin to check on assignment progress.
 ## Evaluatees (Teachers & Principals)
 
 ### Why can't I edit my self-assessment?
-Once you share a self-assessment with your evaluator, it's permanently locked. This is by design - review carefully before sharing. See [Self-Assessment Workflow](./reference/workflows#detailed-workflows).
+Once you share a self-assessment with your evaluator, it's permanently locked. This is by design - review carefully before sharing. See [Self-Assessment Workflow](./reference/workflows.md#detailed-workflows).
 
 ### Why can't I edit my student growth goals?
-Your goals may be in a locked state. If they've been approved by your evaluator, you'll need to request an unlock to make changes. See [Unlock Requests](./reference/workflows#unlock-requests).
+Your goals may be in a locked state. If they've been approved by your evaluator, you'll need to request an unlock to make changes. See [Unlock Requests](./reference/workflows.md#unlock-requests).
 
 ### When will I see my observation feedback?
 After your evaluator sends the Final Report. Depending on your district's settings, you may need to acknowledge it before it's sealed.
@@ -81,29 +81,29 @@ After your evaluator sends the Final Report. Depending on your district's settin
 Check your Dashboard or go to My Evaluation. If no evaluator is assigned, contact your administrator.
 
 ### What artifacts should I submit?
-Quality over quantity. Submit evidence that demonstrates your practice with clear context explaining what it shows. See [Working with Artifacts](./artifacts/).
+Quality over quantity. Submit evidence that demonstrates your practice with clear context explaining what it shows. See [Working with Artifacts](./artifacts/index.md).
 
 ### What's the difference between Comprehensive and Focused evaluation?
 - **Comprehensive**: Evaluates all 8 criteria
 - **Focused**: Evaluates one criterion you select (available after Proficient/Distinguished rating)
 
-See [Understanding Your Evaluation](./reference/evaluation-basics#plan-types-comprehensive-vs-focused).
+See [Understanding Your Evaluation](./reference/evaluation-basics.md#plan-types-comprehensive-vs-focused).
 
 ---
 
 ## Evaluators
 
 ### Why can't I edit an observation?
-Observations lock after you send the Final Report. You'll need to request an unlock, which the evaluatee must approve. See [Unlock Requests](./reference/workflows#unlock-requests).
+Observations lock after you send the Final Report. You'll need to request an unlock, which the evaluatee must approve. See [Unlock Requests](./reference/workflows.md#unlock-requests).
 
 ### What's the difference between Coded Notes and YTD Evidence?
 - **Coded Notes**: Your private notes until you share them. You can delete them anytime.
 - **YTD Evidence**: Collaborative space - immediately visible to both parties.
 
-Use Coded Notes for working notes; YTD Evidence for shared documentation. See [Evidence Types](./reference/workflows#detailed-workflows).
+Use Coded Notes for working notes; YTD Evidence for shared documentation. See [Evidence Types](./reference/workflows.md#detailed-workflows).
 
 ### Do I need to wait for the evaluatee to acknowledge?
-Depends on your district's workflow settings. Some use Simple mode (you complete directly), others use Formal mode (evaluatee must acknowledge). See [Completion Modes](./reference/workflows#completion-modes-simple-vs-formal).
+Depends on your district's workflow settings. Some use Simple mode (you complete directly), others use Formal mode (evaluatee must acknowledge). See [Completion Modes](./reference/workflows.md#completion-modes-simple-vs-formal).
 
 ### Can I change an evaluatee's plan type mid-year?
 Yes, in the Summative section while it's in Draft. Check your district's "Keep Plan Type in Sync" setting to see if existing observations/artifacts will update automatically.
@@ -113,10 +113,10 @@ Yes, in the Summative section while it's in Draft. Check your district's "Keep P
 ## Administrators
 
 ### Why can't a School Admin change a setting?
-The district hasn't enabled school-level override for that setting. Only settings where "Allow Schools to Override" is enabled at the district level can be changed by schools. See [Modules and Settings](./reference/modules-settings).
+The district hasn't enabled school-level override for that setting. Only settings where "Allow Schools to Override" is enabled at the district level can be changed by schools. See [Modules and Settings](./reference/modules-settings.md).
 
 ### Why don't school settings apply to a teacher's evaluation?
-Check who the evaluator is. If it's a DTE (district-level evaluator) rather than a school principal, school settings are bypassed. See [Settings Inheritance](./reference/settings-inheritance#inheritance-by-evaluation-scenario).
+Check who the evaluator is. If it's a DTE (district-level evaluator) rather than a school principal, school settings are bypassed. See [Settings Inheritance](./reference/settings-inheritance.md#inheritance-by-evaluation-scenario).
 
 ### Evaluator dropdown is empty when assigning
 - Check that valid evaluators exist at that location (principals must have evaluator role)
@@ -133,7 +133,7 @@ District Admins can revert any summative evaluation to Draft without evaluatee a
 - **Simple**: Evaluator completes directly, evaluatee is notified
 - **Formal**: Evaluatee must review and acknowledge before sealing (digital signatures)
 
-See [Completion Modes](./reference/workflows#completion-modes-simple-vs-formal).
+See [Completion Modes](./reference/workflows.md#completion-modes-simple-vs-formal).
 
 ### What does "Allow Schools to Override" mean?
 When enabled, School Admins can change that setting for their school. When disabled, only the district setting applies.

@@ -9,7 +9,7 @@ roles: [DA, SA]
 At the beginning of each school year, administrators must complete several setup tasks before evaluations can begin.
 
 :::info Users Can't Access eVAL?
-If users are seeing "Framework Setup Incomplete" or "Evaluation Setup Incomplete" messages, see [Access Issues](../faq#access-issues) in the FAQ.
+If users are seeing "Framework Setup Incomplete" or "Evaluation Setup Incomplete" messages, see [Access Issues](../faq.md#access-issues) in the FAQ.
 :::
 
 ## Setup Tasks at a Glance
@@ -120,7 +120,7 @@ Applies to: Observations, Student Growth, Summative Evaluation
 | **Simple** | Evaluator archives the report directly. Evaluatee is not involved in the final submission workflow. |
 | **Formal** | Evaluatee must review and acknowledge before the report is archived. Provides digital signatures. |
 
-See [Completion Modes](../reference/workflows#completion-modes-simple-vs-formal) for guidance on when to use each.
+See [Completion Modes](../reference/workflows.md#completion-modes-simple-vs-formal) for guidance on when to use each.
 
 **Scoring Options**
 
@@ -155,7 +155,7 @@ Configure the title and layout of archived reports. Each report type (Summative,
 
 **Where:** Evaluation Setup > Report Settings
 
-See [Modules and Settings](../reference/modules-settings) for the complete list of module settings.
+See [Modules and Settings](../reference/modules-settings.md) for the complete list of module settings.
 
 ---
 
@@ -325,8 +325,8 @@ Once setup is complete, use the dashboard to monitor:
 
 ## Related Topics
 
-- [Understanding Work Areas](./work-areas)
-- [Modules and Settings](../reference/modules-settings)
-- [Settings Inheritance](../reference/settings-inheritance)
-- [District Admin Guide](../role-guides/district-admin)
-- [School Admin Guide](../role-guides/school-admin)
+- [Understanding Work Areas](./work-areas.md)
+- [Modules and Settings](../reference/modules-settings.md)
+- [Settings Inheritance](../reference/settings-inheritance.md)
+- [District Admin Guide](../role-guides/district-admin.md)
+- [School Admin Guide](../role-guides/school-admin.md)

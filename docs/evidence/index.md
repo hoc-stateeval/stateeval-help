@@ -13,11 +13,11 @@ The Evidence View is divided into two panes:
 
 | Left Pane | Right Pane |
 |-----------|------------|
-| Active rubric element title and score buttons | [Rubric Navigator](./rubric-navigator) |
-| [Collected Evidence](./collected-evidence) | |
-| [Rubric Notes](./rubric-notes) (Add Rubric Note) | |
-| [Rubric Alignment](./rubric-alignment) | |
-| [Evidence Packages](./evidence-packages) | |
+| Active rubric element title and score buttons | [Rubric Navigator](./rubric-navigator.md) |
+| [Collected Evidence](./collected-evidence.md) | |
+| [Rubric Notes](./rubric-notes.md) (Add Rubric Note) | |
+| [Rubric Alignment](./rubric-alignment.md) | |
+| [Evidence Packages](./evidence-packages.md) | |
 
 ### Left Pane
 
@@ -64,8 +64,8 @@ Use the Rubric Navigator's evidence counts to quickly identify which rubric comp
 
 ## In This Section
 
-- [Rubric Navigator](./rubric-navigator) - Browse rubric components, view evidence counts and scores
-- [Collected Evidence](./collected-evidence) - View and manage evidence items
-- [Rubric Notes](./rubric-notes) - Add narrative text evidence
-- [Rubric Alignment](./rubric-alignment) - View rubric performance level descriptions
-- [Evidence Packages](./evidence-packages) - Package evidence with rubric text alignment
+- [Rubric Navigator](./rubric-navigator.md) - Browse rubric components, view evidence counts and scores
+- [Collected Evidence](./collected-evidence.md) - View and manage evidence items
+- [Rubric Notes](./rubric-notes.md) - Add narrative text evidence
+- [Rubric Alignment](./rubric-alignment.md) - View rubric performance level descriptions
+- [Evidence Packages](./evidence-packages.md) - Package evidence with rubric text alignment

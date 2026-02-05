@@ -460,5 +460,5 @@ For **Summative Evaluations only**, District Admins can revert any locked evalua
 
 ## Related Topics
 
-- [Evidence Collection](./evidence-collection)
-- [Understanding Your Evaluation](./evaluation-basics)
+- [Evidence Collection](./evidence-collection.md)
+- [Understanding Your Evaluation](./evaluation-basics.md)

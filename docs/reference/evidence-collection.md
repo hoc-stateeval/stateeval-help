@@ -18,7 +18,7 @@ In eVAL, an **Evidence Collection** is a structured container that holds evidenc
 Think of evidence collections as organized folders that follow specific processes. Some are simple (you create content and optionally share it), while others have formal review and approval steps.
 
 :::tip Learn More
-See [How Workflows Work](./workflows) for detailed information about how each evidence collection type moves through its lifecycle.
+See [How Workflows Work](./workflows.md) for detailed information about how each evidence collection type moves through its lifecycle.
 :::
 
 ## Where Evidence Comes From
@@ -54,7 +54,7 @@ Both you and your evaluator can submit artifacts as evidence. Artifacts can be:
 - **Links** - URLs to external resources, portfolios, or online work
 - **Narrative text** - Written descriptions or reflections
 
-[Learn more about working with artifacts](../artifacts/)
+[Learn more about working with artifacts](../artifacts/index.md)
 
 ### Observations
 
@@ -114,6 +114,6 @@ This alignment helps you and your evaluator see how evidence supports ratings ac
 
 ## Related Topics
 
-- [How Workflows Work](./workflows) - Learn how each evidence collection moves through its lifecycle
-- [Working with Artifacts](../artifacts/)
-- [Understanding Your Evaluation](./evaluation-basics)
+- [How Workflows Work](./workflows.md) - Learn how each evidence collection moves through its lifecycle
+- [Working with Artifacts](../artifacts/index.md)
+- [Understanding Your Evaluation](./evaluation-basics.md)

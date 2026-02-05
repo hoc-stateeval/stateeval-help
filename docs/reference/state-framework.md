@@ -145,5 +145,5 @@ Your final summative rating is calculated from your scores across all eight crit
 
 ## Related Topics
 
-- [Understanding Your Evaluation](./evaluation-basics)
-- [Evidence Collection](./evidence-collection)
+- [Understanding Your Evaluation](./evaluation-basics.md)
+- [Evidence Collection](./evidence-collection.md)

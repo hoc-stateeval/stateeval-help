@@ -86,4 +86,4 @@ Only the author of an evidence item can delete it. If another evaluator (such as
 
 ## Selecting Evidence for Packaging
 
-To start creating an evidence package, click on an evidence item in the Collected Evidence section. This selects the item and opens the Evidence Package Creation panel. You can select multiple items. See [Evidence Packages](./evidence-packages) for the full packaging workflow.
+To start creating an evidence package, click on an evidence item in the Collected Evidence section. This selects the item and opens the Evidence Package Creation panel. You can select multiple items. See [Evidence Packages](./evidence-packages.md) for the full packaging workflow.

@@ -37,18 +37,18 @@ Consider setting up your prompts at the beginning of the year so they're ready w
 ## Key Concepts
 
 ### How Workflows Affect You
-Understanding [How Workflows Work](../reference/workflows) is essential:
+Understanding [How Workflows Work](../reference/workflows.md) is essential:
 - **Observations** move through Draft → Locked states
 - **Student Growth** requires your approval before sealing
 - **Summative Evaluations** require evaluatee acknowledgment (usually)
 
 ### Simple vs. Formal Completion
-Your district configures whether evaluations use [Simple or Formal workflow](../reference/workflows#completion-modes-simple-vs-formal):
+Your district configures whether evaluations use [Simple or Formal workflow](../reference/workflows.md#completion-modes-simple-vs-formal):
 - **Simple**: You complete directly, evaluatee is notified
 - **Formal**: Evaluatee must review and acknowledge before sealing
 
 ### What You Inherit
-The settings you see (prompts, modules, resources) depend on your position in the hierarchy. See [How Settings Are Inherited](../reference/settings-inheritance) - particularly important if you're a DTE/DPE, as school-level settings are bypassed.
+The settings you see (prompts, modules, resources) depend on your position in the hierarchy. See [How Settings Are Inherited](../reference/settings-inheritance.md) - particularly important if you're a DTE/DPE, as school-level settings are bypassed.
 
 ## Evidence You Create
 
@@ -58,18 +58,18 @@ The settings you see (prompts, modules, resources) depend on your position in th
 | **Coded Notes** | Informal notes linked to rubric criteria | Share-only, can delete anytime |
 | **YTD Evidence** | Collaborative evidence notes | Always open, no approval |
 
-See [Workflows](../reference/workflows#detailed-workflows) for details on each.
+See [Workflows](../reference/workflows.md#detailed-workflows) for details on each.
 
 ## Common Questions
 
 **Why can't I edit an observation?**
-Once locked, observations require an unlock request approved by the evaluatee. See [Unlock Requests](../reference/workflows#unlock-requests).
+Once locked, observations require an unlock request approved by the evaluatee. See [Unlock Requests](../reference/workflows.md#unlock-requests).
 
 **What's the difference between Coded Notes and YTD Evidence?**
 Coded Notes are yours - private until you share, deletable anytime. YTD Evidence is collaborative - immediately visible to both parties. Use Coded Notes for working notes; YTD Evidence for shared documentation.
 
 **Can I change an evaluatee's plan type?**
-Yes, in the Summative section while it's in Draft. If observations/artifacts were created with the old plan type, check your district's "Keep Plan Type in Sync" setting - see [Modules and Settings](../reference/modules-settings#artifacts-module-settings).
+Yes, in the Summative section while it's in Draft. If observations/artifacts were created with the old plan type, check your district's "Keep Plan Type in Sync" setting - see [Modules and Settings](../reference/modules-settings.md#artifacts-module-settings).
 
 **Do I need to wait for the evaluatee to acknowledge?**
-Depends on your district's workflow settings. See [Completion Modes](../reference/workflows#completion-modes-simple-vs-formal).
+Depends on your district's workflow settings. See [Completion Modes](../reference/workflows.md#completion-modes-simple-vs-formal).

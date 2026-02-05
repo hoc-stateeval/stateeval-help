@@ -20,7 +20,7 @@ These roles participate directly in evaluations — either being evaluated or co
 | **District Principal Evaluator (DPE)** | District-level staff who evaluate principals | Evaluate head principals |
 
 :::info Evaluators Are Often Evaluatees Too
-A principal evaluates their teachers, but is also being evaluated by a district principal evaluator. When you have both roles, you switch between them using [Work Areas](./work-areas).
+A principal evaluates their teachers, but is also being evaluated by a district principal evaluator. When you have both roles, you switch between them using [Work Areas](./work-areas.md).
 :::
 
 ## Administrative Roles
@@ -45,4 +45,4 @@ Your annual evaluation is tied to your **district**, not a specific school. If y
 
 ## Finding Your Way
 
-Once you know your role, see [Work Areas](./work-areas) to understand how eVAL organizes your tasks based on that role.
+Once you know your role, see [Work Areas](./work-areas.md) to understand how eVAL organizes your tasks based on that role.

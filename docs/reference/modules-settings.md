@@ -82,7 +82,7 @@ When "School Override" is allowed, School Administrators can enable or disable t
 
 #### Use Simple Workflow
 
-This setting controls whether observations follow [Simple or Formal workflow mode](./workflows#completion-modes-simple-vs-formal):
+This setting controls whether observations follow [Simple or Formal workflow mode](./workflows.md#completion-modes-simple-vs-formal):
 
 - **Disabled (Formal Mode)**: After the evaluator sends the Final Report, the evaluatee must view and acknowledge it before it's sealed. This provides a digital signature from both parties.
 
@@ -110,7 +110,7 @@ This setting controls whether observations follow [Simple or Formal workflow mod
 Summative evaluations typically use Formal workflow because they represent the final performance rating and serve as a legal record. This requires evaluatee review and acknowledgment with digital signatures.
 :::
 
-See [Completion Modes](./workflows#completion-modes-simple-vs-formal) for details on Simple vs. Formal workflows.
+See [Completion Modes](./workflows.md#completion-modes-simple-vs-formal) for details on Simple vs. Formal workflows.
 
 #### Carry Forward Years Limit
 
@@ -145,7 +145,7 @@ Goal Setting is typically disabled for Principal evaluations because principals 
 
 When enabled, the evaluator approves goals/achievement directly without requiring evaluatee acknowledgment. This helps manage high-volume periods like the November goal-setting deadline.
 
-See [Completion Modes](./workflows#completion-modes-simple-vs-formal) for more details.
+See [Completion Modes](./workflows.md#completion-modes-simple-vs-formal) for more details.
 
 </TabItem>
 <TabItem value="coded-notes" label="Coded Notes">
@@ -161,7 +161,7 @@ See [Completion Modes](./workflows#completion-modes-simple-vs-formal) for more d
 
 Coded Notes allow evaluators to document informal observations, walkthroughs, and professional conversations throughout the year. Each note can be "coded" (linked) to specific rubric criteria, building evidence over time.
 
-See [Coded Notes Workflow](./workflows#detailed-workflows) for how coded notes move from draft to shared.
+See [Coded Notes Workflow](./workflows.md#detailed-workflows) for how coded notes move from draft to shared.
 
 </TabItem>
 <TabItem value="self-assessment" label="Self Assessment">
@@ -180,7 +180,7 @@ Self Assessments are evaluatee-owned reflections, typically completed at the beg
 Evidence from Self Assessments is for reflection purposes and is **not** included in the Summative Evaluation report.
 :::
 
-See [Self Assessment Workflow](./workflows#detailed-workflows) for how self assessments work.
+See [Self Assessment Workflow](./workflows.md#detailed-workflows) for how self assessments work.
 
 </TabItem>
 <TabItem value="ytd-evidence" label="YTD Evidence">
@@ -196,7 +196,7 @@ See [Self Assessment Workflow](./workflows#detailed-workflows) for how self asse
 
 Year-to-Date Evidence is a collaborative space where both parties can add evidence notes throughout the evaluation year. All notes are immediately visible to both parties - there's no approval workflow.
 
-See [Year-to-Date Workflow](./workflows#detailed-workflows) for more details.
+See [Year-to-Date Workflow](./workflows.md#detailed-workflows) for more details.
 
 </TabItem>
 <TabItem value="artifacts" label="Artifacts">
@@ -288,13 +288,13 @@ If your district allows school-level overrides:
 
 ## Settings Inheritance
 
-Settings follow the [inheritance rules](./settings-inheritance) defined for your district:
+Settings follow the [inheritance rules](./settings-inheritance.md) defined for your district:
 
 - **District settings** are the baseline for all evaluations
 - **School settings** can override district settings (where allowed)
 - **Override settings** apply based on the evaluator's position, not the evaluatee's
 
-See [How Settings Are Inherited](./settings-inheritance) for complete details.
+See [How Settings Are Inherited](./settings-inheritance.md) for complete details.
 
 ---
 
@@ -313,6 +313,6 @@ Some modules and settings differ between Teacher and Principal evaluations:
 
 ## Related Topics
 
-- [How Workflows Work](./workflows) - Understand Simple vs. Formal completion modes
-- [How Settings Are Inherited](./settings-inheritance) - Learn about district and school configuration
-- [Evidence Collection](./evidence-collection) - Overview of evidence types
+- [How Workflows Work](./workflows.md) - Understand Simple vs. Formal completion modes
+- [How Settings Are Inherited](./settings-inheritance.md) - Learn about district and school configuration
+- [Evidence Collection](./evidence-collection.md) - Overview of evidence types

@@ -78,15 +78,18 @@ Observations include pre-conference and post-conference tabs where the evaluator
 
 ## How Evidence Is Organized
 
-Evidence is organized by your district's **instructional framework** (such as Danielson, Marzano, or CEL 5D+). Within an evidence collection, evidence can be aligned to:
+Evidence is always aligned to a specific **rubric component**. The same rubric can be viewed through two lenses:
 
-| Level | What It Is |
-|-------|-----------|
-| **Criterion** | One of the eight state evaluation areas (e.g., C1 through C8) |
-| **Component** | A specific element within a criterion |
-| **Indicator** | A detailed descriptor of practice within a component |
+| View | Structure | Example |
+|------|-----------|---------|
+| **State Framework** | 8 Criteria (C1–C8) | C1: Centering instruction on high expectations |
+| **Instructional Framework** | Varies by framework | Danielson: 4 Domains (1–4) |
 
-This alignment is what makes it possible for YTD and Summative views to aggregate evidence from many different collections and show it organized by rubric component.
+Your district selects an instructional framework (such as Danielson, Marzano, or CEL 5D+), and eVAL maps it to the state's eight criteria. You can switch between views using the framework dropdown in the top navigation.
+
+When you create an **evidence package**, you can further align the evidence to specific **rubric indicator text** within the performance level descriptors. This provides more precise alignment than component-level only.
+
+This alignment structure is what makes it possible for YTD and Summative views to aggregate evidence from many different collections and show it organized by rubric component.
 
 ## Related Topics
 

@@ -1,119 +1,73 @@
 ---
 sidebar_position: 2
-title: Evidence Collection
+title: Evidence Collections
 roles: [TR, PR, DPE, DTE]
 ---
 
-# Evidence Collection
+# Evidence Collections
 
-Evidence is at the heart of your evaluation. Throughout the school year, you'll gather and submit various types of evidence that demonstrate your professional practice. Your evaluator reviews this evidence to inform your final evaluation.
+In eVAL, each evaluation activity — an observation, an artifact, a student growth goal, a self-assessment, or a coded note — creates an **evidence collection**. An evidence collection is a container that holds the evidence produced by that activity and controls who can see it and when.
 
-## What is an Evidence Collection?
+## How Evidence Collections Work
 
-In eVAL, an **Evidence Collection** is a structured container that holds evidence and moves through a defined workflow. Each type of evidence collection has its own rules about:
-- Who can create and edit content
-- How content is shared between evaluator and evaluatee
-- How the collection is finalized (locked/sealed)
+Each evidence collection has:
 
-Think of evidence collections as organized folders that follow specific processes. Some are simple (you create content and optionally share it), while others have formal review and approval steps.
+- **A type** — determined by the activity (observation, artifact, student growth, self-assessment, coded note)
+- **A scope** — which rubric criteria and components the evidence can be aligned to, based on the evaluatee's plan type
+- **A workflow** — rules for how the collection moves from draft to final, who can edit, and when it becomes visible to others
 
-:::tip Learn More
-See [How Workflows Work](./workflows.md) for detailed information about how each evidence collection type moves through its lifecycle.
+See [How Workflows Work](./workflows.md) for the detailed lifecycle of each type.
+
+## Privacy and Visibility
+
+Evidence starts **private** within its collection and becomes visible to others at specific workflow points:
+
+| Evidence Collection | Private Until... | Then Visible To |
+|-------------------|-----------------|----------------|
+| **Observation** | Evaluator submits/locks the observation | Both parties; evidence flows to YTD and Summative |
+| **Artifact** | Creator shares the artifact | Both parties; evidence flows to YTD and Summative |
+| **Student Growth** | Goals are shared/approved | Both parties; evidence flows to YTD and Summative |
+| **Self-Assessment** | Evaluatee shares with evaluator | Both parties; visible in YTD only (not Summative) |
+| **Coded Note** | Evaluator shares the note | Both parties; evidence flows to YTD and Summative |
+| **YTD Evidence** | Always visible | Both parties immediately |
+
+:::info Why Can't I See Something?
+If evidence you expect to see isn't showing up in the YTD or Summative view, the most common reason is that the evidence collection hasn't been shared or locked yet. Check the workflow state of the source activity.
 :::
 
-## Where Evidence Comes From
+### Evaluator-Only Areas
 
-Evidence in eVAL is collected through several activities. Each activity contributes different types of evidence to your overall evaluation record.
+Within some evidence collections, the evaluator has areas that remain private even after the collection is shared:
 
-| Activity | What It Contributes | Who Creates It |
-|----------|---------------------|----------------|
-| **Artifacts** | Documents, links, and narrative text | Evaluatee and Evaluator |
-| **Observations** | Observation notes, pre/post conference responses, summary notes | Evaluator (with some input from Evaluatee) |
-| **Student Growth** | Goals, progress documentation, achievement evidence | Evaluatee and Evaluator |
-| **Self-Assessment** | Reflective responses about your practice | Evaluatee |
-| **Coded Notes** | Informal notes coded to evaluation criteria | Evaluator |
+- **Scoring** — Performance level scores assigned in the Evidence View are private to the evaluator until the collection's report is shared or submitted
+- **Evidence View tabs** — In observations, the evaluator's Evidence View work is not visible to the evaluatee until the observation is submitted
 
-## Viewing Your Evidence
+## How Evidence Is Organized
 
-### Year-to-Date (YTD) Evidence
+Evidence is organized by your district's **instructional framework** (such as Danielson, Marzano, or CEL 5D+). Within an evidence collection, evidence can be aligned to:
 
-The **YTD Evidence** view shows all evidence collected so far this year, aggregated from all your activities. This is your central place to see everything that's been gathered for your evaluation.
+| Level | What It Is |
+|-------|-----------|
+| **Criterion** | One of the eight state evaluation areas (e.g., C1 through C8) |
+| **Component** | A specific element within a criterion |
+| **Indicator** | A detailed descriptor of practice within a component |
 
-Depending on your district's settings, you may also be able to add narrative notes directly to your YTD Evidence collection.
+This alignment is what makes it possible for YTD and Summative views to aggregate evidence from many different collections and show it organized by rubric component.
 
-### Summative Evidence View
+## Where Evidence Ends Up
 
-The **Summative Evaluation** includes a similar aggregated view of all evidence, but it's focused on end-of-year scoring. This is what your evaluator uses when completing your final evaluation.
+Evidence from individual collections flows into two aggregated views:
 
-## Evidence Activities
+| View | What It Shows | Used For |
+|------|-------------|----------|
+| **YTD Evidence** | All published evidence across the full rubric, regardless of plan type | Running view of everything gathered so far |
+| **Summative Evidence** | Published evidence filtered to the evaluatee's plan type scope | End-of-year scoring by the evaluator |
 
-### Artifacts
-
-Both you and your evaluator can submit artifacts as evidence. Artifacts can be:
-- **Documents** - Lesson plans, student work samples, professional development certificates
-- **Links** - URLs to external resources, portfolios, or online work
-- **Narrative text** - Written descriptions or reflections
-
-[Learn more about working with artifacts](../artifacts/index.md)
-
-### Observations
-
-Your evaluator conducts classroom or leadership observations throughout the year. Evidence from observations includes:
-- Observation notes taken during the visit
-- Pre-conference discussion notes
-- Post-conference discussion notes
-- Summary notes and feedback
-
-You can view observation feedback in your evaluation workspace.
-
-### Student Growth Goals
-
-At the beginning of the school year, you create student growth goals. Evidence related to student growth includes:
-- Your goal statements
-- Progress documentation throughout the year
-- End-of-year achievement data
-- Related artifacts
-
-### Self-Assessment
-
-Self-assessment is typically completed at the beginning of the school year. It allows you to reflect on your practice and identify growth areas before formal evaluation activities begin.
-
-:::note
-Evidence from Self-Assessment is for reflection purposes and is **not** included in your Summative Evaluation report.
-:::
-
-### Coded Notes
-
-Evaluators can create informal notes throughout the year and "code" them to specific evaluation criteria. These might include:
-- Walkthrough observations
-- Informal feedback
-- Notes from professional conversations
-
-## How Evidence is Organized
-
-Evidence is organized by your district's **instructional framework** (such as Danielson, Marzano, or CEL 5D+). When evidence is submitted, it can be aligned to specific:
-- **Criteria** - The eight evaluation areas
-- **Components** - Specific elements within each criterion
-- **Indicators** - Detailed descriptors of practice
-
-This alignment helps you and your evaluator see how evidence supports ratings across all evaluation criteria.
-
-## Tips for Building Strong Evidence
-
-1. **Submit evidence throughout the year** - Don't wait until the end. Regular submissions show growth over time.
-
-2. **Align evidence to criteria** - When submitting artifacts, connect them to specific evaluation criteria to show their relevance.
-
-3. **Include variety** - Different types of evidence (documents, reflections, student data) provide a fuller picture of your practice.
-
-4. **Add context** - When submitting artifacts, include descriptions that explain what the evidence shows and why it's significant.
-
-5. **Review regularly** - Check your YTD Evidence periodically to ensure you have evidence across all relevant criteria.
-
----
+For more on the year-long evidence flow, see [The Evaluation Year](../getting-started/evaluation-year.md).
 
 ## Related Topics
 
-- [How Workflows Work](./workflows.md) - Learn how each evidence collection moves through its lifecycle
-- [Working with Artifacts](../artifacts/index.md)
-- [Understanding Your Evaluation](./evaluation-basics.md)
+- [The Evaluation Year](../getting-started/evaluation-year.md) — Evidence activities, timeline, and summative scoring
+- [How Workflows Work](./workflows.md) — Lifecycle of each evidence collection type
+- [Evidence View](../evidence/index.md) — The two-pane workspace for reviewing and packaging evidence
+- [Working with Artifacts](../artifacts/index.md) — Creating and sharing artifact evidence

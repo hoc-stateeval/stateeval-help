@@ -65,4 +65,8 @@ When an evidence item is in a package:
 
 ## Including Packages in Reports
 
-In the Summative Evaluation, each package has an **Include in Report?** checkbox. Only packages you check will appear in the final summative report. The Report tab in the Rubric Navigator shows counts for included items only.
+If your district has enabled this feature, packages in the Summative Evaluation have an **Include in Report?** checkbox. Only packages you check will appear in the final summative report. The Report tab in the Rubric Navigator shows counts for included items only.
+
+:::note
+This feature is controlled by a district setting. If you don't see the Include in Report checkbox, your district hasn't enabled it.
+:::

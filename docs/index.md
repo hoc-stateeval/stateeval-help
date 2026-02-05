@@ -22,6 +22,7 @@ Welcome to the eVAL Help Center. Find guides, tutorials, and answers to help you
 - [Getting Started](./getting-started/)
 - [Start of Year Setup](./getting-started/start-of-year)
 - [Working with Artifacts](./artifacts/)
+- [Evidence View](./evidence/)
 - [FAQ](./faq)
 
 ## Need Help?

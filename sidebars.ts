@@ -18,6 +18,21 @@ const sidebars: SidebarsConfig = {
     'artifacts/index',
     {
       type: 'category',
+      label: 'Evidence View',
+      link: {
+        type: 'doc',
+        id: 'evidence/index',
+      },
+      items: [
+        'evidence/rubric-navigator',
+        'evidence/collected-evidence',
+        'evidence/rubric-notes',
+        'evidence/rubric-alignment',
+        'evidence/evidence-packages',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Role Guides',
       items: [
         'role-guides/district-admin',

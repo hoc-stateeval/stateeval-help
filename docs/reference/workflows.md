@@ -18,15 +18,15 @@ eVAL uses three main workflow patterns:
 <div class="card-grid">
 <div class="card">
 <div class="card__title">Complex Locking</div>
-<p class="card__description">Content goes through review before being locked. Used for formal evaluations.</p>
+<p class="card__description">Content goes through review before being locked. Unlocking requires mutual approval.</p>
 </div>
 <div class="card">
 <div class="card__title">Submit & Approve</div>
-<p class="card__description">One party submits, the other approves. Used for collaborative goal-setting.</p>
+<p class="card__description">One party submits, the other approves. Unlocking requires mutual approval.</p>
 </div>
 <div class="card">
-<div class="card__title">Share Only</div>
-<p class="card__description">Creator works privately, then optionally shares. No formal approval.</p>
+<div class="card__title">Share & Unlock</div>
+<p class="card__description">Creator works privately, then shares. Can unlock to make revisions and re-share.</p>
 </div>
 </div>
 
@@ -34,11 +34,11 @@ eVAL uses three main workflow patterns:
 |---------------------|---------|-------|
 | **Observations** | Complex Locking | Evaluator |
 | **Summative Evaluation** | Complex Locking | Evaluator |
+| **Coded Notes** | Complex Locking | Evaluator |
 | **Student Growth Goals** | Submit & Approve | Evaluatee (Evaluator approves) |
 | **Student Growth Achievement** | Submit & Approve | Evaluatee (Evaluator approves) |
-| **Self-Assessment** | Share Only | Evaluatee |
-| **Coded Notes** | Share Only | Evaluator |
-| **Artifacts** | Share Only | Either party (separate tracks) |
+| **Self-Assessment** | Share & Unlock | Evaluatee |
+| **Artifacts** | Share & Unlock | Either party (separate tracks) |
 | **Year-to-Date Evidence** | Always Open | Both parties (collaborative) |
 
 ---
@@ -196,12 +196,13 @@ Unlike observations, the **evaluatee controls submission** and the **evaluator o
 
 ### Self-Assessment Workflow
 
-Self-assessments are owned and controlled entirely by the evaluatee. They can be kept private or shared with the evaluator.
+Self-assessments are owned and controlled entirely by the evaluatee. They can be kept private, shared with the evaluator, and unlocked for revisions.
 
 ```mermaid
 flowchart TD
     A[Draft] --> B[Shared]
     A --> C[Deleted]
+    B --> A
 
     style A fill:#E5A54B,color:#000
     style B fill:#4BBF73,color:#fff
@@ -217,12 +218,17 @@ flowchart TD
 
 **Shared**
 - Visible to both parties
-- **Cannot be edited**
-- **Cannot be unshared**
-- **Cannot be deleted**
+- Cannot be edited directly
+- **Can be unlocked** by the evaluatee to make revisions
+- Cannot be deleted (must unlock first, then delete from Draft)
 
-:::warning One-Way Sharing
-Once you share a self-assessment, it's permanent. Make sure you're ready before sharing.
+**Revising After Sharing**
+1. Evaluatee unlocks the self-assessment (returns to Draft)
+2. Make revisions in Draft
+3. Re-share to publish the updated version
+
+:::tip
+Unlike locked evidence collections, the evaluatee can unlock a self-assessment directly without requesting approval from the evaluator.
 :::
 
 </TabItem>
@@ -230,28 +236,44 @@ Once you share a self-assessment, it's permanent. Make sure you're ready before 
 
 ### Coded Notes Workflow
 
-Coded notes are evaluator-created notes linked to specific rubric criteria. They can be shared with the evaluatee.
+Coded notes are evaluator-created notes linked to specific rubric criteria. They follow a locking workflow similar to observations.
+
+:::note Completion Mode
+The diagram below shows **Simple Mode** where the coded note locks directly when submitted. In **Formal Mode**, the evaluatee reviews and acknowledges before final lock.
+:::
 
 ```mermaid
 flowchart TD
-    A[Draft] --> B[Shared]
+    A[Draft] --> B[Locked - Sealed]
     A --> C[Deleted]
-    B --> C
+    B --> D{Unlock Request}
+    D --> A
 
     style A fill:#E5A54B,color:#000
     style B fill:#4BBF73,color:#fff
     style C fill:#6c757d,color:#fff
+    style D fill:#1F9BCF,color:#fff
 ```
 
 **Draft**
 - Evaluator creates and edits
 - Links notes to rubric criteria
 - Private - only evaluator can see
-- Can share or delete
+- Can share sections with evaluatee before submission
+- Can submit or delete
+- **Can only be deleted** in this state
 
-**Shared**
+**Locked - Sealed**
 - Visible to both parties
-- **Can still be deleted** by evaluator (unlike self-assessments)
+- Evidence flows to YTD and Summative views
+- Cannot be edited without unlocking
+- Either party can request unlock
+
+**Unlocking**
+- Either party requests unlock
+- Other party approves or declines
+- If approved, returns to Draft for revisions
+- After revisions, evaluator re-submits to update published evidence
 
 :::note Use Cases
 Coded notes are useful for:
@@ -272,12 +294,14 @@ flowchart TD
     subgraph Evaluatee
         A1[Draft] --> B1[Shared]
         A1 --> C1[Deleted]
+        B1 --> A1
         B1 --> C1
     end
 
     subgraph Evaluator
         A2[Draft] --> B2[Shared]
         A2 --> C2[Deleted]
+        B2 --> A2
         B2 --> C2
     end
 
@@ -298,11 +322,17 @@ flowchart TD
 
 **Shared**
 - Visible to both parties
-- Can be updated and re-shared
+- Evidence flows to YTD and Summative views
+- Can re-share to push minor updates
+- **Can be unlocked** to return to Draft for more significant revisions
 - **Can be deleted** by creator
 
+**Revising After Sharing**
+- **Quick updates**: Re-share directly from Shared state
+- **Significant revisions**: Unlock → Draft → make changes → re-share
+
 :::tip
-Unlike coded notes and self-assessments, **artifacts can be updated after sharing**. Re-share to push updates.
+Artifacts offer the most flexibility for revisions. Unlike other evidence collections, the creator can unlock their own artifact without approval from the other party.
 :::
 
 </TabItem>
@@ -337,7 +367,7 @@ YTD Evidence is designed as an open, collaborative space for ongoing documentati
 
 ## Completion Modes: Simple vs. Formal
 
-Evidence collections with locking (Observations, Student Growth, Summative Evaluations) can operate in one of two completion modes:
+Evidence collections with locking (Observations, Coded Notes, Student Growth, Summative Evaluations) can operate in one of two completion modes:
 
 <div class="card-grid">
 <div class="card">
@@ -367,6 +397,7 @@ Evidence collections with locking (Observations, Student Growth, Summative Evalu
 | **Student Growth Goals** | Simple | November deadline crunch with many teachers |
 | **Student Growth Achievement** | Simple | Consistent with Goal Setting |
 | **Observations** | Simple | Multiple per teacher per year |
+| **Coded Notes** | Simple | Informal documentation, high volume |
 | **Summative Evaluation** | Formal | Final performance rating, legal record |
 
 :::info District Configuration
@@ -384,16 +415,20 @@ Even when evaluatee review isn't required, safeguards exist:
 
 ---
 
-## Unlock Requests
+## Unlocking Published Evidence
 
-For evidence collections that can be locked (Observations, Evaluations, Student Growth), either party can request to unlock after it's sealed.
+When evidence is published (locked or shared), it cannot be edited directly. To make revisions, you must unlock it first. There are two unlocking mechanisms:
+
+### Unlock Requests (Mutual Approval)
+
+For evidence collections with locking workflows (Observations, Coded Notes, Evaluations, Student Growth), either party can request to unlock after it's sealed. The other party must approve.
 
 **How Unlock Requests Work:**
 
 1. One party requests unlock
 2. The other party receives the request
 3. The other party can **approve** (returns to Draft), **decline** (stays sealed), or the requester can **cancel**
-4. If approved, make edits in Draft, then re-lock
+4. If approved, make edits in Draft, then re-submit to update the published evidence
 
 ```mermaid
 flowchart TD
@@ -406,7 +441,7 @@ flowchart TD
     E -->|Decline| A
     F -->|Approve| G
     F -->|Decline| A
-    G --> A
+    G -->|Re-submit| A
 
     style A fill:#4BBF73,color:#fff
     style G fill:#E5A54B,color:#000
@@ -416,21 +451,33 @@ flowchart TD
 For **Summative Evaluations only**, District Admins can revert any locked evaluation to Draft without requiring the other party's approval.
 :::
 
+### Direct Unlock (Creator Control)
+
+For evidence collections with sharing workflows (Self-Assessments, Artifacts), the creator can unlock directly without approval from the other party.
+
+| Evidence Collection | Who Can Unlock |
+|---------------------|----------------|
+| **Self-Assessment** | Evaluatee |
+| **Artifact** | The party who created it |
+
+This gives creators flexibility to revise their own shared evidence without waiting for approval.
+
 ---
 
 ## Workflow Comparison
 
-| Feature | Observation | Evaluation | Goals/Achievement | Self-Assessment | Coded Notes | Artifacts | YTD |
-|---------|-------------|------------|-------------------|-----------------|-------------|-----------|-----|
-| **Owner** | Evaluator | Evaluator | Evaluatee | Evaluatee | Evaluator | Either | Both |
-| **Completion Mode** | Simple* | Formal | Simple | N/A | N/A | N/A | N/A |
-| **Has Locking** | Yes | Yes | Yes | No | No | No | No |
-| **Evaluatee Review Required** | Configurable | Yes | No | N/A | N/A | N/A | N/A |
-| **Can Delete After Share** | No | No | No | No | Yes | Yes | Yes |
+| Feature | Observation | Evaluation | Coded Notes | Goals/Achievement | Self-Assessment | Artifacts | YTD |
+|---------|-------------|------------|-------------|-------------------|-----------------|-----------|-----|
+| **Owner** | Evaluator | Evaluator | Evaluator | Evaluatee | Evaluatee | Either | Both |
+| **Completion Mode** | Simple* | Formal | Simple* | Simple | N/A | N/A | N/A |
+| **Has Locking** | Yes | Yes | Yes | Yes | No | No | No |
+| **Evaluatee Review Required** | Configurable | Yes | Configurable | No | N/A | N/A | N/A |
+| **Can Delete After Share/Lock** | No | No | No | No | No† | Yes | Yes |
 | **DA Override** | No | Yes | No | No | No | No | No |
-| **Unlock Requests** | Yes | Yes | Yes | N/A | N/A | N/A | N/A |
+| **Unlock Mechanism** | Request | Request | Request | Request | Direct | Direct | N/A |
 
-*Observations may use Formal mode depending on district configuration.
+*May use Formal mode depending on district configuration.
+†Must unlock first, then delete from Draft.
 
 ---
 
@@ -438,23 +485,24 @@ For **Summative Evaluations only**, District Admins can revert any locked evalua
 
 ### For Evaluatees
 
-1. **Self-assessments are permanent once shared** - Review carefully before sharing
+1. **Self-assessments can be unlocked** - If you need to revise, unlock it, make changes, and re-share
 2. **You control student growth submissions** - Your evaluator can only approve, not edit your goals
 3. **Use YTD Evidence for ongoing documentation** - It's collaborative and always accessible
-4. **Artifacts can be updated** - Don't worry about getting everything perfect before sharing
+4. **Artifacts can be updated** - Unlock or re-share to push revisions
 
 ### For Evaluators
 
-1. **Observations can only be deleted in Draft** - Once locked, they're permanent
-2. **Use coded notes for informal documentation** - They can be deleted even after sharing
+1. **Evidence collections can only be deleted in Draft** - Plan deletions before submitting
+2. **Coded notes are locked when submitted** - They follow the same locking workflow as observations
 3. **Send prompts before locking** - Once sealed, you can't request additional input
 4. **Review student growth goals carefully** - You're responsible for approving appropriate goals
 
 ### For Both Parties
 
-1. **Unlock requests require agreement** - Plan ahead to avoid needing unlocks
-2. **Draft state is your editing window** - Make all changes before progressing
-3. **Communication helps** - Discuss expectations before formal submissions
+1. **Locked collections require unlock requests** - One party requests, the other approves
+2. **Self-assessments and artifacts allow direct unlock** - The creator doesn't need approval
+3. **Draft state is your editing window** - Make all changes before progressing
+4. **Unlocking doesn't remove published evidence** - Evidence remains visible while you revise; re-submit to update
 
 ---
 

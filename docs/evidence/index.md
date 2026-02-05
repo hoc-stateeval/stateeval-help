@@ -27,20 +27,22 @@ Select a rubric component in the Rubric Navigator, and the left pane updates to 
 
 ## Where You'll Find Evidence View
 
-The Evidence View tab appears in most evidence collections:
+Every evidence collection except Artifacts has an Evidence View tab. The Evidence View always shows an aggregated view of the evidence within that collection.
 
-| Evidence Collection | Evidence View | Notes |
-|--------------------|---------------|-------|
-| Observations | Yes | Review and package observation evidence |
-| Coded Notes | Yes | Review and package coded note evidence |
-| Student Growth | Yes | For goal setting and achievement |
-| Self-Assessment | Yes | For reflection purposes (doesn't flow to summative) |
-| YTD Evidence | Yes | Aggregated view of all published evidence |
-| Summative Evaluation | Yes | Read-only evidence; used for final scoring |
+| Evidence Collection | What the Evidence View Shows |
+|--------------------|------------------------------|
+| Observations | Evidence from that observation (notes, conference responses, embedded artifacts) |
+| Coded Notes | Evidence from that coded note |
+| Student Growth | Evidence from goal setting or achievement |
+| Self-Assessment | Evidence from that self-assessment (for reflection; doesn't flow to summative) |
+| YTD Evidence | Aggregated view of all published evidence across the rubric |
+| Summative Evaluation | Aggregated view of all published evidence scoped to the plan type |
 
-:::info Evidence View vs. Evidence Collection
-Don't confuse the **Evidence View** (a tab within various evidence collections) with **Evidence Collections** (the containers like Observations, Artifacts, etc.). The Evidence View is the workspace; evidence collections are the sources of evidence.
-:::
+### Why No Evidence View for Artifacts?
+
+Artifacts work differently. When you create an artifact, you align it to one or more rubric components. Each alignment becomes a separate evidence item that appears in:
+- **YTD and Summative** — when the artifact is shared (global artifacts)
+- **The parent evidence collection** — when the artifact is embedded within an observation, coded note, etc.
 
 ## Common Tasks
 

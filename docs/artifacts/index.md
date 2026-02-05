@@ -5,7 +5,7 @@ title: Working with Artifacts
 
 # Working with Artifacts
 
-Artifacts are documents, files, and links that serve as evidence for evaluations. Both evaluatees and evaluators can submit artifacts, each managing their own collection.
+Artifacts are documents, files, and links that serve as evidence for evaluations. Both evaluatees and evaluators can create and share artifacts, following the same process.
 
 ## What Makes a Good Artifact?
 
@@ -23,41 +23,64 @@ Artifacts should demonstrate professional practice. Common examples:
 A few well-documented artifacts with clear context are more valuable than many artifacts with no explanation. Always explain what the evidence shows and why it matters.
 :::
 
-## How Artifacts Work
+## Creating and Sharing Artifacts
 
-Each party manages their own artifacts:
+Both evaluatees and evaluators follow the same process:
 
-| Who | What They Can Do |
-|-----|------------------|
-| **Evaluatee** | Create, edit, share, delete their own artifacts |
-| **Evaluator** | Create, edit, share, delete their own artifacts; view evaluatee's shared artifacts |
+1. **Create** an artifact in Draft state (private to you)
+2. **Add content** — files, links, narrative description
+3. **Align** to rubric components (each alignment becomes a separate evidence item)
+4. **Share** when ready — the artifact and its alignments become visible to the other party
 
-### Workflow
+### Workflow States
 
-Artifacts follow a simple workflow:
+| State | What You Can Do |
+|-------|-----------------|
+| **Draft** | Edit, align to rubric, share, or delete |
+| **Shared** | View, unlock to make revisions, or delete |
 
-1. **Draft** - Private to creator, can be edited
-2. **Shared** - Visible to both parties, can still be updated and re-shared
-3. **Deleted** - Removed (can delete from Draft or Shared)
+### Making Revisions
 
-Unlike observations or evaluations, artifacts **can be updated after sharing**. If you update a shared artifact, re-share to push the changes.
+To update a shared artifact:
+1. **Unlock** the artifact (returns to Draft)
+2. Make your changes
+3. **Re-share** to publish the updated version
 
-See [Artifact Workflow](../reference/workflows.md#detailed-workflows) for the complete workflow diagram.
+You can unlock your own artifacts directly — no approval needed from the other party.
+
+See [Workflows](../reference/workflows.md#creator-managed-evidence-collections) for the complete workflow details.
+
+## How Artifact Evidence Appears
+
+When you share an artifact, each rubric component alignment becomes a separate evidence item. These evidence items appear in:
+
+- **YTD Evidence** — Aggregated with all other published evidence
+- **Summative Evidence** — Filtered to the plan type scope
+
+If you aligned an artifact to multiple rubric components, each alignment shows up as its own evidence item in the collected evidence for that component.
+
+## Embedded vs. Global Artifacts
+
+| Type | Created In | Evidence Appears In |
+|------|------------|---------------------|
+| **Global** | Artifacts work area | YTD and Summative when shared |
+| **Embedded** | Within an observation, coded note, etc. | The parent evidence collection |
+
+Embedded artifacts must be shared before the parent evidence collection is submitted, or they won't be included in the published evidence.
+
+## Plan Type Changes
+
+When an evaluatee's plan type changes (Comprehensive ↔ Focused), artifact alignments automatically update to match the new plan type scope. This happens automatically — no manual intervention required.
 
 ## Best Practices
 
 **For Evaluatees:**
 - Submit artifacts throughout the year, not just at the end
-- Link artifacts to specific evaluation criteria/components
+- Align artifacts to specific rubric components
 - Add context explaining what the artifact demonstrates
 - Include reflection on student impact or professional growth
 
 **For Evaluators:**
-- Review artifacts regularly, not just at evaluation time
-- Add notes to acknowledge artifacts (visible to evaluatee)
-- Consider artifacts alongside observations when scoring
+- Review shared artifacts regularly, not just at evaluation time
 - Your own artifacts can document evidence you've gathered
-
-## Plan Type Sync
-
-If an evaluatee's plan type changes (Comprehensive ↔ Focused), artifacts can optionally update automatically. This depends on the "Keep Artifact Plan Type in Sync" setting. See [Artifact Settings](../reference/modules-settings.md#artifacts-module-settings).
+- Consider artifacts alongside observations when scoring

@@ -29,10 +29,6 @@ Evidence comes from various activities throughout the evaluation:
 | **Rubric Notes** | Narrative text added directly in Evidence View |
 | **Summative** | Reflection prompt responses |
 
-## Filtering Evidence
-
-Use the **Filter** button to show only specific types of evidence. The filter shows counts for each category, making it easy to see what's available.
-
 ## Managing Evidence
 
 ### Show/Hide Controls

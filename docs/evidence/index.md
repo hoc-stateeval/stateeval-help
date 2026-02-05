@@ -49,7 +49,6 @@ Artifacts work differently. When you create an artifact, you align it to one or 
 ### Reviewing Evidence
 1. Select a rubric component in the Rubric Navigator
 2. Review the [collected evidence](./collected-evidence.md) aligned to that component
-3. Use filters to focus on specific evidence types
 
 ### Packaging Evidence
 1. Select evidence items to group together

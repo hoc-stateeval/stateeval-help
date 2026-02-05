@@ -68,14 +68,6 @@ When submitting an evidence collection, you'll see a warning if any embedded art
 If evidence you expect isn't showing in YTD or Summative, the source evidence collection likely hasn't been submitted yet. Check the workflow state of the source activity.
 :::
 
-## Observation Conferences
-
-Observations include pre-conference and post-conference tabs where the evaluator and evaluatee exchange information:
-
-1. **Evaluator selects prompts** — Chooses from the prompt bank and sends to the evaluatee
-2. **Evaluatee responds** — Reviews the prompts, writes responses, then shares them with the evaluator
-3. **Evaluator reviews and codes** — Reviews responses and optionally "codes" them by selecting sections of text and aligning them to rubric components as evidence
-
 ## How Evidence Is Organized
 
 Evidence is always aligned to a specific **rubric component**. The same rubric can be viewed through two lenses:

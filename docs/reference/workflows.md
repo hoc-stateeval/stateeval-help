@@ -26,9 +26,15 @@ Most evidence collections use a **completion mode** that determines whether the 
 
 **Why the difference?** Evidence collections that contribute **scores** to the final performance rating (Student Growth, Summative) default to Formal mode because those scores have significant impact. Collections focused on **evidence gathering** (Observations, Coded Notes) default to Simple mode to handle higher volumes efficiently.
 
-:::info District Configuration
-These are defaults. Districts can configure which mode is used for each evidence collection type in Module Settings.
-:::
+### District Flexibility
+
+These are defaults — each district can configure the completion mode that works best for their evaluation process.
+
+For example, some districts have evaluators and evaluatees meet in person to review reports together. In that case, a formal digital review may not be necessary, and Simple mode keeps the workflow efficient.
+
+Other districts may prefer Formal mode for all evidence collections to ensure a documented acknowledgment trail.
+
+eVAL provides this flexibility so districts can align the system with their existing processes rather than changing how they work.
 
 ### Creator-Managed Workflows
 

@@ -56,7 +56,7 @@ Once an evidence collection is **submitted**, its evidence becomes **public** â€
 | **Coded Note** | Evaluator submits | YTD and Summative |
 | **Student Growth** | Goals/achievement approved | YTD and Summative |
 | **Artifact** | Creator shares | YTD and Summative |
-| **Self-Assessment** | Evaluatee shares | YTD only (not Summative) |
+| **Self-Assessment** | Evaluatee shares | Shared with evaluator only (not YTD or Summative) |
 
 ### Embedded Artifacts
 

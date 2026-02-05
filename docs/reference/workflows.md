@@ -13,33 +13,39 @@ Each evidence collection in eVAL follows a specific workflow that controls how c
 
 ## Workflow Patterns at a Glance
 
-eVAL uses three main workflow patterns:
+Evidence collections fall into two categories based on how they're managed:
 
-<div class="card-grid">
-<div class="card">
-<div class="card__title">Complex Locking</div>
-<p class="card__description">Content goes through review before being locked. Unlocking requires mutual approval.</p>
-</div>
-<div class="card">
-<div class="card__title">Submit & Approve</div>
-<p class="card__description">One party submits, the other approves. Unlocking requires mutual approval.</p>
-</div>
-<div class="card">
-<div class="card__title">Share & Unlock</div>
-<p class="card__description">Creator works privately, then shares. Can unlock to make revisions and re-share.</p>
-</div>
-</div>
+### Completion Mode Workflows
 
-| Evidence Collection | Pattern | Owner |
-|---------------------|---------|-------|
-| **Observations** | Complex Locking | Evaluator |
-| **Summative Evaluation** | Complex Locking | Evaluator |
-| **Coded Notes** | Complex Locking | Evaluator |
-| **Student Growth Goals** | Submit & Approve | Evaluatee (Evaluator approves) |
-| **Student Growth Achievement** | Submit & Approve | Evaluatee (Evaluator approves) |
-| **Self-Assessment** | Share & Unlock | Evaluatee |
-| **Artifacts** | Share & Unlock | Either party (separate tracks) |
-| **Year-to-Date Evidence** | Always Open | Both parties (collaborative) |
+Most evidence collections use a **completion mode** that determines whether the other party must review and acknowledge before the collection is finalized:
+
+| Mode | How It Works | Default For |
+|------|--------------|-------------|
+| **Simple** | Submits directly to locked/sealed. Other party is notified and can view. | Observations, Coded Notes |
+| **Formal** | After submission, other party must review and acknowledge before final lock. | Student Growth, Summative Evaluation |
+
+**Why the difference?** Evidence collections that contribute **scores** to the final performance rating (Student Growth, Summative) default to Formal mode because those scores have significant impact. Collections focused on **evidence gathering** (Observations, Coded Notes) default to Simple mode to handle higher volumes efficiently.
+
+:::info District Configuration
+These are defaults. Districts can configure which mode is used for each evidence collection type in Module Settings.
+:::
+
+### Creator-Managed Workflows
+
+Self-Assessments and Artifacts don't use completion modes. The creator simply manages them directly:
+- Work privately in Draft
+- Share when ready
+- Unlock to make revisions
+- Re-share to update
+
+| Evidence Collection | Owner | Contributes to Summative |
+|---------------------|-------|--------------------------|
+| **Self-Assessment** | Evaluatee | No (reflection tool only) |
+| **Artifacts** | Either party | Yes (evidence) |
+
+### Year-to-Date Evidence
+
+YTD Evidence is primarily an aggregator that displays published evidence from other collections. See the [Year-to-Date tab](#ytd) for details.
 
 ---
 
@@ -196,7 +202,7 @@ Unlike observations, the **evaluatee controls submission** and the **evaluator o
 
 ### Self-Assessment Workflow
 
-Self-assessments are owned and controlled entirely by the evaluatee. They can be kept private, shared with the evaluator, and unlocked for revisions.
+Self-assessments are a reflective tool for evaluatees. They can be kept private, shared with the evaluator, and unlocked for revisions.
 
 ```mermaid
 flowchart TD
@@ -229,6 +235,10 @@ flowchart TD
 
 :::tip
 Unlike locked evidence collections, the evaluatee can unlock a self-assessment directly without requesting approval from the evaluator.
+:::
+
+:::info Not Included in Summative
+Self-assessments are for reflection and goal-setting purposes. Evidence and scores created within a self-assessment do **not** flow to YTD Evidence or the Summative Evaluation, even after sharing.
 :::
 
 </TabItem>
@@ -338,26 +348,26 @@ Artifacts offer the most flexibility for revisions. Unlike other evidence collec
 </TabItem>
 <TabItem value="ytd" label="Year-to-Date">
 
-### Year-to-Date Evidence Workflow
+### Year-to-Date Evidence
 
-Year-to-Date (YTD) evidence is the simplest workflow - it's always in Draft state and fully collaborative.
+Year-to-Date (YTD) Evidence is primarily an **aggregator** — it displays all published evidence from other evidence collections (observations, coded notes, artifacts, student growth) organized by rubric component.
 
-```mermaid
-flowchart TD
-    A[Draft - Always Active]
+**What YTD Shows:**
+- Evidence from submitted observations
+- Evidence from submitted coded notes
+- Evidence from shared artifacts
+- Evidence from approved student growth goals/achievement
 
-    style A fill:#4BBF73,color:#fff
-```
+**Optional Activity: Rubric Notes**
 
-**Draft (Permanent)**
-- Both parties can add evidence notes
-- Both parties can delete notes
-- Notes are coded to rubric criteria
-- **All notes immediately visible** to both parties
-- Never locked or sealed
+If enabled by district settings, both parties can add Rubric Notes directly within YTD Evidence. These are simple text notes aligned to rubric components.
 
-:::info Collaborative Space
-YTD Evidence is designed as an open, collaborative space for ongoing documentation throughout the evaluation year.
+- Both parties can add and delete their own notes
+- Notes are immediately visible to both parties
+- No workflow states — always editable
+
+:::note
+Most evidence comes through other evidence collections (observations, artifacts, etc.). Adding Rubric Notes directly in YTD is an optional feature that districts may or may not enable.
 :::
 
 </TabItem>
@@ -365,53 +375,26 @@ YTD Evidence is designed as an open, collaborative space for ongoing documentati
 
 ---
 
-## Completion Modes: Simple vs. Formal
+## Completion Modes in Detail
 
-Evidence collections with locking (Observations, Coded Notes, Student Growth, Summative Evaluations) can operate in one of two completion modes:
-
-<div class="card-grid">
-<div class="card">
-<div class="card__title">Simple Mode</div>
-<p class="card__description">Evaluator completes and locks. Evaluatee is notified but doesn't need to review or sign. Faster workflow.</p>
-</div>
-<div class="card">
-<div class="card__title">Formal Mode</div>
-<p class="card__description">After evaluator completes, evaluatee must review and acknowledge before final lock. Includes digital signatures.</p>
-</div>
-</div>
-
-### How Completion Modes Differ
+### How the Modes Differ
 
 | Aspect | Simple Mode | Formal Mode |
 |--------|-------------|-------------|
-| **Evaluatee review** | Not required | Required |
+| **Other party review** | Not required | Required before final lock |
 | **Digital signatures** | No | Yes |
-| **Time to complete** | Faster | Slower (waiting for evaluatee) |
-| **Force lock option** | N/A | Evaluator can force-lock if evaluatee doesn't respond |
-| **Best for** | High-volume activities | High-stakes final evaluations |
-
-### Which Mode is Used?
-
-| Evidence Collection | Typical Mode | Why |
-|---------------------|--------------|-----|
-| **Student Growth Goals** | Simple | November deadline crunch with many teachers |
-| **Student Growth Achievement** | Simple | Consistent with Goal Setting |
-| **Observations** | Simple | Multiple per teacher per year |
-| **Coded Notes** | Simple | Informal documentation, high volume |
-| **Summative Evaluation** | Formal | Final performance rating, legal record |
-
-:::info District Configuration
-Your district may configure which mode is used for each activity type. Check with your administrator if you're unsure which mode applies to your evaluations.
-:::
+| **Time to complete** | Faster | Slower (waiting for review) |
+| **Force lock option** | N/A | Owner can force-lock if other party doesn't respond |
+| **Best for** | High-volume evidence gathering | Score-contributing activities |
 
 ### Safety Nets in Simple Mode
 
-Even when evaluatee review isn't required, safeguards exist:
+Even when the other party's review isn't required, safeguards exist:
 
-- **Notifications** - You're notified when scoring is complete
-- **Visibility** - You can view scores immediately
-- **Unlock requests** - Either party can request to unlock and revise
-- **Audit trail** - All actions are logged
+- **Notifications** — You're notified when the collection is submitted
+- **Visibility** — You can view the content immediately
+- **Unlock requests** — Either party can request to unlock and revise
+- **Audit trail** — All actions are logged
 
 ---
 
@@ -466,18 +449,27 @@ This gives creators flexibility to revise their own shared evidence without wait
 
 ## Workflow Comparison
 
-| Feature | Observation | Evaluation | Coded Notes | Goals/Achievement | Self-Assessment | Artifacts | YTD |
-|---------|-------------|------------|-------------|-------------------|-----------------|-----------|-----|
-| **Owner** | Evaluator | Evaluator | Evaluator | Evaluatee | Evaluatee | Either | Both |
-| **Completion Mode** | Simple* | Formal | Simple* | Simple | N/A | N/A | N/A |
-| **Has Locking** | Yes | Yes | Yes | Yes | No | No | No |
-| **Evaluatee Review Required** | Configurable | Yes | Configurable | No | N/A | N/A | N/A |
-| **Can Delete After Share/Lock** | No | No | No | No | No† | Yes | Yes |
-| **DA Override** | No | Yes | No | No | No | No | No |
-| **Unlock Mechanism** | Request | Request | Request | Request | Direct | Direct | N/A |
+### Evidence Collections with Completion Modes
 
-*May use Formal mode depending on district configuration.
-†Must unlock first, then delete from Draft.
+| Feature | Observation | Coded Notes | Student Growth | Summative |
+|---------|-------------|-------------|----------------|-----------|
+| **Owner** | Evaluator | Evaluator | Evaluatee | Evaluator |
+| **Default Mode** | Simple | Simple | Formal | Formal |
+| **Contributes** | Evidence | Evidence | SG Scores | C1-C8 Scores |
+| **Can Delete After Submit** | No | No | No | No |
+| **DA Override** | No | No | No | Yes |
+| **Unlock Mechanism** | Request | Request | Request | Request |
+
+### Creator-Managed Evidence Collections
+
+| Feature | Self-Assessment | Artifacts |
+|---------|-----------------|-----------|
+| **Owner** | Evaluatee | Either party |
+| **Contributes** | No | Evidence |
+| **Can Delete After Share** | No* | Yes |
+| **Unlock Mechanism** | Direct | Direct |
+
+*Must unlock first, then delete from Draft.
 
 ---
 

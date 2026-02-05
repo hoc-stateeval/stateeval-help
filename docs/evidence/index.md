@@ -18,14 +18,12 @@ Throughout the evaluation year, evidence is collected through various activities
 
 ## The Two-Pane Layout
 
-| Left Pane | Right Pane |
-|-----------|------------|
-| Details for the selected rubric component | [Rubric Navigator](./rubric-navigator.md) |
-| Collected evidence items | Browse and select rubric components |
-| Rubric alignment text | See evidence counts and scores |
-| Evidence packages | Navigate the framework |
+The Evidence View has two panes that work together:
 
-**How it works:** Select a rubric component in the Rubric Navigator (right), and the left pane shows everything related to that component — evidence, rubric text, packages, and scoring controls.
+- **Left pane** — Shows details for the selected rubric component: collected evidence, rubric text, evidence packages, and scoring controls
+- **Right pane** — The [Rubric Navigator](./rubric-navigator.md), which lets you move around the rubric to view evidence and scores for different components and criteria. It also shows evidence counts aggregated within each criterion and performance scores across the rubric at a glance.
+
+Select a rubric component in the Rubric Navigator, and the left pane updates to show everything for that component.
 
 ## Where You'll Find Evidence View
 

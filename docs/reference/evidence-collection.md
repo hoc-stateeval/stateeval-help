@@ -53,10 +53,16 @@ Once an evidence collection is **submitted**, its evidence becomes **public** â€
 | Evidence Collection | Submitted When... | Evidence Then Visible In |
 |--------------------|--------------------|-------------------------|
 | **Observation** | Evaluator submits/locks | YTD and Summative |
-| **Coded Note** | Evaluator shares | YTD and Summative |
+| **Coded Note** | Evaluator submits | YTD and Summative |
 | **Student Growth** | Goals/achievement approved | YTD and Summative |
 | **Artifact** | Creator shares | YTD and Summative |
 | **Self-Assessment** | Evaluatee shares | YTD only (not Summative) |
+
+### Embedded Artifacts
+
+Some evidence collections allow you to attach artifacts directly within them (embedded artifacts). Unlike global artifacts, embedded artifacts must be **shared** before the containing evidence collection is submitted â€” otherwise they won't be included in the published evidence.
+
+When submitting an evidence collection, you'll see a warning if any embedded artifacts haven't been shared yet.
 
 :::info Why Can't I See Evidence?
 If evidence you expect isn't showing in YTD or Summative, the source evidence collection likely hasn't been submitted yet. Check the workflow state of the source activity.

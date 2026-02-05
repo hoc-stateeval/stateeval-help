@@ -18,13 +18,32 @@ Each evidence collection has:
 
 See [How Workflows Work](./workflows.md) for the detailed lifecycle of each type.
 
-## Privacy and Visibility
+## Visibility Within an Observation
 
-Evidence starts **private** within its collection and becomes visible to others at specific workflow points:
+Observations are the most complex evidence collection in terms of visibility. Both the evaluator and evaluatee can see the observation, but they see different tabs and content depending on the workflow state.
+
+| Tab | Evaluator | Evaluatee |
+|-----|-----------|-----------|
+| **Setup** | Edit (conference dates, observation type, etc.) | View only |
+| **Pre-Conference** | Select and send prompts; review evaluatee responses; code responses as evidence | View prompts, write responses, share with evaluator |
+| **Post-Conference** | Select and send prompts; review evaluatee responses; code responses as evidence | View prompts, write responses, share with evaluator |
+| **Evidence View** | Review evidence, create packages, score rubric components | Not visible until evaluator shares or submits observation |
+| **Report** | View evolving report | Not visible until evaluator shares or submits observation |
+
+### Conference Prompt Flow
+
+1. **Evaluator selects prompts** — Chooses from the prompt bank and sends to the evaluatee
+2. **Evaluatee responds** — Reviews the prompts, writes responses, then shares them with the evaluator
+3. **Evaluator reviews and codes** — Reviews responses and optionally "codes" them by selecting sections of text and aligning them to rubric components as evidence
+
+### Sharing Before Submission
+
+At any time before submission, the evaluator can choose to share the Evidence View and Report tabs with the evaluatee. Once the observation is submitted, these tabs become visible automatically.
+
+## Visibility for Other Collections
 
 | Evidence Collection | Private Until... | Then Visible To |
 |-------------------|-----------------|----------------|
-| **Observation** | Evaluator submits/locks the observation | Both parties; evidence flows to YTD and Summative |
 | **Artifact** | Creator shares the artifact | Both parties; evidence flows to YTD and Summative |
 | **Student Growth** | Goals are shared/approved | Both parties; evidence flows to YTD and Summative |
 | **Self-Assessment** | Evaluatee shares with evaluator | Both parties; visible in YTD only (not Summative) |
@@ -32,15 +51,8 @@ Evidence starts **private** within its collection and becomes visible to others 
 | **YTD Evidence** | Always visible | Both parties immediately |
 
 :::info Why Can't I See Something?
-If evidence you expect to see isn't showing up in the YTD or Summative view, the most common reason is that the evidence collection hasn't been shared or locked yet. Check the workflow state of the source activity.
+If evidence you expect to see isn't showing up in the YTD or Summative view, the most common reason is that the evidence collection hasn't been shared or submitted yet. Check the workflow state of the source activity.
 :::
-
-### Evaluator-Only Areas
-
-Within some evidence collections, the evaluator has areas that remain private even after the collection is shared:
-
-- **Scoring** — Performance level scores assigned in the Evidence View are private to the evaluator until the collection's report is shared or submitted
-- **Evidence View tabs** — In observations, the evaluator's Evidence View work is not visible to the evaluatee until the observation is submitted
 
 ## How Evidence Is Organized
 

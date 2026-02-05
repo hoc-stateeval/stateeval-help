@@ -18,41 +18,57 @@ Each evidence collection has:
 
 See [How Workflows Work](./workflows.md) for the detailed lifecycle of each type.
 
-## Visibility Within an Observation
+## Tabs and Visibility
 
-Observations are the most complex evidence collection in terms of visibility. Both the evaluator and evaluatee can see the observation, but they see different tabs and content depending on the workflow state.
+Most evidence collections have multiple tabs. Some tabs are visible to both parties from the start, while others are initially visible only to the evaluator and can be shared later.
 
-| Tab | Evaluator | Evaluatee |
-|-----|-----------|-----------|
-| **Setup** | Edit (conference dates, observation type, etc.) | View only |
-| **Pre-Conference** | Select and send prompts; review evaluatee responses; code responses as evidence | View prompts, write responses, share with evaluator |
-| **Post-Conference** | Select and send prompts; review evaluatee responses; code responses as evidence | View prompts, write responses, share with evaluator |
-| **Evidence View** | Review evidence, create packages, score rubric components | Not visible until evaluator shares or submits observation |
-| **Report** | View evolving report | Not visible until evaluator shares or submits observation |
+### Common Pattern
 
-### Conference Prompt Flow
+| Tab Type | Visible To | Notes |
+|----------|-----------|-------|
+| **Setup / Configuration** | Both parties | Often read-only for one party |
+| **Content tabs** (prompts, responses, goals) | Both parties | Each party sees their own view/data |
+| **Evidence View** | Evaluator only until shared | Where evidence is reviewed, packaged, and scored |
+| **Report** | Evaluator only until shared | Shows the evolving report with scores |
+
+The evaluator can choose to share the Evidence View and Report tabs at any time before submission. Once the evidence collection is submitted, these tabs become visible automatically.
+
+### Why This Matters
+
+The Evidence View and Report tabs are where scoring happens. Keeping them private until shared allows the evaluator to work on scoring without the evaluatee seeing incomplete or draft scores. When ready, the evaluator either:
+- **Shares early** — Makes the tabs visible before submission
+- **Submits** — Tabs become visible automatically as part of submission
+
+### Student Growth Exception
+
+Student Growth is evaluatee-initiated. The evaluatee creates goals first and has the option to share their Goal Setting screen with the evaluator before submission. The evaluator still has private Evidence View and Report tabs that follow the same sharing pattern.
+
+## When Evidence Becomes Public
+
+Once an evidence collection is **submitted**, its evidence becomes **public** — meaning it flows to and is visible in:
+
+- **YTD Evidence** — The year-to-date view showing all published evidence
+- **Summative Evidence** — The end-of-year view filtered to the evaluatee's plan type scope
+
+| Evidence Collection | Submitted When... | Evidence Then Visible In |
+|--------------------|--------------------|-------------------------|
+| **Observation** | Evaluator submits/locks | YTD and Summative |
+| **Coded Note** | Evaluator shares | YTD and Summative |
+| **Student Growth** | Goals/achievement approved | YTD and Summative |
+| **Artifact** | Creator shares | YTD and Summative |
+| **Self-Assessment** | Evaluatee shares | YTD only (not Summative) |
+
+:::info Why Can't I See Evidence?
+If evidence you expect isn't showing in YTD or Summative, the source evidence collection likely hasn't been submitted yet. Check the workflow state of the source activity.
+:::
+
+## Observation Conferences
+
+Observations include pre-conference and post-conference tabs where the evaluator and evaluatee exchange information:
 
 1. **Evaluator selects prompts** — Chooses from the prompt bank and sends to the evaluatee
 2. **Evaluatee responds** — Reviews the prompts, writes responses, then shares them with the evaluator
 3. **Evaluator reviews and codes** — Reviews responses and optionally "codes" them by selecting sections of text and aligning them to rubric components as evidence
-
-### Sharing Before Submission
-
-At any time before submission, the evaluator can choose to share the Evidence View and Report tabs with the evaluatee. Once the observation is submitted, these tabs become visible automatically.
-
-## Visibility for Other Collections
-
-| Evidence Collection | Private Until... | Then Visible To |
-|-------------------|-----------------|----------------|
-| **Artifact** | Creator shares the artifact | Both parties; evidence flows to YTD and Summative |
-| **Student Growth** | Goals are shared/approved | Both parties; evidence flows to YTD and Summative |
-| **Self-Assessment** | Evaluatee shares with evaluator | Both parties; visible in YTD only (not Summative) |
-| **Coded Note** | Evaluator shares the note | Both parties; evidence flows to YTD and Summative |
-| **YTD Evidence** | Always visible | Both parties immediately |
-
-:::info Why Can't I See Something?
-If evidence you expect to see isn't showing up in the YTD or Summative view, the most common reason is that the evidence collection hasn't been shared or submitted yet. Check the workflow state of the source activity.
-:::
 
 ## How Evidence Is Organized
 
@@ -65,17 +81,6 @@ Evidence is organized by your district's **instructional framework** (such as Da
 | **Indicator** | A detailed descriptor of practice within a component |
 
 This alignment is what makes it possible for YTD and Summative views to aggregate evidence from many different collections and show it organized by rubric component.
-
-## Where Evidence Ends Up
-
-Evidence from individual collections flows into two aggregated views:
-
-| View | What It Shows | Used For |
-|------|-------------|----------|
-| **YTD Evidence** | All published evidence across the full rubric, regardless of plan type | Running view of everything gathered so far |
-| **Summative Evidence** | Published evidence filtered to the evaluatee's plan type scope | End-of-year scoring by the evaluator |
-
-For more on the year-long evidence flow, see [The Evaluation Year](../getting-started/evaluation-year.md).
 
 ## Related Topics
 

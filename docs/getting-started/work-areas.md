@@ -44,9 +44,9 @@ These work areas are for participating in or conducting evaluations.
 
 #### My Evaluation
 For teachers and principals being evaluated. This is where you:
+- Participate in observation conferences and view feedback
 - Complete self-assessments
 - Submit artifacts
-- View observation feedback
 - Track your evaluation progress
 
 #### Evaluate Teachers

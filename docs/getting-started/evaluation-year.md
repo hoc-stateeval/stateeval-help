@@ -45,7 +45,7 @@ Each evaluatee is assigned either a **Comprehensive** or **Focused** plan type f
 - **Comprehensive** — All eight state criteria are evaluated and scored
 - **Focused** — One selected criterion is the focus, along with student growth. Scores from the prior Comprehensive evaluation carry forward for the other criteria.
 
-Your plan type affects which rubric components are in scope for evidence collection activities and what appears in the Summative evaluation. See [Understanding Your Evaluation](../reference/evaluation-basics.md) for more detail.
+Your plan type affects which rubric components are in scope for evidence collection activities and what appears in the Summative evaluation. See [Focused Evaluations](../reference/focused-evaluations.md) for details on eligibility, configuration, and how scoring works.
 
 ## Evidence Collecting Activities
 

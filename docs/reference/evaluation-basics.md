@@ -59,7 +59,7 @@ A focused evaluation assesses **one criterion** that you select, along with rela
 - Employees who received **Proficient** or **Distinguished** on their last Comprehensive evaluation
 
 :::info Score Carry-Forward
-When you're on a Focused evaluation, your scores from your last Comprehensive evaluation carry forward. The Focused evaluation lets you dive deeper into one area while maintaining your overall rating.
+When you're on a Focused evaluation, your scores from your last Comprehensive evaluation carry forward. The Focused evaluation lets you dive deeper into one area while maintaining your overall rating. See [Focused Evaluations](./focused-evaluations.md) for eligibility, configuration, and scoring details.
 :::
 
 :::tip Plan Type Changes

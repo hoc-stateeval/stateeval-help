@@ -15,16 +15,16 @@ Your available work areas depend on your role:
 
 | If you are a... | You have these work areas |
 |-----------------|---------------------------|
-| **Teacher** | Prepare for My Evaluation |
-| **Principal** | Evaluate Teachers, Prepare for My Evaluation |
-| **Head Principal** | Evaluate Teachers, Evaluate Principals, Prepare for My Evaluation |
+| **Teacher** | My Evaluation |
+| **Principal** | Evaluate Teachers, My Evaluation |
+| **Head Principal** | Evaluate Teachers, Evaluate Principals, My Evaluation |
 | **District Principal Evaluator** | Evaluating Principals |
 | **District Teacher Evaluator** | Evaluating Teachers |
 | **District Admin** | Admin Teacher Evaluations, Admin Principal Evaluations |
 | **School Admin** | Admin Teacher Evaluations, Admin Principal Evaluations |
 
 :::tip Multiple Schools
-If you work at multiple schools with the same role, you'll have the same work areas available at each location. For example, a principal at three schools would see "Evaluate Teachers" and "Prepare for My Evaluation" at each school.
+If you work at multiple schools, your evaluator work areas (like Evaluate Teachers) appear at each school. However, since you have only one evaluation per district, the "My Evaluation" work area appears just once — not per school.
 :::
 
 ## Switching Work Areas
@@ -42,7 +42,7 @@ To switch between work areas:
 
 These work areas are for participating in or conducting evaluations.
 
-#### Prepare for My Evaluation
+#### My Evaluation
 For teachers and principals being evaluated. This is where you:
 - Complete self-assessments
 - Submit artifacts
@@ -85,7 +85,7 @@ For district and school administrators. This is where you:
 
 ### One Evaluation Per District
 
-Your annual evaluation is tied to your **district**, not a specific school. If you work at multiple schools within the same district, you'll have only one "Prepare for My Evaluation" work area for the entire district—not one per school.
+Your annual evaluation is tied to your **district**, not a specific school. If you work at multiple schools within the same district, you have a single "My Evaluation" work area for the district.
 
 ### Multiple Roles
 
@@ -101,8 +101,8 @@ Not sure which work area to use?
 
 | I want to... | Use this work area |
 |--------------|-------------------|
-| Submit an artifact for my evaluation | Prepare for My Evaluation |
-| View feedback from my evaluator | Prepare for My Evaluation |
+| Submit an artifact for my evaluation | My Evaluation |
+| View feedback from my evaluator | My Evaluation |
 | Conduct an observation of a teacher | Evaluate Teachers |
 | Complete a teacher's evaluation | Evaluate Teachers |
 | Add a new staff member | Admin Teacher/Principal Evaluations |

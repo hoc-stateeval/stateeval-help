@@ -461,7 +461,6 @@ This gives creators flexibility to revise their own shared evidence without wait
 |---------|-------------|-------------|----------------|-----------|
 | **Owner** | Evaluator | Evaluator | Evaluatee | Evaluator |
 | **Default Mode** | Simple | Simple | Formal | Formal |
-| **Contributes** | Evidence | Evidence | SG Scores | C1-C8 Scores |
 | **Can Delete After Submit** | No | No | No | No |
 | **DA Override** | No | No | No | Yes |
 | **Unlock Mechanism** | Request | Request | Request | Request |
@@ -471,7 +470,6 @@ This gives creators flexibility to revise their own shared evidence without wait
 | Feature | Self-Assessment | Artifacts |
 |---------|-----------------|-----------|
 | **Owner** | Evaluatee | Either party |
-| **Contributes** | No | Evidence |
 | **Can Delete After Share** | No* | Yes |
 | **Unlock Mechanism** | Direct | Direct |
 

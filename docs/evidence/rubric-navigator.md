@@ -5,103 +5,70 @@ title: Rubric Navigator
 
 # Rubric Navigator
 
-The Rubric Navigator is the right-pane component of the Evidence View. It displays the evaluation framework's criteria and rubric components, allowing you to select components and see evidence and scoring information at a glance.
+The Rubric Navigator is the right pane of the Evidence View. It displays your evaluation framework's criteria and rubric components, letting you select components and see evidence counts at a glance.
 
 ## Navigator Tabs
 
-The Rubric Navigator has two or three tabs depending on the evidence collection:
+The Rubric Navigator has tabs that show different views of your evidence:
+
+| Tab | What It Shows | Available In |
+|-----|---------------|--------------|
+| **Evidence** | Evidence counts (collected items and packages) | All evidence collections |
+| **Performance** | Assigned scores and evidence by performance level | All evidence collections |
+| **Report** | Evidence marked for inclusion in the final report | Summative only |
 
 ### Evidence Tab
 
-The Evidence tab shows the rubric component tree with two count columns:
+Shows two counts for each rubric component:
+- **Collected** — Number of evidence items aligned to the component
+- **Packaged** — Number of evidence packages created
 
-- **Collected** - The number of individual evidence items aligned to each rubric component
-- **Packaged** - The number of evidence packages created for each rubric component
-
-Counts are displayed at both the rubric component level and aggregated at the criteria level.
-
-**Evidence Only checkbox:** When checked, the navigator only displays rubric components that have at least one evidence item. This helps you quickly focus on components with evidence.
+Use the **Evidence Only** checkbox to hide components with no evidence, helping you focus on what's been documented.
 
 ### Performance Tab
 
-The Performance tab shows:
+Shows scoring information:
+- **Score indicator** (U, B, P, D) with the assigned score highlighted
+- **Evidence counts by performance level** — how many evidence items support each level
 
-- **Score indicators** (U, B, P, D) for each rubric component, with the assigned score highlighted
-- **Evidence count tallies** by performance level, showing how many evidence items are aligned to each level
-
-This view is useful for seeing the overall scoring picture and identifying where evidence supports each performance level.
+This helps you see where your evidence is strongest and how it aligns with potential scores.
 
 ### Report Tab
 
-The Report tab appears in the Summative Evaluation. It works like the Evidence tab but only counts evidence items and packages that have been marked for inclusion in the final report.
-
-## Where Each Tab Appears
-
-| Evidence Collection | Evidence Tab | Performance Tab | Report Tab |
-|--------------------|-------------|-----------------|------------|
-| Observations | Yes | Yes | |
-| Self-Assessments | Yes | Yes | |
-| Coded Notes | Yes | Yes | |
-| Student Growth | Yes | Yes | |
-| YTD Evidence | Yes | Yes | |
-| Summative Evaluation | Yes | Yes | Yes |
+Available only in the Summative Evaluation. Shows counts for evidence and packages marked for inclusion in the final summative report.
 
 ## Navigating the Rubric
 
-### Expand and Collapse
+### Selecting a Component
+Click any rubric component row to select it. The left pane updates to show:
+- Collected evidence for that component
+- Rubric alignment text
+- Evidence packages
+- Scoring controls (if enabled)
 
-Criteria rows (e.g., "Planning and Preparation", "The Classroom Environment") can be expanded or collapsed using the +/- toggle. When expanded, the individual rubric components within that criterion are displayed.
-
-### Selecting a Rubric Component
-
-Click on any rubric component row to select it. The left pane will update to show the collected evidence, rubric alignment, and evidence packages for that component.
-
-## Scoring
-
-Scoring availability depends on the evidence collection and your district's settings.
-
-### Rubric Component Scoring
-
-When scoring is enabled, performance level buttons (UNS, BAS, PRO, DIS) appear at the top of the left pane next to the rubric component title. Click a button to assign that performance level to the component.
-
-| Evidence Collection | Scoring Available When |
-|--------------------|----------------------|
-| Self-Assessment | SA_ALLOW_SCORING is enabled |
-| Observation | OBS_ALLOW_SCORING is enabled |
-| Coded Note | CODED_NOTE_ALLOW_SCORING is enabled |
-| Student Growth | Goal Setting and Achievement components only (required for approval/submission) |
-| YTD Evidence | Never |
-| Summative Evaluation | Required for C1-C8 criteria to submit |
-
-### Criteria Scoring
-
-Criteria-level scores appear in the Summative Evaluation. The summative score is calculated based on individual student growth rubric component scores and C1-C8 criteria scores.
-
-### Score Display
-
-At the bottom of the Rubric Navigator you may see:
-
-- **Raw Score** - The count of scored components out of total components
-- **Summative Score** - The calculated summative score (in Summative Evaluation)
-- **View Score** - A button to see score details
+### Expanding and Collapsing
+Click the +/- toggle on criteria rows to expand or collapse the rubric components within that criterion.
 
 ## Framework Display
 
-The rubric components shown in the navigator depend on your evaluation type and the evidence collection:
+What you see in the Rubric Navigator depends on your plan type:
 
-### Comprehensive Evaluations
+| Plan Type | What's Displayed |
+|-----------|------------------|
+| **Comprehensive** | All criteria (C1-C8) and student growth components |
+| **Focused** | Focus criterion, student growth components |
+| **YTD Evidence** | Always shows the full framework, regardless of plan type |
 
-For comprehensive evaluations, the navigator shows the full framework including all criteria and their components, plus student growth components.
+:::note Framework Views
+Your district chooses an instructional framework (like Danielson or Marzano) that maps to the state's eight criteria. You can switch between state framework view (C1-C8) and instructional framework view using the dropdown in the top navigation.
+:::
 
-### Focused Evaluations
+## Scoring
 
-For focused evaluations, the display depends on the evidence collection:
+When scoring is enabled, performance level buttons (UNS, BAS, PRO, DIS) appear at the top of the left pane. Click a button to assign that score to the selected rubric component.
 
-- **Observations, Self-Assessments, Coded Notes** - Shows the focused criterion's components plus student growth components
-- **Student Growth** - Shows only the relevant student growth components
-- **Summative Evaluation** - Shows the focused criterion plus student growth
-- **YTD Evidence** - Shows the comprehensive (full framework) view
+Whether scoring is available depends on the evidence collection and your district's settings. Scoring is always required in the Summative Evaluation for the criteria being evaluated.
 
-:::note
-The specific rubric component names and structure depend on your district's chosen instructional framework (e.g., Danielson, Marzano, CEL 5D+).
+:::tip Evidence Counts Help
+Use the evidence counts in the Rubric Navigator to identify which rubric components have strong evidence support and which might need more attention.
 :::

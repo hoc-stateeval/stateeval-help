@@ -5,67 +5,68 @@ title: Evidence View
 
 # Evidence View
 
-The Evidence View is a two-pane workspace where you review, organize, and package evidence aligned to evaluation rubric components. It appears as a tab within several evidence collections, including Observations, Self-Assessments, Coded Notes, Student Growth, YTD Evidence, and the Summative Evaluation.
+The Evidence View is where evidence meets the evaluation rubric. It's a two-pane workspace that lets you review collected evidence, align it to rubric components, and (in some cases) assign scores.
 
-## Layout
+## Why Evidence View Matters
 
-The Evidence View is divided into two panes:
+Throughout the evaluation year, evidence is collected through various activities — observations, artifacts, student growth goals, and more. The Evidence View is where you make sense of that evidence by:
+
+- **Seeing what's been collected** for each rubric component
+- **Packaging evidence** to connect it to specific rubric performance level text
+- **Reviewing the rubric** to understand what each performance level looks like
+- **Scoring** (when enabled) to assign performance levels to rubric components
+
+## The Two-Pane Layout
 
 | Left Pane | Right Pane |
 |-----------|------------|
-| Active rubric element title and score buttons | [Rubric Navigator](./rubric-navigator.md) |
-| [Collected Evidence](./collected-evidence.md) | |
-| [Rubric Notes](./rubric-notes.md) (Add Rubric Note) | |
-| [Rubric Alignment](./rubric-alignment.md) | |
-| [Evidence Packages](./evidence-packages.md) | |
+| Details for the selected rubric component | [Rubric Navigator](./rubric-navigator.md) |
+| Collected evidence items | Browse and select rubric components |
+| Rubric alignment text | See evidence counts and scores |
+| Evidence packages | Navigate the framework |
 
-### Left Pane
+**How it works:** Select a rubric component in the Rubric Navigator (right), and the left pane shows everything related to that component — evidence, rubric text, packages, and scoring controls.
 
-The left pane displays details for the currently selected rubric component. At the top is the rubric component title along with performance level score buttons (UNS, BAS, PRO, DIS). Below that, you'll find:
+## Where You'll Find Evidence View
 
-- **Collected Evidence** - All evidence items aligned to this rubric component
-- **Add Rubric Note** - A button to add narrative text evidence (when available)
-- **Rubric Alignment** - The full rubric text for all four performance levels
-- **Evidence Packages** - Any evidence packages you've created for this component
-
-### Right Pane
-
-The right pane contains the **Rubric Navigator**, which lets you browse the evaluation framework and select different rubric components. It has multiple view tabs (Evidence, Performance, and in some cases Report) and shows evidence counts and scores at a glance.
-
-## Where the Evidence View Appears
-
-The Evidence View is available in these evidence collections:
+The Evidence View tab appears in most evidence collections:
 
 | Evidence Collection | Evidence View | Notes |
 |--------------------|---------------|-------|
-| Observations | Yes | Accessed via the "Evidence View" tab |
-| Self-Assessments | Yes | |
-| Coded Notes | Yes | |
-| Student Growth | Yes | Goal Setting and Achievement phases |
-| YTD Evidence | Yes | Aggregated view across all collections |
-| Summative Evaluation | Yes | Read-only for most evidence; used for final scoring |
+| Observations | Yes | Review and package observation evidence |
+| Coded Notes | Yes | Review and package coded note evidence |
+| Student Growth | Yes | For goal setting and achievement |
+| Self-Assessment | Yes | For reflection purposes (doesn't flow to summative) |
+| YTD Evidence | Yes | Aggregated view of all published evidence |
+| Summative Evaluation | Yes | Read-only evidence; used for final scoring |
 
-## Typical Workflow
-
-A typical workflow in the Evidence View:
-
-1. **Select a rubric component** in the Rubric Navigator (right pane)
-2. **Review collected evidence** for that component (left pane)
-3. **Add rubric notes** if you need to add narrative evidence
-4. **Create evidence packages** by selecting evidence items and aligning them to rubric performance level text
-5. **Score the component** (if scoring is enabled for this evidence collection)
-6. **Navigate** to the next rubric component and repeat
-
-:::tip
-Use the Rubric Navigator's evidence counts to quickly identify which rubric components have evidence and which still need attention.
+:::info Evidence View vs. Evidence Collection
+Don't confuse the **Evidence View** (a tab within various evidence collections) with **Evidence Collections** (the containers like Observations, Artifacts, etc.). The Evidence View is the workspace; evidence collections are the sources of evidence.
 :::
+
+## Common Tasks
+
+### Reviewing Evidence
+1. Select a rubric component in the Rubric Navigator
+2. Review the [collected evidence](./collected-evidence.md) aligned to that component
+3. Use filters to focus on specific evidence types
+
+### Packaging Evidence
+1. Select evidence items to group together
+2. Choose rubric text that the evidence supports
+3. Create the package to document the connection
+
+See [Evidence Packages](./evidence-packages.md) for details.
+
+### Adding Notes
+Need to add narrative evidence directly? Use [Rubric Notes](./rubric-notes.md) to add text evidence aligned to the current rubric component.
 
 ---
 
 ## In This Section
 
-- [Rubric Navigator](./rubric-navigator.md) - Browse rubric components, view evidence counts and scores
-- [Collected Evidence](./collected-evidence.md) - View and manage evidence items
-- [Rubric Notes](./rubric-notes.md) - Add narrative text evidence
-- [Rubric Alignment](./rubric-alignment.md) - View rubric performance level descriptions
-- [Evidence Packages](./evidence-packages.md) - Package evidence with rubric text alignment
+- [Rubric Navigator](./rubric-navigator.md) — Browse rubric components, view evidence counts and scores
+- [Collected Evidence](./collected-evidence.md) — View evidence items for the selected component
+- [Rubric Notes](./rubric-notes.md) — Add narrative text evidence
+- [Rubric Alignment](./rubric-alignment.md) — View rubric performance level descriptors
+- [Evidence Packages](./evidence-packages.md) — Package evidence with rubric text alignment

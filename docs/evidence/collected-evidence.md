@@ -5,85 +5,51 @@ title: Collected Evidence
 
 # Collected Evidence
 
-The Collected Evidence section displays all evidence items aligned to the currently selected rubric component in the Rubric Navigator. This is where you review evidence before creating evidence packages.
+The Collected Evidence section shows all evidence items aligned to the currently selected rubric component. This is where you review evidence before packaging it or assigning scores.
 
 ## What You See
 
-Each evidence item displays key information:
-
-| Field | Description |
-|-------|-------------|
-| **Type** | The kind of evidence (e.g., Observation Notes, Artifact, Rubric Note, Conference Summary, Student Growth Goal) |
-| **Created** | The date the evidence was created |
-| **Created by** | The person who created the evidence item |
-| **Connected to** | The source evidence collection (e.g., "Observation (Obs 2024-2025.1)") |
-| **Content** | The text content of the evidence, which may be truncated with an expand option for longer items |
-
-Additional fields appear for specific evidence types:
-
-| Field | Appears For | Description |
-|-------|------------|-------------|
-| **Prompt** | Conference prompt responses | The prompt that the response was written for |
-| **Attached Items** | Artifacts | Files, web URLs, and professional practice statements attached to the artifact |
-| **Goal Text** | Student Growth Goals | The text of the student growth goal |
+Each evidence item displays:
+- **Type** — Where the evidence came from (e.g., Observation Notes, Artifact, Conference Response)
+- **Created** — When it was created
+- **Created by** — Who created it
+- **Connected to** — The source evidence collection
+- **Content** — The evidence text (expandable for longer items)
 
 ## Evidence Types
 
-Evidence comes from various activities throughout the evaluation process:
+Evidence comes from various activities throughout the evaluation:
 
-| Evidence Type | Source |
-|---------------|--------|
-| **Observation Notes** | Notes taken by the evaluator during classroom observations |
-| **Conference Summary (Evaluator)** | Evaluator's summary from pre- or post-conference |
-| **Conference Summary (Evaluatee)** | Evaluatee's summary from pre- or post-conference |
-| **Conference Prompt Response** | Responses to pre- or post-conference prompts |
-| **Coded Notes** | Informal evaluator notes coded to rubric components |
-| **Artifact** | Shared documents, files, links, and narrative text |
-| **Rubric Note** | Narrative text evidence added directly in the Evidence View |
-| **Student Growth Goal** | Approved student growth goals (automatically become evidence) |
-| **Student Growth Prompt Response** | Responses to student growth prompts (automatically become evidence) |
-| **Summative Reflection** | Responses to summative evaluation reflection prompts |
+| Source | Examples |
+|--------|----------|
+| **Observations** | Observation notes, pre/post-conference responses, conference summaries |
+| **Artifacts** | Documents, files, links, narrative descriptions |
+| **Coded Notes** | Informal evaluator notes from walkthroughs or conversations |
+| **Student Growth** | Goal text, achievement data, prompt responses |
+| **Rubric Notes** | Narrative text added directly in Evidence View |
+| **Summative** | Reflection prompt responses |
 
-## Toolbar Options
+## Filtering Evidence
 
-Above the collected evidence list, you'll find several controls:
+Use the **Filter** button to show only specific types of evidence. The filter shows counts for each category, making it easy to see what's available.
 
-### Show Evidence Toggle
+## Managing Evidence
 
-When turned on, the evidence items are displayed in the list. Turn it off to hide the evidence items and focus on other sections like Rubric Alignment or Evidence Packages.
+### Show/Hide Controls
+- **Show Evidence** toggle — Turn off to hide the evidence list and focus on rubric alignment or packages
+- **Hide Already Packaged** checkbox — Hide evidence that's already in a package, helping you focus on what still needs attention
 
-### Hide Already Packaged Checkbox
-
-When checked, evidence items that are already included in an evidence package are hidden from the Collected Evidence list. This helps you focus on evidence that still needs to be packaged.
-
-### Filter
-
-The Filter button opens a dropdown that lets you filter evidence by type. Available filter categories include:
-
-- Artifacts
-- Observation Notes
-- Pre-Conference
-- Post-Conference
-- Summative
-- Rubric Notes
-
-The filter shows the count of evidence items for each category, making it easy to see what types of evidence are available.
-
-## Evidence Item Actions
-
-Each evidence item may display an action icon on its right side. The icon depends on the context:
-
-| Icon | When It Appears | What It Means |
-|------|----------------|---------------|
-| **Delete** | You are the author, the evidence collection is editable, and the item is not in an evidence package | You can delete this evidence item |
-| **Locked** | You are the author, the evidence collection is editable, but the item is included in an evidence package | The item cannot be deleted until it is removed from the evidence package |
-| **Select** | You are creating an evidence package | Click to select this item for inclusion in a package |
-| *No icon* | The evidence is read-only (e.g., viewed outside its source collection, or in a report) | The item is for viewing only |
+### Deleting Evidence
+You can delete evidence items you created, as long as:
+- The evidence collection is still editable (not locked)
+- The item isn't included in an evidence package (shown with a lock icon)
 
 :::note
-Only the author of an evidence item can delete it. If another evaluator (such as an alternate evaluator) created the evidence, you will not see a delete option.
+Only the author of an evidence item can delete it. If another evaluator created the evidence, you won't see a delete option.
 :::
 
-## Selecting Evidence for Packaging
+## Selecting Evidence for Packages
 
-To start creating an evidence package, click on an evidence item in the Collected Evidence section. This selects the item and opens the Evidence Package Creation panel. You can select multiple items. See [Evidence Packages](./evidence-packages.md) for the full packaging workflow.
+Click on evidence items to select them for packaging. Selected items show an **Unselect** button. Once you've selected the items you want to group together, you can create an evidence package.
+
+See [Evidence Packages](./evidence-packages.md) for the full packaging workflow.

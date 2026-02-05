@@ -5,53 +5,43 @@ title: Rubric Alignment
 
 # Rubric Alignment
 
-The Rubric Alignment section displays the full rubric text for the currently selected rubric component. It shows the performance level descriptors that define what Unsatisfactory, Basic, Proficient, and Distinguished practice looks like for that component.
+The Rubric Alignment section displays the performance level descriptors for the selected rubric component. This is the rubric text that defines what Unsatisfactory, Basic, Proficient, and Distinguished practice looks like.
 
 ## Performance Levels
 
-All frameworks used with TPEP (Teacher/Principal Evaluation Program) share the same four performance levels:
+All Washington State evaluation frameworks use four performance levels:
 
-| Abbreviation | Level | Description |
-|-------------|-------|-------------|
-| **UNS** | Unsatisfactory | Does not meet the standard |
-| **BAS** | Basic | Approaching the standard |
-| **PRO** | Proficient | Meets the standard |
-| **DIS** | Distinguished | Exceeds the standard |
+| Level | Abbreviation | Meaning |
+|-------|-------------|---------|
+| **Unsatisfactory** | UNS | Does not meet the standard |
+| **Basic** | BAS | Approaching the standard |
+| **Proficient** | PRO | Meets the standard |
+| **Distinguished** | DIS | Exceeds the standard |
 
-Each performance level column contains descriptor text that characterizes practice at that level. This text is what you reference when creating evidence packages and assigning scores.
+The rubric alignment shows the descriptor text for each level side by side, making it easy to compare what practice looks like across the continuum.
 
-## Rubric Component View
+## Selecting Rubric Text for Packages
 
-When viewing a single rubric component, the Rubric Alignment section displays the four performance level descriptors side by side. This is the standard view you see when a rubric component is selected in the Rubric Navigator.
+When creating an evidence package, you can highlight text from a performance level descriptor. This connects your evidence to a specific aspect of the rubric.
 
-### Selecting Rubric Text for Evidence Packages
+**Rules for text selection:**
+- Select from only **one** performance level
+- The selection must be **contiguous** (one unbroken highlight)
+- Click **Go to Rubric** in the package creation panel, then highlight your text
 
-When you are creating an evidence package, you can highlight a contiguous selection of text from one performance level descriptor. This selected text becomes the rubric alignment for your evidence package, connecting your evidence to a specific aspect of the rubric. See [Evidence Packages](./evidence-packages.md) for details.
-
-## Critical Attributes (Danielson Framework)
-
-If your district uses the Danielson framework, the rubric may include **Critical Attributes** below the standard performance level descriptors.
-
-### Show Critical Attributes Toggle
-
-A **Show Critical Attributes** toggle appears above the rubric alignment section. When enabled, the critical attributes are displayed below the main rubric descriptors for each performance level.
-
-Whether critical attributes are available depends on your district's framework module settings:
-
-- **Critical Attributes Enabled** - When turned on, the critical attributes section is visible and the toggle appears
-- **Critical Attributes Reference Only** - When turned on, critical attributes are shown for reference but their text cannot be selected for evidence packages. When turned off, you can select critical attribute text when creating evidence packages, just like the main rubric descriptors
-
-:::note
-Critical attributes are specific to the Danielson framework. If your district uses a different framework (Marzano, CEL 5D+, etc.), this section will not appear.
-:::
-
-## Criteria/Domain View
-
-When a criterion (domain) is selected in the Rubric Navigator rather than an individual component, the left pane can show all rubric components within that criterion. A **Show Rubric** checkbox controls whether the rubric alignment text is displayed for each component.
-
-- **Show Rubric checked** - Each component's rubric descriptors are shown, allowing you to review all components in sequence
-- **Show Rubric unchecked** - Only the component titles are listed, providing a compact overview
+See [Evidence Packages](./evidence-packages.md) for the full packaging workflow.
 
 ## Highlighted Text
 
-When evidence packages have been created with rubric text selections, the corresponding text in the Rubric Alignment section will be highlighted. This provides a visual indicator of which parts of the rubric have been addressed by packaged evidence.
+When evidence packages have been created, the corresponding rubric text is highlighted. This shows which parts of the rubric have been addressed by packaged evidence.
+
+## Critical Attributes (Danielson Framework)
+
+If your district uses the Danielson framework, you may see **Critical Attributes** below the standard performance level descriptors.
+
+- **Show Critical Attributes** toggle — Expand to see the critical attributes for each performance level
+- Critical attributes can be selected for evidence packages (unless your district has set them as reference-only)
+
+:::note
+Critical Attributes are specific to the Danielson framework. Other frameworks (Marzano, CEL 5D+, etc.) don't include this section.
+:::

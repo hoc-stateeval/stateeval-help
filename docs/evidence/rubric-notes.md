@@ -5,53 +5,44 @@ title: Rubric Notes
 
 # Rubric Notes
 
-A Rubric Note is narrative text evidence that you add directly in the Evidence View, aligned to the currently selected rubric component. This is a quick way to document observations, reflections, or other evidence without creating a formal artifact.
+A Rubric Note is narrative text evidence you add directly in the Evidence View, aligned to the selected rubric component. It's a quick way to document observations or reflections without creating a formal artifact.
 
 ## Adding a Rubric Note
 
 1. Select a rubric component in the Rubric Navigator
-2. Click the **Add Rubric Note** button in the Collected Evidence section
-3. A text input area appears - type your narrative evidence
-4. Click **Done** to save, or **Cancel** to discard
+2. Click **Add Rubric Note**
+3. Type your narrative evidence
+4. Click **Done** to save
 
-The rubric note is immediately created as an evidence item aligned to the selected rubric component and appears in the Collected Evidence list.
+The rubric note appears immediately in the Collected Evidence list, aligned to the selected component.
+
+## When to Use Rubric Notes
+
+Rubric Notes are useful for:
+- Quick observations that don't warrant a full artifact
+- Brief reflections on practice
+- Notes from informal conversations or walkthroughs
+- Supplementary context for other evidence
+
+:::tip
+Be specific about what you observed and how it relates to the rubric component. Rubric Notes can be included in evidence packages just like any other evidence item.
+:::
 
 ## Where Rubric Notes Are Available
 
-Rubric Notes can be added in the following evidence collections:
-
-| Evidence Collection | Available | Notes |
-|--------------------|-----------|-------|
-| Observations | Always | |
-| Self-Assessments | Always | |
-| Coded Notes | Always | |
-| Student Growth | Always | |
-| YTD Evidence | Depends on district settings | Controlled by district YTD Evidence module settings for evaluator and evaluatee |
-| Summative Evaluation | Never | |
-
-:::info District Settings for YTD Evidence
-Whether you can add Rubric Notes in the YTD Evidence collection depends on your district's configuration. Your district administrator controls this through the YTD Evidence module settings, with separate settings for evaluators and evaluatees.
-:::
+| Evidence Collection | Available |
+|--------------------|-----------|
+| Observations | Yes |
+| Coded Notes | Yes |
+| Student Growth | Yes |
+| Self-Assessment | Yes |
+| YTD Evidence | Depends on district settings |
+| Summative Evaluation | No |
 
 ## Managing Rubric Notes
 
-Once created, a Rubric Note appears as a regular evidence item in the Collected Evidence section with:
+Once created, a Rubric Note is like any other evidence item. You can:
+- Include it in evidence packages
+- Delete it (if you're the author and it's not in a package)
 
-- **Type:** Rubric Note
-- **Created:** The date you added it
-- **Created by:** Your name
-- **Connected to:** The evidence collection where you created it
-- **Content:** The narrative text you entered
-
-You can **delete** a Rubric Note as long as:
-- You are the author
-- The evidence collection is still editable
-- The note is not included in an evidence package
-
-If the note has been included in an evidence package, it will show a locked icon instead. You must first remove it from the evidence package before you can delete it.
-
-## Tips
-
-- Use Rubric Notes to capture quick observations or reflections that don't warrant a full artifact
-- Be specific about what you observed and how it relates to the rubric component
-- Rubric Notes can be included in evidence packages just like any other evidence item
+If the note is in an evidence package, it shows a lock icon. Remove it from the package first if you need to delete it.

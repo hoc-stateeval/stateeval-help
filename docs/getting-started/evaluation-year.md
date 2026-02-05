@@ -51,11 +51,15 @@ Your plan type affects which rubric components are in scope for evidence collect
 
 | Activity | What It Is | Created By |
 |----------|-----------|------------|
-| **Observations** | Formal classroom or leadership observations with pre/post-conference prompts | Evaluator |
+| **Observations** | Formal classroom or leadership observations with pre/post-conference prompts; prompt responses can be included as evidence | Evaluator (evaluatee participates in conferences) |
 | **Artifacts** | Documents, links, and narrative text as evidence of practice | Both parties |
 | **Student Growth** | Goals set early in the year, achievement documented at year end | Evaluatee (approved by Evaluator) |
 | **Coded Notes** | Informal evaluator notes linked to rubric criteria (walkthroughs, conversations) | Evaluator |
 | **Self-Assessment** | Evaluatee self-reflection, typically at beginning of year | Evaluatee |
+
+:::tip Observations
+Observations are typically the most important evidence gathering activity for teacher evaluations. The number of required observations is determined by your district's contract, not by eVAL — the system supports as many observations as needed.
+:::
 
 :::note Self-Assessment Evidence
 Evidence from self-assessments is for reflection purposes and is **not** included in the Summative evaluation.

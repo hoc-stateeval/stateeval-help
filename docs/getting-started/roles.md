@@ -13,7 +13,7 @@ These roles participate directly in evaluations — either being evaluated or co
 
 | Role | Who They Are | What They Do in eVAL |
 |------|-------------|---------------------|
-| **Teacher** | Classroom teachers | Participate in their own evaluation — submit artifacts, respond to prompts, set student growth goals |
+| **Teacher** | Classroom teachers | Participate in their own evaluation — are observed in the classroom, participate in pre/post conferences, submit artifacts, set student growth goals |
 | **Principal** | School principals | Evaluate teachers at their school **and** participate in their own evaluation |
 | **Head Principal** | Head principals at schools with multiple principals | Evaluate both teachers and assistant principals, plus participate in their own evaluation |
 | **District Teacher Evaluator (DTE)** | District-level staff who evaluate teachers | Evaluate teachers who are assigned at the district level (often specialists serving multiple schools) |

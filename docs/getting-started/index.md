@@ -5,22 +5,16 @@ title: Getting Started
 
 # Getting Started with eVAL
 
-Welcome to eVAL, Washington State's evaluation management system.
+New to eVAL? Start here to understand the system and find your way around.
 
-## For Administrators
+| Topic | What You'll Learn |
+|-------|------------------|
+| [What is eVAL?](./what-is-eval) | What the system does and who uses it |
+| [Roles](./roles) | Your role and what you can do |
+| [Work Areas](./work-areas) | How eVAL organizes your tasks |
+| [The Evaluation Year](./evaluation-year) | How evidence flows through the year to a final score |
+| [Start of Year Setup](./start-of-year) | Administrator setup steps for a new school year |
 
-**Starting a new school year?** See [Start of Year Setup](./start-of-year) for the required sequence:
-1. Select evaluation frameworks (DA only)
-2. Verify staff data
-3. Assign evaluators
-4. Configure settings (optional)
+## First Time Logging In?
 
-## For All Users
-
-- **First time logging in?** Click the activation link in your invitation email to create your password
-- **Find your role guide** - See [Role Guides](../role-guides/district-admin) to understand what you can do
-- **Understand work areas** - See [Work Areas](./work-areas) to learn how eVAL organizes your tasks
-
-## Trouble Logging In?
-
-See [FAQ](../faq#logging-in) for common login issues including forgotten passwords and expired invitation links.
+Click the activation link in your invitation email to create your password. See [FAQ](../faq#logging-in) for common login issues.

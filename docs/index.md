@@ -6,21 +6,24 @@ title: Welcome
 
 # Welcome to eVAL Help
 
-Welcome to the eVAL Help Center. Find guides, tutorials, and answers to help you get the most out of the eVAL evaluation system.
+Find guides and answers to help you get the most out of eVAL, Washington State's evaluation management system.
 
-## Quick Links
+## Where to Start
 
-### By Role
+- **New to eVAL?** Start with [What is eVAL?](./getting-started/what-is-eval) and then [Roles](./getting-started/roles)
+- **Know your role?** Go to [Work Areas](./getting-started/work-areas) to find where things are
+- **Administrator setting up a new year?** Go to [Start of Year Setup](./getting-started/start-of-year)
 
-- **[District Administrators](./role-guides/district-admin)** - Manage staff, configure evaluations, view district reports
-- **[School Administrators](./role-guides/school-admin)** - Manage school staff, assign evaluators
-- **[Evaluators](./role-guides/evaluator)** - Conduct observations, review evidence, complete evaluations
-- **[Teachers](./role-guides/teacher)** - Submit artifacts, view feedback, track your evaluation
+## By Role
 
-### Popular Topics
+- **[District Administrators](./role-guides/district-admin)** — Configure evaluations, manage assignments, oversee progress
+- **[School Administrators](./role-guides/school-admin)** — Manage school-level settings and assignments
+- **[Evaluators](./role-guides/evaluator)** — Conduct observations, review evidence, complete evaluations
+- **[Teachers](./role-guides/teacher)** — Submit artifacts, view feedback, track your evaluation
 
-- [Getting Started](./getting-started/)
-- [Start of Year Setup](./getting-started/start-of-year)
+## Popular Topics
+
+- [The Evaluation Year](./getting-started/evaluation-year) — How the year unfolds from setup to final score
 - [Working with Artifacts](./artifacts/)
 - [Evidence View](./evidence/)
 - [FAQ](./faq)

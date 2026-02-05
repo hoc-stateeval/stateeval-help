@@ -11,8 +11,11 @@ const sidebars: SidebarsConfig = {
         id: 'getting-started/index',
       },
       items: [
-        'getting-started/start-of-year',
+        'getting-started/what-is-eval',
+        'getting-started/roles',
         'getting-started/work-areas',
+        'getting-started/evaluation-year',
+        'getting-started/start-of-year',
       ],
     },
     'artifacts/index',

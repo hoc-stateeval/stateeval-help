@@ -69,7 +69,7 @@ Once locked, observations require an unlock request approved by the evaluatee. S
 Coded Notes are yours - private until you share, deletable anytime. YTD Evidence is collaborative - immediately visible to both parties. Use Coded Notes for working notes; YTD Evidence for shared documentation.
 
 **Can I change an evaluatee's plan type?**
-Yes, in the Summative section while it's in Draft. If observations/artifacts were created with the old plan type, check your district's "Keep Plan Type in Sync" setting - see [Modules and Settings](../reference/modules-settings.md#artifacts-module-settings).
+Yes, in the Summative section while it's in Draft. If observations/artifacts were created with the old plan type, check your district's "Keep Plan Type in Sync" setting - see [Modules and Settings](../reference/modules-settings.md#plan-type-sync).
 
 **Do I need to wait for the evaluatee to acknowledge?**
 Depends on your district's workflow settings. See [Completion Modes](../reference/workflows.md#completion-modes-in-detail).

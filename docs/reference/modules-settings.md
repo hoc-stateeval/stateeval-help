@@ -4,315 +4,157 @@ title: Modules and Settings
 roles: [DA, SA]
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # Modules and Settings
 
-District Administrators can configure which features (modules) are available and how they behave (settings) for evaluations in their district. School Administrators may be able to override some settings for their school if the district allows it.
+District Administrators configure which features (modules) are available and how they behave (settings). School Administrators can override some settings if the district allows it.
 
-## Understanding Modules vs. Settings
+## Modules
 
-| Concept | What It Is | Example |
-|---------|-----------|---------|
-| **Module** | A feature area that can be enabled or disabled | "Coded Notes" module |
-| **Setting** | A configuration option within a module | "Allow Rubric Scoring" for Coded Notes |
-
----
-
-## Module Types
-
-Modules are either **required** or **optional**:
-
-<div class="card-grid">
-<div class="card">
-<div class="card__title">Required Modules</div>
-<p class="card__description">Always enabled. Cannot be turned off. Core to the evaluation process.</p>
-</div>
-<div class="card">
-<div class="card__title">Optional Modules</div>
-<p class="card__description">Can be enabled or disabled by the district. Schools may override if allowed.</p>
-</div>
-</div>
+Modules are features that can be enabled or disabled. Some are required, others optional.
 
 ### Required Modules
 
-These modules are always active and cannot be disabled:
+These are always active:
 
-| Module | Purpose |
-|--------|---------|
-| **Artifacts** | Evidence documents and files submitted by evaluators and evaluatees |
-| **Prompt Bank** | Pre-defined questions for observations and reflections |
-| **Student Growth** | Student growth goal setting and achievement tracking |
-| **Summative** | End-of-year evaluation scoring and final reports |
-| **YTD Evidence** | Year-to-Date collaborative evidence collection |
-| **Report Archives** | Storage and access to archived evaluation reports |
+- **Artifacts** — Evidence documents and files
+- **Prompt Bank** — Pre-defined questions for observations and reflections
+- **Student Growth** — Goal setting and achievement tracking
+- **Summative** — End-of-year evaluation and final reports
+- **YTD Evidence** — Collaborative evidence collection
+- **Report Archives** — Access to completed evaluation reports
 
 ### Optional Modules
 
-Districts can choose to enable or disable these modules:
+Districts can enable or disable these:
 
-| Module | Purpose | Default | School Override |
-|--------|---------|---------|-----------------|
-| **Training Videos** | Video resources from BERC Group and National Board | Enabled | Allowed |
-| **Resources** | Documents and web links available within evaluations | Enabled | Allowed |
-| **Coded Notes** | Evaluator notes coded to rubric criteria | Enabled | Allowed |
-| **Self Assessments** | Evaluatee self-reflection activity | Enabled | Allowed |
-| **Observations** | Formal classroom/leadership observations | Required for Teachers, Optional for Principals | Allowed for Principals |
-| **Mid Year** | Mid-year review checkpoint | Enabled | Allowed |
+| Module | Default | Notes |
+|--------|---------|-------|
+| **Observations** | On for Teachers, Off for Principals | Required for teacher evaluations |
+| **Coded Notes** | On | Evaluator notes linked to rubric criteria |
+| **Self Assessments** | On | Evaluatee reflection (not included in Summative) |
+| **Mid Year** | Off | Mid-year review checkpoint |
+| **Resources** | On | Documents and links available in evaluations |
+| **Training Videos** | On | Video resources from BERC Group |
 
-:::tip School Override
-When "School Override" is allowed, School Administrators can enable or disable the module for their school, regardless of the district setting.
-:::
+For each optional module, the DA can allow schools to override the district default.
 
 ---
 
-## Settings by Module
+## Key Settings
 
-<Tabs>
-<TabItem value="observations" label="Observations" default>
+These are the settings administrators most commonly configure.
 
-### Observations Module Settings
+### Workflow Mode (Simple vs. Formal)
 
-| Setting | Description | Default | Where It Applies |
-|---------|-------------|---------|------------------|
-| **Allow Rubric Scoring** | Whether evaluators can assign performance levels during observations | Enabled | Observation rubric view |
-| **Keep Plan Type in Sync** | Automatically update observation plan type when evaluatee's Summative plan type changes | Disabled | All observations |
-| **Use Simple Workflow** | Skip evaluatee review - evaluator completes directly | Disabled | Observation completion |
+Controls whether the evaluatee must review and acknowledge before a report is sealed.
 
-#### Use Simple Workflow
+| Setting | Modules Affected | Default |
+|---------|-----------------|---------|
+| Use Simple Workflow | Observations | Formal |
+| Use Simple Workflow | Summative | Formal |
+| Use Simple Workflow for Goal Setting | Student Growth | Formal |
+| Use Simple Workflow for Goal Achievement | Student Growth | Formal |
 
-This setting controls whether observations follow [Simple or Formal workflow mode](./workflows.md#completion-modes-in-detail):
+**Formal mode** (default): Evaluatee reviews and acknowledges before sealing. Provides digital signatures from both parties.
 
-- **Disabled (Formal Mode)**: After the evaluator sends the Final Report, the evaluatee must view and acknowledge it before it's sealed. This provides a digital signature from both parties.
+**Simple mode**: Evaluator completes directly. Evaluatee is notified but doesn't sign. Useful for high-volume observation cycles.
 
-- **Enabled (Simple Mode)**: The evaluator completes and locks the observation directly. The evaluatee is notified but doesn't need to review or sign. Faster for high-volume observation cycles.
-
-</TabItem>
-<TabItem value="summative" label="Summative">
-
-### Summative Module Settings
-
-| Setting | Description | Default | Where It Applies |
-|---------|-------------|---------|------------------|
-| **Criteria Statement of Performance Required** | Evaluator must write a performance statement for each criterion | Disabled | Summative scoring |
-| **Next Year Plan Type Required** | Evaluator must propose next year's evaluation plan type | Disabled | Summative completion |
-| **Evaluator Final Recommendation Required** | Evaluator must add a final recommendation | Disabled | Summative completion |
-| **Allow Collected Evidence Selection** | Evaluator can select which collected evidence appears in final report | Disabled | Final report |
-| **Allow Packaged Evidence Selection** | Evaluator can select which packaged evidence appears in final report | Disabled | Final report |
-| **Carry Forward Years Limit** | Maximum years scores can carry forward for Focused evaluations | 6 years | Focused evaluations |
-| **Allow Focused Rubric Component Scoring** | Whether evaluators can score rubric components in Focused evaluations | Disabled | Focused summative |
-| **Use Simple Workflow** | Skip evaluatee review - evaluator completes directly | Disabled | Summative completion |
-
-#### Use Simple Workflow
-
-:::warning Typically Disabled for Summatives
-Summative evaluations typically use Formal workflow because they represent the final performance rating and serve as a legal record. This requires evaluatee review and acknowledgment with digital signatures.
+:::tip When to Use Each
+- **Observations**: Simple mode works well for frequent walkthroughs; Formal for formal observations
+- **Summative**: Formal mode recommended — it's the legal record requiring both signatures
+- **Student Growth**: Simple mode can help meet tight deadlines like November goal-setting
 :::
 
-See [Completion Modes](./workflows.md#completion-modes-in-detail) for details on Simple vs. Formal workflows.
+See [Completion Modes](./workflows.md#completion-modes-in-detail) for details.
 
-#### Carry Forward Years Limit
+### Scoring Options
 
-When an evaluatee is on a **Focused** evaluation, their scores from the last Comprehensive evaluation carry forward. This setting controls how many years those scores remain valid before requiring a new Comprehensive evaluation.
+Controls whether rubric scoring is available during evidence collection.
 
-</TabItem>
-<TabItem value="student-growth" label="Student Growth">
+| Setting | Who It Affects | Default |
+|---------|---------------|---------|
+| Allow Rubric Scoring (Observations) | Evaluators | Enabled |
+| Allow Rubric Scoring (Coded Notes) | Evaluators | Enabled |
+| Allow Rubric Scoring (Self Assessments) | Evaluatees | Enabled |
+| Allow Focused Rubric Component Scoring | Evaluators | Disabled |
 
-### Student Growth Module Settings
+When disabled, the scoring interface doesn't appear for that evidence type.
 
-| Setting | Description | Default | Where It Applies |
-|---------|-------------|---------|------------------|
-| **Goal Setting Enabled** | Whether goal setting is part of the evaluation | Teachers: Enabled, Principals: Disabled | Student Growth module |
-| **Goal Achievement Enabled** | Whether goal achievement is part of the evaluation | Enabled | Student Growth module |
-| **Use Simple Workflow for Goal Setting** | Skip evaluatee review for goal approval | Disabled | Goal Setting completion |
-| **Use Simple Workflow for Goal Achievement** | Skip evaluatee review for achievement approval | Disabled | Goal Achievement completion |
+See [Scoring in eVAL](./scoring.md) for how scoring works.
 
-#### Goal Setting vs. Achievement
+### Plan Type Sync
 
-Student Growth has two phases:
+When an evaluatee's plan type changes mid-year (Comprehensive ↔ Focused), these settings control whether existing work updates automatically.
 
-1. **Goal Setting** (beginning of year) - Evaluatee creates student growth goals, evaluator approves
-2. **Goal Achievement** (end of year) - Evaluatee reports on goal achievement, evaluator approves and scores
+| Setting | What It Affects |
+|---------|----------------|
+| Keep Observation Plan Type in Sync | Existing observations |
+| Keep Artifact Plan Type in Sync | Existing artifacts |
+| Keep Coded Notes Plan Type in Sync | Existing coded notes |
 
-Each phase can use Simple or Formal workflow independently.
+Default: All disabled (existing work keeps its original plan type).
 
-:::note Principal Evaluations
-Goal Setting is typically disabled for Principal evaluations because principals focus on school-wide achievement data rather than individual student growth goals.
-:::
+### Assignment Delegation
 
-#### Simple Workflow for Student Growth
+| Setting | Effect |
+|---------|--------|
+| Assignments Delegated | When enabled, School Admins assign evaluators for their school. When disabled, only District Admins manage assignments. |
 
-When enabled, the evaluator approves goals/achievement directly without requiring evaluatee acknowledgment. This helps manage high-volume periods like the November goal-setting deadline.
+Default: Disabled (District Admin assigns all).
 
-See [Completion Modes](./workflows.md#completion-modes-in-detail) for more details.
+### Summative Requirements
 
-</TabItem>
-<TabItem value="coded-notes" label="Coded Notes">
+These settings control what evaluators must complete before finalizing a Summative.
 
-### Coded Notes Module Settings
+| Setting | What It Requires | Default |
+|---------|-----------------|---------|
+| Criteria Statement of Performance Required | Written statement for each criterion | Disabled |
+| Next Year Plan Type Required | Proposed plan type for next year | Disabled |
+| Evaluator Final Recommendation Required | Final recommendation text | Disabled |
 
-| Setting | Description | Default | Where It Applies |
-|---------|-------------|---------|------------------|
-| **Allow Rubric Scoring** | Whether evaluators can assign performance levels in Coded Notes | Enabled | Coded Notes rubric view |
-| **Keep Plan Type in Sync** | Automatically update coded note plan type when evaluatee's Summative plan type changes | Disabled | All coded notes |
+### Focused Evaluation Settings
 
-#### About Coded Notes
+| Setting | What It Controls | Default |
+|---------|-----------------|---------|
+| Carry Forward Years Limit | How many years scores can carry forward before requiring a new Comprehensive | 6 years |
+| Allow Focused Rubric Component Scoring | Whether evaluators can score components in Focused evaluations | Disabled |
 
-Coded Notes allow evaluators to document informal observations, walkthroughs, and professional conversations throughout the year. Each note can be "coded" (linked) to specific rubric criteria, building evidence over time.
+### Critical Attributes (Danielson Only)
 
-See [Coded Notes Workflow](./workflows.md#detailed-workflows) for how coded notes move from draft to shared.
+For districts using the Danielson Framework:
 
-</TabItem>
-<TabItem value="self-assessment" label="Self Assessment">
-
-### Self Assessment Module Settings
-
-| Setting | Description | Default | Where It Applies |
-|---------|-------------|---------|------------------|
-| **Allow Rubric Scoring** | Whether evaluatees can assign performance levels in Self Assessments | Enabled | Self Assessment rubric view |
-
-#### About Self Assessments
-
-Self Assessments are evaluatee-owned reflections, typically completed at the beginning of the year. They don't contribute evidence to the Summative evaluation - they're purely for self-reflection.
-
-:::info Not Included in Summative
-Evidence from Self Assessments is for reflection purposes and is **not** included in the Summative Evaluation report.
-:::
-
-See [Self Assessment Workflow](./workflows.md#detailed-workflows) for how self assessments work.
-
-</TabItem>
-<TabItem value="ytd-evidence" label="YTD Evidence">
-
-### Year-to-Date Evidence Module Settings
-
-| Setting | Description | Default | Where It Applies |
-|---------|-------------|---------|------------------|
-| **Allow Evaluator to Add Evidence** | Whether evaluators can add evidence notes | Enabled | YTD Evidence screen |
-| **Allow Evaluatee to Add Evidence** | Whether evaluatees can add evidence notes | Enabled | YTD Evidence screen |
-
-#### About YTD Evidence
-
-Year-to-Date Evidence is a collaborative space where both parties can add evidence notes throughout the evaluation year. All notes are immediately visible to both parties - there's no approval workflow.
-
-See [Year-to-Date Workflow](./workflows.md#detailed-workflows) for more details.
-
-</TabItem>
-<TabItem value="artifacts" label="Artifacts">
-
-### Artifacts Module Settings
-
-| Setting | Description | Default | Where It Applies |
-|---------|-------------|---------|------------------|
-| **Keep Plan Type in Sync** | Automatically update artifact plan type when evaluatee's Summative plan type changes | Disabled | All artifacts |
-
-#### Keep Plan Type in Sync
-
-When an evaluatee's plan type changes (e.g., from Comprehensive to Focused), this setting determines whether their existing artifacts automatically update to reflect the new plan type.
-
-- **Disabled**: Artifacts keep their original plan type
-- **Enabled**: Artifacts automatically update to match the new plan type
-
-</TabItem>
-<TabItem value="framework" label="Framework">
-
-### Framework Module Settings
-
-These settings apply to the Danielson Framework for teacher evaluations:
-
-| Setting | Description | Default | Where It Applies |
-|---------|-------------|---------|------------------|
-| **Critical Attributes Enabled** | Show critical attributes in the rubric | Enabled | Rubric displays |
-| **Critical Attributes Reference Only** | Critical attributes are informational only, not checkable | Enabled | Rubric displays |
-
-#### Critical Attributes
-
-Critical Attributes are specific behaviors or practices listed under each rubric component in the Danielson Framework. They help evaluators identify what to look for at each performance level.
-
-- **Reference Only**: Attributes are displayed as reference text
-- **Not Reference Only**: Attributes can be checked off as observed
-
-</TabItem>
-<TabItem value="admin" label="Administration">
-
-### Administration Settings
-
-| Setting | Description | Default | Where It Applies |
-|---------|-------------|---------|------------------|
-| **Assignments Delegated** | Whether schools can manage their own evaluator assignments | Disabled | Staff assignments |
-
-#### Delegated Assignments
-
-When enabled, School Administrators can assign evaluators to evaluatees at their school. When disabled, only District Administrators can manage assignments.
-
-</TabItem>
-<TabItem value="reports" label="Report Archives">
-
-### Report Archives Settings
-
-| Setting | Description | Default | Where It Applies |
-|---------|-------------|---------|------------------|
-| **Show Archived Reports** | Whether archived reports are visible within evaluations | Enabled | Evaluation views |
-
-#### About Report Archives
-
-Report Archives stores completed evaluation reports (observations, summatives, etc.) after they're sealed. Users can access their historical reports through this module.
-
-</TabItem>
-</Tabs>
-
----
-
-## Configuring Settings
-
-### District Administrators
-
-To configure modules and settings:
-
-1. Navigate to **Settings** in the Admin area
-2. Select either **Teacher Evaluations** or **Principal Evaluations**
-3. Use the tabs to access:
-   - **General Settings**: Enable/disable optional modules, manage school overrides
-   - **Module Settings**: Configure individual settings within each module
-
-### School Administrators
-
-If your district allows school-level overrides:
-
-1. Navigate to **Settings** in the Admin area
-2. Select the evaluation type
-3. Only modules where "Allow School Override" is enabled can be changed
-
----
-
-## Settings Inheritance
-
-Settings follow the [inheritance rules](./settings-inheritance.md) defined for your district:
-
-- **District settings** are the baseline for all evaluations
-- **School settings** can override district settings (where allowed)
-- **Override settings** apply based on the evaluator's position, not the evaluatee's
-
-See [How Settings Are Inherited](./settings-inheritance.md) for complete details.
+| Setting | What It Controls | Default |
+|---------|-----------------|---------|
+| Critical Attributes Enabled | Show critical attributes in rubric displays | Enabled |
+| Critical Attributes Reference Only | Display as reference text only (vs. checkable items) | Enabled |
 
 ---
 
 ## Teacher vs. Principal Differences
 
-Some modules and settings differ between Teacher and Principal evaluations:
+| Feature | Teachers | Principals |
+|---------|----------|------------|
+| Observations | Required module | Optional module |
+| Student Growth Goal Setting | Enabled by default | Disabled by default |
+| Critical Attributes | Available (Danielson) | Not applicable |
 
-| Feature | Teacher Evaluations | Principal Evaluations |
-|---------|--------------------|-----------------------|
-| **Observations** | Required | Optional |
-| **Student Growth Goal Setting** | Enabled by default | Disabled by default |
-| **Critical Attributes** | Available (Danielson) | Not applicable |
-| **School-Level Override** | Available for optional modules | Not typically used |
+---
+
+## Settings Inheritance
+
+Settings follow an inheritance pattern:
+
+- **District settings** are the baseline
+- **School settings** can override (where allowed)
+- Settings apply based on the **evaluator's** position, not the evaluatee's
+
+See [How Settings Are Inherited](./settings-inheritance.md) for details.
 
 ---
 
 ## Related Topics
 
-- [How Workflows Work](./workflows.md) - Understand Simple vs. Formal completion modes
-- [How Settings Are Inherited](./settings-inheritance.md) - Learn about district and school configuration
-- [Evidence Collection](./evidence-collection.md) - Overview of evidence types
+- [How Workflows Work](./workflows.md) — Simple vs. Formal completion modes
+- [How Settings Are Inherited](./settings-inheritance.md) — District and school configuration
+- [Scoring in eVAL](./scoring.md) — How scoring works
+- [Start of Year Setup](../getting-started/start-of-year.md) — When to configure settings

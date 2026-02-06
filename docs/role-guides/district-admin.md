@@ -44,7 +44,7 @@ Consider Formal for high-stakes summatives, Simple for high-volume observations.
 ## Common Questions
 
 **Should I delegate assignments to schools?**
-The "Assignments Delegated" setting lets School Admins manage their own evaluator assignments. Useful for large districts; keep centralized for tighter control. See [Administration Settings](../reference/modules-settings.md#administration-settings).
+The "Assignments Delegated" setting lets School Admins manage their own evaluator assignments. Useful for large districts; keep centralized for tighter control. See [Assignment Delegation](../reference/modules-settings.md#assignment-delegation).
 
 **What happens if I change a setting mid-year?**
 Settings apply to new work. Existing observations/evaluations keep their original settings. For plan type changes, consider the "Keep Plan Type in Sync" settings.

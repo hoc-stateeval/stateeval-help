@@ -155,7 +155,11 @@ Configure the title and layout of archived reports. Each report type (Summative,
 
 **Where:** Evaluation Setup > Report Settings
 
-See [Modules and Settings](../reference/modules-settings.md) for the complete list of module settings.
+:::tip Configure Early
+Set up report configuration at the beginning of the year before any reports are generated. This ensures all reports throughout the year have a consistent format.
+:::
+
+See [Report Configuration](../reference/report-configuration.md) for details on customizing reports.
 
 ---
 

@@ -22,6 +22,7 @@ If users are seeing "Framework Setup Incomplete" or "Evaluation Setup Incomplete
 | [Plan Types](#task---plan-type-configuration) | ✓ Always | If delegated | ✓ Required |
 | [Prompt Bank](#task---prompt-bank-setup) | ✓ Yes | ✓ Yes | Recommended |
 | [Resources](#task---resources-setup) | ✓ Yes | ✓ Yes | Optional |
+| [Notification Settings](#task---notification-settings) | ✓ Yes | — | Recommended |
 | [District Viewers](#task---district-viewer-setup) | ✓ Yes | — | If needed |
 
 ---
@@ -267,6 +268,34 @@ Like prompts, resources follow an additive pattern:
 
 ---
 
+## Task - Notification Settings
+
+**Where:** Settings > Notification Settings
+
+Configure which email notifications are required for your district. Every workflow event can generate email notifications in addition to in-app notifications.
+
+### What to Configure
+
+| Setting | Description |
+|---------|-------------|
+| **Required Notifications** | Events that always send email (users can't opt out) |
+| **Default Delivery** | Whether notifications are sent immediately or batched nightly |
+
+### Recommended Required Notifications
+
+Focus on events that require action:
+- Report sent for review
+- Goals submitted for approval
+- Unlock request received
+
+See [Email Notifications](../reference/email-notifications.md) for complete details.
+
+:::tip Remind Evaluators and Evaluatees
+Let staff know they can configure their own notification preferences in My Account > Notification Preferences. Encourage them to set this up early in the year.
+:::
+
+---
+
 ## Task - District Viewer Setup
 
 **Where:** District Viewer Setup
@@ -303,11 +332,13 @@ Once setup is complete, use the dashboard to monitor:
 |------|------|-----|
 | Before school starts | Select evaluation frameworks | DA |
 | Before school starts | Configure modules & settings | DA |
+| Before school starts | Configure required notifications | DA |
 | First week | Verify staff data imported correctly | DA |
 | First two weeks | Complete evaluator assignments | DA/SA |
 | First two weeks | Assign plan types | DA/SA |
 | First month | Set up prompt banks | DA, SA, Evaluators |
 | First month | Add resources | DA, SA |
+| First month | Set up notification preferences | Evaluators, Evaluatees |
 | By November | Ensure student growth prompts ready | DA, SA |
 
 ---

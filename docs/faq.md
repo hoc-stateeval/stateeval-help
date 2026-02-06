@@ -127,6 +127,52 @@ District Admins can revert any summative evaluation to Draft without evaluatee a
 
 ---
 
+## Scoring
+
+### How is the Student Growth Impact Rating calculated?
+
+The Student Growth Impact Rating is based on the **sum** of all Student Growth component scores:
+
+**For Teachers** (5 components: SG 3.1, 3.2, 6.1, 6.2, 8.1):
+| Sum | Rating |
+|-----|--------|
+| 5–12 | LOW |
+| 13–17 | AVERAGE |
+| 18–20 | HIGH |
+
+**For Principals** (3 components: SG 3, SG 5, SG 8):
+| Sum | Rating |
+|-----|--------|
+| 3–5 | LOW |
+| 6–9 | AVERAGE |
+| 10–12 | HIGH |
+
+**Important:** If any Student Growth component receives a score of 1, the Impact Rating is automatically LOW regardless of the total sum.
+
+See [Student Growth Scoring](./reference/scoring.md#student-growth-scoring) for details.
+
+### How is the Summative score calculated?
+
+The final Summative score is calculated in two steps:
+
+1. **Sum the criteria scores** (C1–C8, each scored 1–4):
+   - 8–14 = Unsatisfactory
+   - 15–21 = Basic
+   - 22–28 = Proficient
+   - 29–32 = Distinguished
+
+2. **Apply the Student Growth Impact Rating**: If the criteria score is Distinguished but the Student Growth Impact Rating is LOW, the final score is lowered to Proficient.
+
+See [Final Score Calculation](./reference/scoring.md#final-score-calculation) for the complete process.
+
+### Why can't I score rubric components in a Focused evaluation?
+
+In a Focused evaluation, only one criterion is actively evaluated — the other seven criteria carry forward their scores from the evaluatee's last Comprehensive evaluation. Because of this, scoring individual rubric components during evidence collection isn't meaningful for Focused evaluations.
+
+If your district wants to enable component scoring for Focused evaluations, the District Admin can turn on the **Allow Focused Rubric Component Scoring** setting in the Summative module. See [Modules and Settings](./reference/modules-settings.md).
+
+---
+
 ## Settings & Configuration
 
 ### What's the difference between Simple and Formal workflow?

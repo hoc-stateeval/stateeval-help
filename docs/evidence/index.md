@@ -60,12 +60,16 @@ See [Evidence Packages](./evidence-packages.md) for details.
 ### Adding Notes
 Need to add narrative evidence directly? Use [Rubric Notes](./rubric-notes.md) to add text evidence aligned to the current rubric component.
 
+### Coding Text as Evidence
+You can also highlight specific passages in observation notes or conference responses and code them directly to rubric components. See [Coding Text as Evidence](./text-coding.md).
+
 ---
 
 ## In This Section
 
 - [Rubric Navigator](./rubric-navigator.md) — Browse rubric components, view evidence counts and scores
 - [Collected Evidence](./collected-evidence.md) — View evidence items for the selected component
+- [Text Coding](./text-coding.md) — Code text passages to rubric components
 - [Rubric Notes](./rubric-notes.md) — Add narrative text evidence
 - [Rubric Alignment](./rubric-alignment.md) — View rubric performance level descriptors
 - [Evidence Packages](./evidence-packages.md) — Package evidence with rubric text alignment

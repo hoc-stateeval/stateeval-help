@@ -120,7 +120,7 @@ Applies to: Observations, Student Growth, Summative Evaluation
 | **Simple** | Evaluator archives the report directly. Evaluatee is not involved in the final submission workflow. |
 | **Formal** | Evaluatee must review and acknowledge before the report is archived. Provides digital signatures. |
 
-See [Completion Modes](../reference/workflows.md#completion-modes-simple-vs-formal) for guidance on when to use each.
+See [Completion Modes](../reference/workflows.md#completion-modes-in-detail) for guidance on when to use each.
 
 **Scoring Options**
 

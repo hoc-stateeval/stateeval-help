@@ -82,7 +82,7 @@ When "School Override" is allowed, School Administrators can enable or disable t
 
 #### Use Simple Workflow
 
-This setting controls whether observations follow [Simple or Formal workflow mode](./workflows.md#completion-modes-simple-vs-formal):
+This setting controls whether observations follow [Simple or Formal workflow mode](./workflows.md#completion-modes-in-detail):
 
 - **Disabled (Formal Mode)**: After the evaluator sends the Final Report, the evaluatee must view and acknowledge it before it's sealed. This provides a digital signature from both parties.
 
@@ -110,7 +110,7 @@ This setting controls whether observations follow [Simple or Formal workflow mod
 Summative evaluations typically use Formal workflow because they represent the final performance rating and serve as a legal record. This requires evaluatee review and acknowledgment with digital signatures.
 :::
 
-See [Completion Modes](./workflows.md#completion-modes-simple-vs-formal) for details on Simple vs. Formal workflows.
+See [Completion Modes](./workflows.md#completion-modes-in-detail) for details on Simple vs. Formal workflows.
 
 #### Carry Forward Years Limit
 
@@ -145,7 +145,7 @@ Goal Setting is typically disabled for Principal evaluations because principals 
 
 When enabled, the evaluator approves goals/achievement directly without requiring evaluatee acknowledgment. This helps manage high-volume periods like the November goal-setting deadline.
 
-See [Completion Modes](./workflows.md#completion-modes-simple-vs-formal) for more details.
+See [Completion Modes](./workflows.md#completion-modes-in-detail) for more details.
 
 </TabItem>
 <TabItem value="coded-notes" label="Coded Notes">

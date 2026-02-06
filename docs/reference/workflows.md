@@ -51,7 +51,7 @@ Self-Assessments and Artifacts don't use completion modes. The creator simply ma
 
 ### Year-to-Date Evidence
 
-YTD Evidence is primarily an aggregator that displays published evidence from other collections. See the [Year-to-Date tab](#ytd) for details.
+YTD Evidence is primarily an aggregator that displays published evidence from other collections. See the Year-to-Date tab below for details.
 
 ---
 

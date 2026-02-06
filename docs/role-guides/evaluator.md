@@ -43,7 +43,7 @@ Understanding [How Workflows Work](../reference/workflows.md) is essential:
 - **Summative Evaluations** require evaluatee acknowledgment (usually)
 
 ### Simple vs. Formal Completion
-Your district configures whether evaluations use [Simple or Formal workflow](../reference/workflows.md#completion-modes-simple-vs-formal):
+Your district configures whether evaluations use [Simple or Formal workflow](../reference/workflows.md#completion-modes-in-detail):
 - **Simple**: You complete directly, evaluatee is notified
 - **Formal**: Evaluatee must review and acknowledge before sealing
 
@@ -63,7 +63,7 @@ See [Workflows](../reference/workflows.md#detailed-workflows) for details on eac
 ## Common Questions
 
 **Why can't I edit an observation?**
-Once locked, observations require an unlock request approved by the evaluatee. See [Unlock Requests](../reference/workflows.md#unlock-requests).
+Once locked, observations require an unlock request approved by the evaluatee. See [Unlock Requests](../reference/workflows.md#unlock-requests-mutual-approval).
 
 **What's the difference between Coded Notes and YTD Evidence?**
 Coded Notes are yours - private until you share, deletable anytime. YTD Evidence is collaborative - immediately visible to both parties. Use Coded Notes for working notes; YTD Evidence for shared documentation.
@@ -72,4 +72,4 @@ Coded Notes are yours - private until you share, deletable anytime. YTD Evidence
 Yes, in the Summative section while it's in Draft. If observations/artifacts were created with the old plan type, check your district's "Keep Plan Type in Sync" setting - see [Modules and Settings](../reference/modules-settings.md#artifacts-module-settings).
 
 **Do I need to wait for the evaluatee to acknowledge?**
-Depends on your district's workflow settings. See [Completion Modes](../reference/workflows.md#completion-modes-simple-vs-formal).
+Depends on your district's workflow settings. See [Completion Modes](../reference/workflows.md#completion-modes-in-detail).

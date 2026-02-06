@@ -35,7 +35,7 @@ You control which features are available and how they behave. See [Modules and S
 Your settings are the baseline for all evaluations. Schools can override some settings (if you allow it), but the evaluator's position determines what applies. See [How Settings Are Inherited](../reference/settings-inheritance.md) - this is especially important for understanding why DTE/DPE evaluations bypass school settings.
 
 ### Workflow Modes
-You configure whether evaluations use [Simple or Formal completion](../reference/workflows.md#completion-modes-simple-vs-formal):
+You configure whether evaluations use [Simple or Formal completion](../reference/workflows.md#completion-modes-in-detail):
 - **Simple**: Faster, evaluator completes directly
 - **Formal**: Evaluatee must acknowledge, provides digital signatures
 

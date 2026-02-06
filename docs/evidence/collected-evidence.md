@@ -29,6 +29,10 @@ Evidence comes from various activities throughout the evaluation:
 | **Rubric Notes** | Narrative text added directly in Evidence View |
 | **Summative** | Reflection prompt responses |
 
+:::tip How Evidence Gets Created
+Evidence can be created by [coding text](./text-coding.md) directly in observation notes or conference responses, by aligning artifacts to rubric components, or by adding [rubric notes](./rubric-notes.md).
+:::
+
 ## Managing Evidence
 
 ### Show/Hide Controls

@@ -49,7 +49,7 @@ School-level settings only apply to **teacher evaluations conducted by school pr
 - Principal evaluations (always use district settings)
 - Teacher evaluations by DTEs (district-level evaluators)
 
-See [Settings Inheritance](../reference/settings-inheritance.md#inheritance-by-evaluation-scenario) for the full matrix.
+See [Settings Inheritance](../reference/settings-inheritance.md#summary) for the full matrix.
 
 ## Common Questions
 
@@ -57,7 +57,7 @@ See [Settings Inheritance](../reference/settings-inheritance.md#inheritance-by-e
 The district hasn't enabled school-level override for that setting. Contact your District Admin if you need it changed.
 
 **Why don't my settings apply to a teacher's evaluation?**
-Check who the evaluator is. If it's a DTE (not a school principal), district settings apply instead. See [Settings Inheritance](../reference/settings-inheritance.md#inheritance-by-evaluation-scenario).
+Check who the evaluator is. If it's a DTE (not a school principal), district settings apply instead. See [Settings Inheritance](../reference/settings-inheritance.md#summary).
 
 **Can I assign evaluators?**
 Only if your district has enabled "Assignments Delegated." Otherwise, the District Admin manages all assignments.

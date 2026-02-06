@@ -58,6 +58,12 @@ Student Growth prompts guide goal-setting and achievement reporting:
 
 Student Growth prompts can be aligned to specific rubric components (C3, C6, C8 for teachers), which helps connect responses to the evaluation criteria.
 
+:::note How Student Growth Prompts Differ
+Student Growth prompts are **always auto-assigned** — there's no option to make them optional. They can only be created in the Prompt Bank, not within individual Student Growth sections.
+
+This design reflects that student growth evaluation is standardized by state requirements, and goal-setting deadlines come early in the fall. Having prompts defined at the district/school level (rather than individually per evaluatee) ensures consistency and reduces administrative burden.
+:::
+
 ### Summative Reflection Prompts
 
 Summative reflection prompts support the end-of-year evaluation conference. They give evaluatees an opportunity to reflect on their practice before the final summative discussion.
@@ -99,6 +105,29 @@ When creating a prompt, administrators can mark it as **auto-assigned**:
 
 Auto-assigned prompts ensure certain questions are always asked. For example, a district might auto-assign a prompt about differentiation strategies for pre-conferences.
 
+---
+
+## Publishing Prompts
+
+Prompts must be **published** before they're available:
+
+- Auto-assigned prompts won't appear until published
+- Optional prompts won't be available for selection until published
+
+This gives administrators time at the beginning of the school year to plan and prepare prompts before they go live.
+
+### Annual Review
+
+Prompts require a fresh publish each school year. This encourages administrators to review their prompts and decide which ones to keep, update, or retire.
+
+### Retiring Prompts
+
+To retire a prompt mid-year:
+- The prompt will no longer be auto-assigned to new evaluations
+- The prompt will no longer appear for selection in conferences
+- Existing evaluations that already have the prompt are not affected
+
+At the beginning of the year, delete any prompts you no longer want rather than just retiring them.
 
 ---
 

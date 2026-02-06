@@ -54,11 +54,7 @@ You can code multiple passages in a single session. Each coded passage becomes i
 
 ## Removing Coding
 
-To remove coding from a text passage:
-
-1. **Place your cursor** in the coded text
-2. **Click** the rubric component button (it appears greyed out when you're in a coded region)
-3. **Confirm** the removal when prompted
+To remove coding from a text passage, click the **delete icon** (trash) that appears next to the coded text.
 
 :::warning
 Removing coding also removes the associated evidence item from the Evidence View.
@@ -66,7 +62,7 @@ Removing coding also removes the associated evidence item from the Evidence View
 
 ## Viewing Coded Text
 
-Coded text appears with a highlighted background and a component label (like "4c"). You can see all coded passages:
+Coded text appears with a highlighted background and component badges on both ends (like "1c"). You can see all coded passages:
 
 - **In the text editor** — Highlighted inline where they appear
 - **In Evidence View** — As collected evidence items for each rubric component

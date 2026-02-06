@@ -14,10 +14,10 @@ eVAL can send email notifications for evaluation workflow events in addition to 
 
 Every evaluation workflow event (observation sent, goals approved, report ready for review, etc.) can trigger:
 
-1. **In-app notification** — Always generated, visible in the notification center
+1. **In-app notification** — Always generated, appears on your dashboard
 2. **Email notification** — Optional, based on district requirements and personal preferences
 
-Email notifications supplement in-app notifications — they don't replace them. Users who check eVAL regularly may prefer fewer emails, while those who need reminders can enable more.
+Email notifications supplement in-app notifications — they don't replace them. Users who check their eVAL dashboard regularly may prefer fewer emails, while those who need reminders can enable more.
 
 ---
 

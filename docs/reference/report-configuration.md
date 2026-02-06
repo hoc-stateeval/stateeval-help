@@ -25,10 +25,13 @@ Each evidence collection type generates its own report when archived:
 | **Summative** | End-of-year evaluation is completed |
 | **Observation** | Observation is locked/archived |
 | **Mid-Year** | Mid-year review is completed |
-| **Self-Assessment** | Self-assessment is shared |
 | **Coded Note** | Coded note is shared |
 | **Student Growth Goal Setting** | Goals are approved |
 | **Student Growth Achievement** | Achievement is approved |
+
+:::note Self-Assessment Reports
+Self-Assessments are not archived like other report types. Evaluatees can use the **Create PDF** option to generate a personal copy, but Self-Assessments don't produce archived reports visible to administrators.
+:::
 
 ---
 
@@ -81,18 +84,6 @@ Each report type has different sections available. Some sections are required (a
 | Footer | No | Additional footer content |
 | Signature Block | No | Digital signatures |
 
-### Self-Assessment Report
-
-| Section | Required | Description |
-|---------|:--------:|-------------|
-| Header | Yes | Evaluatee info and date |
-| Score Table | Yes | Self-assigned scores |
-| Framework Scores | No | Detailed component scores |
-| Collected Evidence | No | Evidence items added |
-| Packaged Evidence | No | Evidence packages created |
-| Footer | No | Additional footer content |
-| Signature Block | No | Evaluatee signature |
-
 ### Coded Note Report
 
 | Section | Required | Description |
@@ -142,7 +133,6 @@ When a framework is set up, reports are initialized with default titles:
 | Summative | eVAL Final Report |
 | Observation | eVAL Observation Report |
 | Mid-Year | eVAL Mid-year Report |
-| Self-Assessment | eVAL Self Assessment Report |
 | Coded Note | eVAL Coded Note Report |
 | Student Growth Goal Setting | eVAL Student Growth Goal Setting Report |
 | Student Growth Achievement | eVAL Student Growth Goal Achievement Report |

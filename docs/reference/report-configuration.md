@@ -44,6 +44,7 @@ For each report type, you can set:
 | **Report Title** | Custom title displayed at the top of the report |
 | **Custom Text** | Additional text displayed in the report header |
 | **Sections** | Which sections to include in the report |
+| **Evidence Configuration** | For evidence sections: All Evidence vs. Exemplars Only mode |
 | **Allow School Override** | Whether schools can customize this report type |
 
 ---
@@ -52,21 +53,23 @@ For each report type, you can set:
 
 Each report type has different sections available. Some sections are required (always included), others are optional.
 
+Sections marked with *(supports display mode)* can be configured with **All Evidence** or **Exemplars Only** mode. See [Evidence Section Configuration](#evidence-section-configuration) below.
+
 ### Summative Report
 
 | Section | Required | Description |
 |---------|:--------:|-------------|
 | Header | Yes | Evaluatee info, dates, plan type |
 | Score Table | Yes | Final scores and performance level |
-| Observation Summary | No | List of observations conducted |
+| EC Summary | No | List of observations and coded notes conducted |
+| EC Score Summary | No | Summary of scores from each observation/coded note |
 | Framework Scores | No | Scores by framework component |
-| Observation Score Summary | No | Summary of scores from observations |
-| Collected Evidence | No | Evidence items aligned to rubric |
-| Packaged Evidence | No | Evidence packages with alignments |
-| Observation Reports | No | Full observation reports embedded |
-| Reflections | No | Summative reflection responses |
-| Final Recommendation | No | Evaluator's final recommendation |
-| Footer | No | Additional footer content |
+| EC Reports | No | Full observation and coded note reports embedded |
+| Collected Evidence | No | Evidence items aligned to rubric *(supports display mode)* |
+| Packaged Evidence | No | Evidence packages with alignments *(supports display mode)* |
+| EOY Prompts | No | End-of-year conference prompts and responses |
+| EOY Summaries | No | Evaluator and evaluatee summaries |
+| Final Notes | No | Final notes from evaluator and evaluatee |
 | Signature Block | No | Digital signatures from both parties |
 
 ### Observation Report
@@ -74,14 +77,13 @@ Each report type has different sections available. Some sections are required (a
 | Section | Required | Description |
 |---------|:--------:|-------------|
 | Header | Yes | Observation date, type, evaluatee info |
-| Score Table | Yes | Scores assigned during observation |
 | Framework Scores | No | Detailed framework component scores |
-| Notes | No | Observation notes from evaluator |
+| Collected Evidence | No | Evidence items from the observation *(supports display mode)* |
+| Packaged Evidence | No | Evidence packages created *(supports display mode)* |
+| Observation Notes | No | Observation notes from evaluator |
 | Pre-Conference | No | Pre-conference prompts and responses |
 | Post-Conference | No | Post-conference prompts and responses |
-| Collected Evidence | No | Evidence items from the observation |
-| Packaged Evidence | No | Evidence packages created |
-| Footer | No | Additional footer content |
+| Final Notes | No | Final notes from evaluator and evaluatee |
 | Signature Block | No | Digital signatures |
 
 ### Coded Note Report
@@ -89,12 +91,12 @@ Each report type has different sections available. Some sections are required (a
 | Section | Required | Description |
 |---------|:--------:|-------------|
 | Header | Yes | Date, evaluatee info |
-| Score Table | No | Scores if assigned |
 | Framework Scores | No | Component scores |
-| Notes | No | The coded note content |
-| Collected Evidence | No | Evidence items |
-| Packaged Evidence | No | Evidence packages |
-| Footer | No | Additional footer content |
+| Collected Evidence | No | Evidence items *(supports display mode)* |
+| Packaged Evidence | No | Evidence packages *(supports display mode)* |
+| Prompts | No | Conference prompts and responses |
+| Final Notes | No | Final notes from evaluator and evaluatee |
+| Coded Note | No | The coded note content |
 | Signature Block | No | Signatures |
 
 ### Student Growth Reports (Goal Setting & Achievement)
@@ -102,9 +104,11 @@ Each report type has different sections available. Some sections are required (a
 | Section | Required | Description |
 |---------|:--------:|-------------|
 | Header | Yes | Evaluatee info, dates |
+| Goals | Yes | The evaluatee's student growth goals |
 | Framework Scores | No | Student growth component scores |
-| Collected Evidence | No | Evidence items |
-| Packaged Evidence | No | Evidence packages |
+| Collected Evidence | No | Evidence items *(supports display mode)* |
+| Packaged Evidence | No | Evidence packages *(supports display mode)* |
+| Conference Prompts | No | Goal setting or achievement prompts |
 | Signature Block | No | Approval signatures |
 
 ### Mid-Year Report
@@ -112,15 +116,89 @@ Each report type has different sections available. Some sections are required (a
 | Section | Required | Description |
 |---------|:--------:|-------------|
 | Header | Yes | Evaluatee info, date |
-| Score Table | No | Scores if assigned |
-| Observation Summary | No | Observations to date |
+| EC Summary | No | Observations and coded notes to date |
+| EC Score Summary | No | Aggregated observation/coded note scores |
 | Framework Scores | No | Component scores |
-| Observation Score Summary | No | Aggregated observation scores |
-| Collected Evidence | No | Evidence items |
-| Packaged Evidence | No | Evidence packages |
-| Observation Reports | No | Embedded observation reports |
-| Footer | No | Additional footer content |
+| EC Reports | No | Embedded observation and coded note reports |
+| Collected Evidence | No | Evidence items *(supports display mode)* |
+| Packaged Evidence | No | Evidence packages *(supports display mode)* |
+| Mid-Year Prompts | No | Mid-year conference prompts and responses |
+| Mid-Year Summaries | No | Evaluator and evaluatee summaries |
+| Final Notes | No | Final notes from evaluator and evaluatee |
 | Signature Block | No | Signatures |
+
+### Self-Assessment Report (PDF Only)
+
+Self-Assessments are not archived like other report types. Evaluatees can generate a PDF copy for their own records, but these reports are not stored in the system.
+
+| Section | Required | Description |
+|---------|:--------:|-------------|
+| Header | Yes | Evaluatee info, date |
+| Framework Scores | No | Self-assessment component scores |
+| Collected Evidence | No | Evidence items *(supports display mode)* |
+| Packaged Evidence | No | Evidence packages *(supports display mode)* |
+| Signature Block | No | Evaluatee signature |
+
+---
+
+## Evidence Section Configuration
+
+The **Collected Evidence** and **Packaged Evidence** sections have additional configuration options that control how evidence appears in reports.
+
+In the Report Section Settings, the Evidence Section row shows a summary of your evidence configuration:
+
+![Report Section Settings showing Evidence Section status](/img/report-sections-config-2.png)
+
+The detailed configuration is in the **Evidence Configuration** section below:
+
+![Evidence Configuration section with Display Mode dropdown](/img/report-evidence-config.png)
+
+### Display Mode
+
+When you enable an evidence section, you can choose how evidence is included:
+
+| Mode | Behavior |
+|------|----------|
+| **All Evidence** | All collected or packaged evidence appears automatically in the report |
+| **Exemplars Only** | Evaluators choose which evidence items to include using the "Include in Final Report" checkbox |
+
+### How "Include in Final Report" Works
+
+When a section uses **Exemplars Only** mode:
+
+1. A checkbox labeled **Include in report** appears on each evidence item in the Evidence View
+2. Evaluators check this box on items they want highlighted in the report
+3. Only checked items appear in that section of the final report
+4. The report section heading displays as "**Collected Evidence Exemplars**" or "**Packaged Evidence Exemplars**"
+
+**Collected Evidence without checkbox** (All Evidence mode or section disabled):
+
+![Collected Evidence in Evidence View - no checkbox](/img/obs-evidence-view-collected-no-include.png)
+
+**Packaged Evidence with checkbox** (Exemplars Only mode):
+
+![Packaged Evidence in Evidence View - with Include in report checkbox](/img/obs-evidence-view-packaged-include.png)
+
+**Report output showing "Exemplars" heading:**
+
+![Report showing Packaged Evidence Exemplars heading](/img/obs-report-view-packaged-exemplars.png)
+
+:::tip When to Use Each Mode
+- **All Evidence** — Use when you want a complete record of all evidence collected
+- **Exemplars Only** — Use when evaluators should curate the most relevant evidence for the final report
+:::
+
+### Configuration Example
+
+| Section | Enabled | Mode | Result |
+|---------|:-------:|------|--------|
+| Collected Evidence | ✓ | All Evidence | All evidence items appear; no checkbox shown |
+| Packaged Evidence | ✓ | Exemplars Only | Checkbox appears; only selected packages appear in report |
+| Collected Evidence | ✗ | — | Section not shown in report |
+
+:::note Independent Settings
+Collected Evidence and Packaged Evidence can be configured independently. For example, you might want all collected evidence items but only selected packages.
+:::
 
 ---
 
@@ -162,4 +240,6 @@ School settings override district settings for evaluations at that school.
 ## Related Topics
 
 - [Modules and Settings](./modules-settings.md) — Other configurable settings
+- [Evidence View](../evidence/index.md) — Working with collected evidence
+- [Evidence Packages](../evidence/evidence-packages.md) — Creating evidence packages
 - [Start of Year Setup](../getting-started/start-of-year.md) — When to configure reports

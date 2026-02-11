@@ -224,6 +224,22 @@ When a section uses **Exemplars Only** mode:
 Collected Evidence and Packaged Evidence can be configured independently. For example, you might want all collected evidence items but only selected packages.
 :::
 
+### Exemplar Validation (Summative Only)
+
+For Summative reports, you can require evaluators to select a minimum number of exemplars per rubric criteria before completing the evaluation. This ensures adequate documentation across all evaluated areas.
+
+![Validation Settings with min/max range](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/report-evidence-config-range.png)
+
+| Setting | Description |
+|---------|-------------|
+| **Require exemplar selection** | When enabled, evaluators must select exemplars before completing the Summative |
+| **Min per criteria** | Minimum number of exemplars required for each rubric criteria |
+| **Max per criteria** | Maximum number of exemplars allowed for each rubric criteria |
+
+:::tip When to Use Validation
+Enable validation when you want to ensure evaluators document evidence across all rubric criteria rather than focusing on just a few areas. The min/max range gives evaluators flexibility while ensuring consistent documentation.
+:::
+
 ---
 
 ## Default Report Titles

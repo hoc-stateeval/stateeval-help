@@ -171,11 +171,11 @@ The **Collected Evidence** and **Packaged Evidence** sections have additional co
 
 In the Report Section Settings, the Evidence Section row shows a summary of your evidence configuration:
 
-![Report Section Settings showing Evidence Section status](/img/report-sections-config-2.png)
+![Report Section Settings showing Evidence Section status](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/report-sections-config-2.png)
 
 The detailed configuration is in the **Evidence Configuration** section below:
 
-![Evidence Configuration section with Display Mode dropdown](/img/report-evidence-config.png)
+![Evidence Configuration section with Display Mode dropdown](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/report-evidence-config.png)
 
 ### Display Mode
 
@@ -197,15 +197,15 @@ When a section uses **Exemplars Only** mode:
 
 **Collected Evidence without checkbox** (All Evidence mode or section disabled):
 
-![Collected Evidence in Evidence View - no checkbox](/img/obs-evidence-view-collected-no-include.png)
+![Collected Evidence in Evidence View - no checkbox](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/obs-evidence-view-collected-no-include.png)
 
 **Packaged Evidence with checkbox** (Exemplars Only mode):
 
-![Packaged Evidence in Evidence View - with Include in report checkbox](/img/obs-evidence-view-packaged-include.png)
+![Packaged Evidence in Evidence View - with Include in report checkbox](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/obs-evidence-view-packaged-include.png)
 
 **Report output showing "Exemplars" heading:**
 
-![Report showing Packaged Evidence Exemplars heading](/img/obs-report-view-packaged-exemplars.png)
+![Report showing Packaged Evidence Exemplars heading](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/obs-report-view-packaged-exemplars.png)
 
 :::tip When to Use Each Mode
 - **All Evidence** — Use when you want a complete record of all evidence collected

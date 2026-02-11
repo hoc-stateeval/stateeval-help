@@ -24,13 +24,16 @@ Each evidence collection type generates its own report when archived:
 |-------------|---------------|
 | **Summative** | End-of-year evaluation is completed |
 | **Observation** | Observation is locked/archived |
-| **Mid-Year** | Mid-year review is completed |
 | **Coded Note** | Coded note is shared |
 | **Student Growth Goal Setting** | Goals are approved |
 | **Student Growth Achievement** | Achievement is approved |
 
 :::note Self-Assessment Reports
 Self-Assessments are not archived like other report types. Evaluatees can use the **Create PDF** option to generate a personal copy, but Self-Assessments don't produce archived reports visible to administrators.
+:::
+
+:::note Mid-Year Reports
+Mid-Year reports are created as snapshots of the Summative report. See [Report Snapshots](#report-snapshots) below.
 :::
 
 ---
@@ -51,7 +54,7 @@ For each report type, you can set:
 
 ## Available Sections by Report Type
 
-Each report type has different sections available. Some sections are required (always included), others are optional.
+Each report type has different sections available. Some sections are required (always included), others are optional. Sections are organized into **Main** (primary report content) and **Appendix** (supplementary details).
 
 Sections marked with *(supports display mode)* can be configured with **All Evidence** or **Exemplars Only** mode. See [Evidence Section Configuration](#evidence-section-configuration) below.
 
@@ -59,50 +62,58 @@ Sections marked with *(supports display mode)* can be configured with **All Evid
 
 | Section | Required | Description |
 |---------|:--------:|-------------|
+| **Main** |||
 | Header | Yes | Evaluatee info, dates, plan type |
-| Score Table | Yes | Final scores and performance level |
-| EC Summary | No | List of observations and coded notes conducted |
-| EC Score Summary | No | Summary of scores from each observation/coded note |
 | Framework Scores | No | Scores by framework component |
-| EC Reports | No | Full observation and coded note reports embedded |
 | Collected Evidence | No | Evidence items aligned to rubric *(supports display mode)* |
 | Packaged Evidence | No | Evidence packages with alignments *(supports display mode)* |
 | EOY Prompts | No | End-of-year conference prompts and responses |
 | EOY Summaries | No | Evaluator and evaluatee summaries |
 | Final Notes | No | Final notes from evaluator and evaluatee |
 | Signature Block | No | Digital signatures from both parties |
+| **Appendix** |||
+| EC Summary | No | List of observations and coded notes conducted |
+| EC Score Summary | No | Summary of scores from each observation/coded note |
+| EC Reports | No | Full observation and coded note reports embedded |
 
 ### Observation Report
 
 | Section | Required | Description |
 |---------|:--------:|-------------|
+| **Main** |||
 | Header | Yes | Observation date, type, evaluatee info |
 | Framework Scores | No | Detailed framework component scores |
 | Collected Evidence | No | Evidence items from the observation *(supports display mode)* |
 | Packaged Evidence | No | Evidence packages created *(supports display mode)* |
-| Observation Notes | No | Observation notes from evaluator |
-| Pre-Conference | No | Pre-conference prompts and responses |
-| Post-Conference | No | Post-conference prompts and responses |
 | Final Notes | No | Final notes from evaluator and evaluatee |
 | Signature Block | No | Digital signatures |
+| **Appendix** |||
+| Observation Notes | No | Observation notes with coding removed |
+| Pre-Conference Prompts | No | Pre-conference prompt responses |
+| Pre-Conference Summaries | No | Pre-conference evaluator and evaluatee summaries |
+| Post-Conference Prompts | No | Post-conference prompt responses |
+| Post-Conference Summaries | No | Post-conference evaluator and evaluatee summaries |
 
 ### Coded Note Report
 
 | Section | Required | Description |
 |---------|:--------:|-------------|
+| **Main** |||
 | Header | Yes | Date, evaluatee info |
 | Framework Scores | No | Component scores |
 | Collected Evidence | No | Evidence items *(supports display mode)* |
 | Packaged Evidence | No | Evidence packages *(supports display mode)* |
 | Prompts | No | Conference prompts and responses |
 | Final Notes | No | Final notes from evaluator and evaluatee |
-| Coded Note | No | The coded note content |
 | Signature Block | No | Signatures |
+| **Appendix** |||
+| Coded Note | No | The coded note content |
 
 ### Student Growth Reports (Goal Setting & Achievement)
 
 | Section | Required | Description |
 |---------|:--------:|-------------|
+| **Main** |||
 | Header | Yes | Evaluatee info, dates |
 | Goals | Yes | The evaluatee's student growth goals |
 | Framework Scores | No | Student growth component scores |
@@ -111,33 +122,46 @@ Sections marked with *(supports display mode)* can be configured with **All Evid
 | Conference Prompts | No | Goal setting or achievement prompts |
 | Signature Block | No | Approval signatures |
 
-### Mid-Year Report
-
-| Section | Required | Description |
-|---------|:--------:|-------------|
-| Header | Yes | Evaluatee info, date |
-| EC Summary | No | Observations and coded notes to date |
-| EC Score Summary | No | Aggregated observation/coded note scores |
-| Framework Scores | No | Component scores |
-| EC Reports | No | Embedded observation and coded note reports |
-| Collected Evidence | No | Evidence items *(supports display mode)* |
-| Packaged Evidence | No | Evidence packages *(supports display mode)* |
-| Mid-Year Prompts | No | Mid-year conference prompts and responses |
-| Mid-Year Summaries | No | Evaluator and evaluatee summaries |
-| Final Notes | No | Final notes from evaluator and evaluatee |
-| Signature Block | No | Signatures |
-
 ### Self-Assessment Report (PDF Only)
 
 Self-Assessments are not archived like other report types. Evaluatees can generate a PDF copy for their own records, but these reports are not stored in the system.
 
 | Section | Required | Description |
 |---------|:--------:|-------------|
+| **Main** |||
 | Header | Yes | Evaluatee info, date |
 | Framework Scores | No | Self-assessment component scores |
 | Collected Evidence | No | Evidence items *(supports display mode)* |
 | Packaged Evidence | No | Evidence packages *(supports display mode)* |
 | Signature Block | No | Evaluatee signature |
+
+---
+
+## Report Snapshots
+
+Report snapshots allow evaluators to capture a point-in-time copy of the Summative report before the evaluation is complete. This is useful for:
+
+- **Mid-year check-ins** — Capture progress at the midpoint of the evaluation cycle
+- **Quarterly reviews** — Document status at regular intervals
+- **Progress documentation** — Save the report state before making significant updates
+
+### Creating a Snapshot
+
+From the Summative Final Report tab, click **Create Snapshot** to capture the current report state:
+
+![Create Report Snapshot modal](/img/mid-year-snapshot-modal.png)
+
+Enter a descriptive title (e.g., "Mid-Year Review", "Q1 Progress Report") and click **Create Snapshot**.
+
+### Viewing and Downloading Snapshots
+
+Toggle **Show Snapshots** to see all saved snapshots. Each snapshot can be downloaded as a PDF:
+
+![Report Snapshots list](/img/mid-year-snapshots-list.png)
+
+:::tip Mid-Year Reviews
+For districts that conduct formal mid-year reviews, create a snapshot titled "Mid-Year Review" to document the evaluation status at that point. The snapshot preserves all scores, evidence, and notes as they existed when captured.
+:::
 
 ---
 
@@ -210,7 +234,6 @@ When a framework is set up, reports are initialized with default titles:
 |-------------|--------------|
 | Summative | eVAL Final Report |
 | Observation | eVAL Observation Report |
-| Mid-Year | eVAL Mid-year Report |
 | Coded Note | eVAL Coded Note Report |
 | Student Growth Goal Setting | eVAL Student Growth Goal Setting Report |
 | Student Growth Achievement | eVAL Student Growth Goal Achievement Report |

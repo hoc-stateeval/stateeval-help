@@ -149,7 +149,7 @@ Report snapshots allow evaluators to capture a point-in-time copy of the Summati
 
 From the Summative Final Report tab, click **Create Snapshot** to capture the current report state:
 
-![Create Report Snapshot modal](/img/mid-year-snapshot-modal.png)
+![Create Report Snapshot modal](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/mid-year-snapshot-modal.png)
 
 Enter a descriptive title (e.g., "Mid-Year Review", "Q1 Progress Report") and click **Create Snapshot**.
 
@@ -157,7 +157,7 @@ Enter a descriptive title (e.g., "Mid-Year Review", "Q1 Progress Report") and cl
 
 Toggle **Show Snapshots** to see all saved snapshots. Each snapshot can be downloaded as a PDF:
 
-![Report Snapshots list](/img/mid-year-snapshots-list.png)
+![Report Snapshots list](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/mid-year-snapshots-list.png)
 
 :::tip Mid-Year Reviews
 For districts that conduct formal mid-year reviews, create a snapshot titled "Mid-Year Review" to document the evaluation status at that point. The snapshot preserves all scores, evidence, and notes as they existed when captured.

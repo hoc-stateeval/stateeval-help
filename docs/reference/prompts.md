@@ -58,11 +58,7 @@ Student Growth prompts guide goal-setting and achievement reporting:
 
 Student Growth prompts can be aligned to specific rubric components (C3, C6, C8 for teachers), which helps connect responses to the evaluation criteria.
 
-:::note How Student Growth Prompts Differ
-Student Growth prompts are **always auto-assigned** — there's no option to make them optional. They can only be created in the Prompt Bank, not within individual Student Growth sections.
-
-This design reflects that student growth evaluation is standardized by state requirements, and goal-setting deadlines come early in the fall. Having prompts defined at the district/school level (rather than individually per evaluatee) ensures consistency and reduces administrative burden.
-:::
+Student Growth prompts work the same way as observation conference prompts — District Admins, School Admins, and evaluators can create prompts at their level, and evaluators can create local prompts for a specific evaluatee. Student Growth prompts also support three scopes (General, Goal, and Criterion Alignment) that place questions where they're most relevant. See [Student Growth Goal Setting](./student-growth-goals.md#prompts-in-goal-setting) for details.
 
 ### Summative Reflection Prompts
 

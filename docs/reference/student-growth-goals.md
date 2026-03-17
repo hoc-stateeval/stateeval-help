@@ -12,7 +12,6 @@ Student Growth Goal Setting is where TPEP evaluatees create learning goals for t
 
 The evaluatee creates one or more student growth goals and then writes **criterion alignment narratives** explaining how each goal connects to the rubric. Goals and criterion alignments are separate — a goal describes *what* the teacher wants to achieve, while the alignment narrative explains *how* it connects to a specific rubric criterion.
 
-<!-- TODO: Screenshot of Goals tab showing goal + criterion alignment sections -->
 
 ### The Goal Setting Process
 
@@ -37,7 +36,6 @@ A goal is the teacher's own learning goal for their students. Each goal has:
 - **Criterion checkboxes** — Which rubric criteria (C3, C6, C8) this goal addresses (Comprehensive only)
 - **Evaluator feedback** — The evaluator can provide feedback on each goal
 
-<!-- TODO: Screenshot of a goal with criterion checkboxes -->
 
 ### How Many Goals?
 
@@ -57,7 +55,6 @@ Any approach is valid as long as all required criteria are covered.
 
 Each rubric criterion (C3, C6, C8) has a **criterion alignment** section where the evaluatee writes a narrative explaining how their goals address that criterion. The system creates these sections automatically based on the evaluation type.
 
-<!-- TODO: Screenshot of criterion alignment section with narrative and linked goals -->
 
 | Evaluation Type | Criterion Alignments Created |
 |----------------|------------------------------|
@@ -111,13 +108,10 @@ Districts can configure prompts to guide the goal-setting process. Prompts appea
 | **Goal** | Inside each goal, after the goal statement | "What data sources informed this goal?" |
 | **Criterion Alignment** | Inside each alignment section, after the narrative | "How will you measure progress toward this criterion?" |
 
-<!-- TODO: Screenshot showing prompt placement within goals tab -->
 
 Goal-scoped prompts are answered once per goal — if you have 3 goals, you answer a goal prompt 3 times. General prompts are answered once. Criterion Alignment prompts appear under each relevant alignment section.
 
-:::note
-Student Growth prompts are always auto-assigned from the Prompt Bank. They cannot be made optional or created locally within an individual evaluation. See [Using Prompts](./prompts.md) for more about the Prompt Bank.
-:::
+Prompts are managed the same way as observation conferences. District Admins, School Admins, and evaluators can all create prompts at their level, and evaluators can create local prompts for a specific evaluatee. See [Using Prompts](./prompts.md) for more about the Prompt Bank.
 
 ---
 

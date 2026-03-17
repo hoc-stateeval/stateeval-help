@@ -122,6 +122,17 @@ Check who the evaluator is. If it's a DTE (district-level evaluator) rather than
 - Check that valid evaluators exist at that location (principals must have evaluator role)
 - For principals needing evaluation, ensure a DPE exists
 
+### How do I reassign an observation to a different evaluator?
+
+This comes up when an evaluator goes on leave and a new evaluator needs to take over. A School Admin can reassign the observation:
+
+1. Go to **Dashboard** → **Observation Status** tab
+2. Select the observation to open the **Observation Detail** section
+3. Click the **Reassign** button
+4. Select the new evaluator
+
+The observation and all its evidence transfer to the new evaluator.
+
 ### How do I override a locked summative evaluation?
 District Admins can revert any summative evaluation to Draft without evaluatee approval. This is the only locked state that DAs can override directly.
 

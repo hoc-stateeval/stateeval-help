@@ -58,6 +58,7 @@ const sidebars: SidebarsConfig = {
         'reference/settings-inheritance',
         'reference/report-configuration',
         'reference/prompts',
+        'reference/student-growth-goals',
         'reference/scoring',
         'reference/email-notifications',
       ],

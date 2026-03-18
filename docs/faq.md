@@ -5,24 +5,6 @@ title: FAQ
 
 # Frequently Asked Questions
 
-## Logging In
-
-### I didn't receive my invitation email
-- Check your spam/junk folder
-- Verify your email address is correct with your administrator
-- Ask your administrator to resend the invitation
-
-### My invitation link expired
-Ask your administrator to resend the invitation. This generates a new link.
-
-### I forgot my password
-Click **Forgot Password** on the login page and follow the instructions. You'll receive an email with a reset link.
-
-### I'm locked out of my account
-Contact your district administrator to reset your account.
-
----
-
 ## Access Issues
 
 ### Why do I see "Framework Setup Incomplete"?
@@ -132,9 +114,6 @@ This comes up when an evaluator goes on leave and a new evaluator needs to take 
 4. Select the new evaluator
 
 The observation and all its evidence transfer to the new evaluator.
-
-### How do I override a locked summative evaluation?
-District Admins can revert any summative evaluation to Draft without evaluatee approval. This is the only locked state that DAs can override directly.
 
 ---
 

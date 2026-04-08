@@ -30,10 +30,14 @@ If users are seeing "Framework Setup Incomplete" or "Evaluation Setup Incomplete
 ## Task - Framework Selection
 
 :::warning This Blocks Everyone
-Until a District Admin selects at least one evaluation framework, **no other users can access eVAL**. They'll see a "Waiting for Setup" message. This is the most time-sensitive task.
+Until a District Admin selects at least one evaluation framework, **no other users can access eVAL**. They'll see a "Your Account is Active" message on their Account page with a "Pending" status on their work areas. This is the most time-sensitive task.
 :::
 
-**Where:** Evaluation Setup > Evaluation Program Setup
+**Where:** Evaluation Setup > Framework Setup
+
+When a District Admin first logs in, the Framework Setup page shows the available evaluation types with a "Not configured" status. Click **Choose Framework** to select a framework for each evaluation type.
+
+![Framework Setup - Not Configured](/img/framework-setup-not-configured.png)
 
 ### What You're Choosing
 
@@ -43,6 +47,10 @@ Until a District Admin selects at least one evaluation framework, **no other use
 | Principal Evaluations | Principals/APs | Optional |
 
 ### Framework Options
+
+Clicking **Choose Framework** opens a modal with the available frameworks for that evaluation type:
+
+![Selecting a Teacher Framework](/img/framework-select-teacher.png)
 
 **For Teacher Evaluations:**
 - Charlotte Danielson's Framework for Teaching (2022)
@@ -55,16 +63,33 @@ Until a District Admin selects at least one evaluation framework, **no other use
 
 For detailed information about each framework, see [OSPI Frameworks and Rubrics](https://ospi.k12.wa.us/educator-support/teacherprincipal-evaluation-program/frameworks-and-rubrics).
 
+:::caution Irreversible Decision
+After selecting a framework, a warning confirms this is an irreversible step. Framework selection cannot be changed after the year begins. Choose carefully based on your district's adopted frameworks.
+:::
+
+![Framework Selection Warning](/img/framework-select-teacher-warning.png)
+
+### What Users See Before Setup
+
+Before the District Admin loads a framework, other users can still log in to eVAL but will have limited access. Their Account > User Location/Roles page shows their work areas with a "Pending" status:
+
+![Account Page - Pending Framework](/img/account-pending-framework.png)
+
 ### What Happens After Selection
 
 Once you select a framework:
-- The status changes from "Not Active" to "Ready for use"
+- The status changes from "Not configured" to "Ready for use"
+- The left sidebar menu populates with evaluation activities (Dashboard, Observations, etc.)
 - Related work areas become available for all users with those roles
 - You can proceed to the remaining setup tasks
 
-:::caution Irreversible Decision
-Framework selection cannot be changed after the year begins. Choose carefully based on your district's adopted frameworks.
-:::
+After both Teacher and Principal frameworks are loaded, a principal's Account page shows their work areas as "Ready" or "Pending" (waiting for evaluator assignment and plan type):
+
+![Account Page - After Setup](/img/account-principal-after-setup.png)
+
+A teacher's Account page will show "Pending — evaluator and plan type not assigned" until the evaluator assignment and plan type configuration tasks are completed:
+
+![Account Page - Teacher Pending](/img/account-teacher-pending-setup.png)
 
 ---
 

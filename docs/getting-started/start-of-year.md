@@ -118,7 +118,6 @@ Most modules are always on — they define core parts of the evaluation process.
 | Self-Assessment | Yes | On | Evaluatee self-reflection (does not contribute to summative score) |
 | Coded Notes | Yes | On | Evaluator notes with rubric coding |
 | Resources | Yes | On | District/school reference documents and links |
-| Framework | No | On | Framework display settings (e.g., Danielson critical attributes) |
 
 **Principal Evaluations:**
 
@@ -133,7 +132,6 @@ Most modules are always on — they define core parts of the evaluation process.
 | Self-Assessment | Yes | On | Evaluatee self-reflection |
 | Coded Notes | Yes | On | Evaluator notes with rubric coding |
 | Resources | Yes | On | District/school reference documents and links |
-| Framework | No | On | Framework display settings |
 
 :::tip School Override
 For optional modules, the DA can decide whether to allow School Admins to override the district default at their school.

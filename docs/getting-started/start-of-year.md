@@ -109,28 +109,28 @@ Most modules are always on — they define core parts of the evaluation process.
 
 | Module | Can Disable? | Default | What It Controls |
 |--------|:------------:|:-------:|------------------|
-| Observations | No | On | Observation workflows, scoring, report settings |
-| Summative Evaluation | No | On | End-of-year evaluation, scoring, final report |
+| YTD Evidence | No | On | Year-to-date aggregated evidence view |
+| Coded Notes | Yes | On | Evaluator notes with rubric coding |
+| Artifacts | No | On | Artifact creation, sharing, and evidence alignment |
 | Student Growth Goal Setting | No | On | Student growth goal setting conference and goals |
 | Student Growth Goal Achievement | No | On | End-of-year student growth results |
-| YTD Evidence | No | On | Year-to-date aggregated evidence view |
-| Artifacts | No | On | Artifact creation, sharing, and evidence alignment |
+| Observations | No | On | Observation workflows, scoring, report settings |
 | Self-Assessment | Yes | On | Evaluatee self-reflection (does not contribute to summative score) |
-| Coded Notes | Yes | On | Evaluator notes with rubric coding |
+| Summative Evaluation | No | On | End-of-year evaluation, scoring, final report |
 | Resources | Yes | On | District/school reference documents and links |
 
 **Principal Evaluations:**
 
 | Module | Can Disable? | Default | What It Controls |
 |--------|:------------:|:-------:|------------------|
-| Summative Evaluation | No | On | End-of-year evaluation, scoring, final report |
-| Student Growth Goal Achievement | No | On | End-of-year student growth results |
 | YTD Evidence | No | On | Year-to-date aggregated evidence view |
+| Coded Notes | Yes | On | Evaluator notes with rubric coding |
 | Artifacts | No | On | Artifact creation, sharing, and evidence alignment |
 | Student Growth Goal Setting | Yes | On | Student growth goal setting conference and goals |
+| Student Growth Goal Achievement | No | On | End-of-year student growth results |
 | Observations | Yes | On | Classroom/school observations |
 | Self-Assessment | Yes | On | Evaluatee self-reflection |
-| Coded Notes | Yes | On | Evaluator notes with rubric coding |
+| Summative Evaluation | No | On | End-of-year evaluation, scoring, final report |
 | Resources | Yes | On | District/school reference documents and links |
 
 :::tip School Override

@@ -76,36 +76,42 @@ After selecting frameworks, configure which features are enabled and how they be
 
 ### Modules
 
-Modules are features that can be enabled or disabled. Some are required, others optional.
+Modules represent the major areas of functionality in eVAL. Most correspond to the activities in the left sidebar menu (Observations, Student Growth, Summative Evaluation, etc.). Each module groups together the settings that control how that area behaves.
+
+Most modules are always on — they define core parts of the evaluation process. A few are optional and can be enabled or disabled by the District Admin.
 
 **Teacher Evaluations:**
 
-| Module | Required? | Default |
-|--------|:---------:|:-------:|
-| Observations | ✓ Required | On |
-| Summative Evaluation | ✓ Required | On |
-| Student Growth | ✓ Required | On |
-| Self-Assessment | Optional | On |
-| Mid-Year Review | Optional | Off |
-| Coded Notes | Optional | Off |
-| YTD Evidence | Optional | On |
-| Artifacts | Optional | On |
+| Module | Can Disable? | Default | What It Controls |
+|--------|:------------:|:-------:|------------------|
+| Observations | No | On | Observation workflows, scoring, report settings |
+| Summative Evaluation | No | On | End-of-year evaluation, scoring, final report |
+| Student Growth Goal Setting | No | On | Student growth goal setting conference and goals |
+| Student Growth Goal Achievement | No | On | End-of-year student growth results |
+| YTD Evidence | No | On | Year-to-date aggregated evidence view |
+| Artifacts | No | On | Artifact creation, sharing, and evidence alignment |
+| Self-Assessment | Yes | On | Evaluatee self-reflection (does not contribute to summative score) |
+| Coded Notes | Yes | On | Evaluator notes with rubric coding |
+| Resources | Yes | On | District/school reference documents and links |
+| Framework | No | On | Framework display settings (e.g., Danielson critical attributes) |
 
 **Principal Evaluations:**
 
-| Module | Required? | Default |
-|--------|:---------:|:-------:|
-| Observations | Optional | Off |
-| Summative Evaluation | ✓ Required | On |
-| Student Growth | Optional | Off |
-| Self-Assessment | Optional | On |
-| Mid-Year Review | Optional | Off |
-| Coded Notes | Optional | Off |
-| YTD Evidence | Optional | On |
-| Artifacts | Optional | On |
+| Module | Can Disable? | Default | What It Controls |
+|--------|:------------:|:-------:|------------------|
+| Summative Evaluation | No | On | End-of-year evaluation, scoring, final report |
+| Student Growth Goal Achievement | No | On | End-of-year student growth results |
+| YTD Evidence | No | On | Year-to-date aggregated evidence view |
+| Artifacts | No | On | Artifact creation, sharing, and evidence alignment |
+| Student Growth Goal Setting | Yes | On | Student growth goal setting conference and goals |
+| Observations | Yes | On | Classroom/school observations |
+| Self-Assessment | Yes | On | Evaluatee self-reflection |
+| Coded Notes | Yes | On | Evaluator notes with rubric coding |
+| Resources | Yes | On | District/school reference documents and links |
+| Framework | No | On | Framework display settings |
 
 :::tip School Override
-For each optional module, the DA can decide whether to allow School Admins to override the district default.
+For optional modules, the DA can decide whether to allow School Admins to override the district default at their school.
 :::
 
 ### Important Settings

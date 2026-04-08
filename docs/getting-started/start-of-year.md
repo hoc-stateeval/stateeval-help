@@ -37,7 +37,7 @@ Until a District Admin selects at least one evaluation framework, **no other use
 
 When a District Admin first logs in, the Framework Setup page shows the available evaluation types with a "Not configured" status. Click **Choose Framework** to select a framework for each evaluation type.
 
-![Framework Setup - Not Configured](/img/framework-setup-not-configured.png)
+![Framework Setup - Not Configured](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/framework-setup-not-configured.png)
 
 ### What You're Choosing
 
@@ -50,7 +50,7 @@ When a District Admin first logs in, the Framework Setup page shows the availabl
 
 Clicking **Choose Framework** opens a modal with the available frameworks for that evaluation type:
 
-![Selecting a Teacher Framework](/img/framework-select-teacher.png)
+![Selecting a Teacher Framework](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/framework-select-teacher.png)
 
 **For Teacher Evaluations:**
 - Charlotte Danielson's Framework for Teaching (2022)
@@ -67,13 +67,13 @@ For detailed information about each framework, see [OSPI Frameworks and Rubrics]
 After selecting a framework, a warning confirms this is an irreversible step. Framework selection cannot be changed after the year begins. Choose carefully based on your district's adopted frameworks.
 :::
 
-![Framework Selection Warning](/img/framework-select-teacher-warning.png)
+![Framework Selection Warning](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/framework-select-teacher-warning.png)
 
 ### What Users See Before Setup
 
 Before the District Admin loads a framework, other users can still log in to eVAL but will have limited access. Their Account > User Location/Roles page shows their work areas with a "Pending" status:
 
-![Account Page - Pending Framework](/img/account-pending-framework.png)
+![Account Page - Pending Framework](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/account-pending-framework.png)
 
 ### What Happens After Selection
 
@@ -85,11 +85,11 @@ Once you select a framework:
 
 After both Teacher and Principal frameworks are loaded, a principal's Account page shows their work areas as "Ready" or "Pending" (waiting for evaluator assignment and plan type):
 
-![Account Page - After Setup](/img/account-principal-after-setup.png)
+![Account Page - After Setup](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/account-principal-after-setup.png)
 
 A teacher's Account page will show "Pending — evaluator and plan type not assigned" until the evaluator assignment and plan type configuration tasks are completed:
 
-![Account Page - Teacher Pending](/img/account-teacher-pending-setup.png)
+![Account Page - Teacher Pending](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/account-teacher-pending-setup.png)
 
 ---
 

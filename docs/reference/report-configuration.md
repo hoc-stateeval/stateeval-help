@@ -64,13 +64,13 @@ Sections marked with *(supports display mode)* can be configured with **All Evid
 |---------|:--------:|-------------|
 | **Main** |||
 | Header | Yes | Evaluatee info, dates, plan type |
-| Framework Scores | No | Scores by framework component |
+| Framework Scores | No | Scores for criteria, rubric components, and the calculated summative score |
 | Collected Evidence | No | Evidence items aligned to rubric *(supports display mode)* |
 | Packaged Evidence | No | Evidence packages with alignments *(supports display mode)* |
 | EOY Prompts | No | End-of-year conference prompts and responses |
 | EOY Summaries | No | Evaluator and evaluatee summaries |
 | Final Notes | No | Final notes from evaluator and evaluatee |
-| Signature Block | No | Digital signatures from both parties |
+| Signature Block | No | Space for both parties to sign a printed copy |
 | **Appendix** |||
 | EC Summary | No | List of observations and coded notes conducted |
 | EC Score Summary | No | Summary of scores from each observation/coded note |
@@ -82,11 +82,11 @@ Sections marked with *(supports display mode)* can be configured with **All Evid
 |---------|:--------:|-------------|
 | **Main** |||
 | Header | Yes | Observation date, type, evaluatee info |
-| Framework Scores | No | Detailed framework component scores |
+| Framework Scores | No | Scores for rubric components, when scoring is enabled for this evidence type |
 | Collected Evidence | No | Evidence items from the observation *(supports display mode)* |
 | Packaged Evidence | No | Evidence packages created *(supports display mode)* |
 | Final Notes | No | Final notes from evaluator and evaluatee |
-| Signature Block | No | Digital signatures |
+| Signature Block | No | Space for both parties to sign a printed copy |
 | **Appendix** |||
 | Observation Notes | No | Observation notes with coding removed |
 | Pre-Conference Prompts | No | Pre-conference prompt responses |
@@ -100,12 +100,12 @@ Sections marked with *(supports display mode)* can be configured with **All Evid
 |---------|:--------:|-------------|
 | **Main** |||
 | Header | Yes | Date, evaluatee info |
-| Framework Scores | No | Component scores |
+| Framework Scores | No | Scores for rubric components, when scoring is enabled for this evidence type |
 | Collected Evidence | No | Evidence items *(supports display mode)* |
 | Packaged Evidence | No | Evidence packages *(supports display mode)* |
 | Prompts | No | Conference prompts and responses |
 | Final Notes | No | Final notes from evaluator and evaluatee |
-| Signature Block | No | Signatures |
+| Signature Block | No | Space for both parties to sign a printed copy |
 | **Appendix** |||
 | Coded Note | No | The coded note content |
 
@@ -116,11 +116,11 @@ Sections marked with *(supports display mode)* can be configured with **All Evid
 | **Main** |||
 | Header | Yes | Evaluatee info, dates |
 | Goals | Yes | The evaluatee's student growth goals |
-| Framework Scores | No | Student growth component scores |
+| Framework Scores | No | Student growth rubric component scores |
 | Collected Evidence | No | Evidence items *(supports display mode)* |
 | Packaged Evidence | No | Evidence packages *(supports display mode)* |
 | Conference Prompts | No | Goal setting or achievement prompts |
-| Signature Block | No | Approval signatures |
+| Signature Block | No | Space for both parties to sign a printed copy |
 
 ### Self-Assessment Report (PDF Only)
 
@@ -130,10 +130,10 @@ Self-Assessments are not archived like other report types. Evaluatees can genera
 |---------|:--------:|-------------|
 | **Main** |||
 | Header | Yes | Evaluatee info, date |
-| Framework Scores | No | Self-assessment component scores |
+| Framework Scores | No | Self-assessed rubric component scores |
 | Collected Evidence | No | Evidence items *(supports display mode)* |
 | Packaged Evidence | No | Evidence packages *(supports display mode)* |
-| Signature Block | No | Evaluatee signature |
+| Signature Block | No | Space for the evaluatee to sign a printed copy |
 
 ---
 

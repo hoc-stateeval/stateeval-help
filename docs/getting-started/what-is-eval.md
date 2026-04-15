@@ -18,8 +18,8 @@ eVAL supports the full evaluation cycle for a school year:
 | Phase | What Happens in eVAL |
 |-------|---------------------|
 | **Setup** | Administrators select frameworks, assign evaluators, and configure settings |
-| **Self-Assessment** | Teachers and principals reflect on their practice |
-| **Goal Setting** | Teachers set student growth goals |
+| **Self-Assessment** | Evaluatees reflect on their practice |
+| **Goal Setting** | Evaluatees set student growth goals |
 | **Evidence Collection** | Observations, artifacts, coded notes, and other evidence are gathered throughout the year |
 | **Review** | Evidence is aggregated and reviewed across evaluation criteria |
 | **Summative Scoring** | Evaluators assign scores and produce the final evaluation report |

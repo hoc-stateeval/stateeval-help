@@ -31,7 +31,7 @@ If you work at multiple schools, your evaluator work areas (like Evaluate Teache
 
 To switch between work areas:
 
-1. Click the **work area selector** in the top navigation bar
+1. Click the **Change Work Area** button in the top navigation bar
 2. If you work at multiple locations, first select your **building/location**
 3. Choose the **work area** you want to access
 4. The sidebar will update to show activities for that work area
@@ -105,5 +105,4 @@ Not sure which work area to use?
 | View feedback from my evaluator | My Evaluation |
 | Conduct an observation of a teacher | Evaluate Teachers |
 | Complete a teacher's evaluation | Evaluate Teachers |
-| Add a new staff member | Admin Teacher/Principal Evaluations |
 | Assign an evaluator to someone | Admin Teacher/Principal Evaluations |

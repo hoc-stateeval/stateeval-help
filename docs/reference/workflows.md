@@ -4,9 +4,6 @@ title: How Workflows Work
 roles: [TR, PR, DPE, DTE, DA, SA]
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # How Workflows Work in eVAL
 
 Each evidence collection in eVAL follows a specific workflow that controls how content moves from draft to final state. Understanding these workflows helps you know what to expect and what actions are available at each step.
@@ -24,7 +21,7 @@ Most evidence collections use a **completion mode** that determines whether the 
 | **Simple** | Submits directly to locked/sealed. Other party is notified and can view. | Observations, Coded Notes |
 | **Formal** | After submission, other party must review and acknowledge before final lock. | Student Growth, Summative Evaluation |
 
-**Why the difference?** Evidence collections that contribute **scores** to the final performance rating (Student Growth, Summative) default to Formal mode because those scores have significant impact. Collections focused on **evidence gathering** (Observations, Coded Notes) default to Simple mode to handle higher volumes efficiently.
+**Why the difference?** Evidence collections that contribute **scores** to the final performance rating (Student Growth, Summative) default to Formal mode because those scores have significant impact. Collections focused on **evidence gathering** (Observations, Coded Notes) default to Simple mode to handle higher volumes efficiently. In many cases, the evaluator and evaluatee meet in person to review the report together without needing to go through a digital approval workflow.
 
 ### District Flexibility
 
@@ -64,141 +61,73 @@ Most evidence collections use these states:
 | **Draft** | Work in progress. Can be edited freely. |
 | **Waiting for Review** | Submitted and waiting for the other party to review. |
 | **Viewed** | The other party has seen it but hasn't acknowledged yet. |
-| **Locked - Sealed** | Finalized. Cannot be edited without an unlock request. |
+| **Complete/Locked** | Finalized. Archive created. Cannot be edited without an unlock request. |
 | **Shared** | Visible to both parties (for simpler workflows). |
 
 ---
 
 ## Detailed Workflows
 
-<Tabs>
-<TabItem value="observations" label="Observations" default>
+### Simple Workflow
 
-### Observation Workflow
+In Simple mode, the evidence collection goes directly from Draft to Complete/Locked when submitted. There is no review step for the other party.
 
-Observations follow a review process where the evaluator creates content and optionally the evaluatee reviews and acknowledges the final report.
+**Draft** → **Complete/Locked**
 
-:::note Completion Mode
-The diagram below shows **Formal Mode** with evaluatee review. In **Simple Mode**, the evaluator locks directly from Draft to Sealed without the review steps.
-:::
+This applies to: Observations, Coded Notes, Student Growth, and Summative Evaluation.
 
-![Observation Workflow - Formal Mode](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/observation-workflow-formal.svg)
+**Example: Observation (Simple Mode)**
+1. Evaluator creates the observation and works on it in **Draft**
+2. Evaluator clicks **Mark Complete** — the observation moves directly to **Complete/Locked**
+3. Evaluatee is notified and can view the completed observation
+4. If revisions are needed, either party can **Request Unlock** (requires other party approval) or the evaluator can **Revert to Draft**
+
+### Formal Workflow
+
+In Formal mode, the other party must review and acknowledge before the evidence collection is finalized. The following diagram shows the full Formal workflow using an observation as an example. This same workflow applies to all evidence collections that use completion modes (Observations, Coded Notes, Student Growth, Summative Evaluation).
+
+![Formal Workflow](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/observation-workflow-formal.svg)
 
 #### State Details
 
 **Draft**
-- Evaluator creates and edits observation
-- Can send pre/post-conference prompts
-- Can link artifacts
-- Can share sections with evaluatee
+- Owner creates and edits content
+- Can share sections or send prompts to the other party
 - **Can be deleted** in this state
 
 **Waiting for Review**
-- Evaluator has sent the Final Report
-- Evaluatee can view the report
-- Evaluator can **Mark Complete** to bypass evaluatee review
-- Evaluator can **Revert to Draft** to make further changes
+- Owner has submitted (e.g., evaluator sends the Final Report)
+- Other party can view the content
+- Owner can **Mark Complete** to bypass the review step
+- Owner can **Revert to Draft** to make further changes
 
 **Viewed**
-- Evaluatee has viewed the Final Report
-- Evaluatee can **Acknowledge Report** to finalize
-- Evaluator can **Mark Complete** to finalize without acknowledgment
-- Evaluator can **Revert to Draft** to make further changes
+- Other party has viewed the content but hasn't acknowledged yet
+- Other party can **Acknowledge Report** to finalize
+- Owner can **Mark Complete** to finalize without acknowledgment
+- Owner can **Revert to Draft** to make further changes
 
-**Sealed**
-- Observation is finalized
+**Complete/Locked**
+- Evidence collection is finalized and an archive is created
+- Evidence flows to YTD and Summative views
 - Either party can **Request Unlock** (requires other party approval)
-- Evaluator can **Revert to Draft** directly
+- Owner can **Revert to Draft** directly
 
-</TabItem>
-<TabItem value="evaluation" label="Summative Evaluation">
+#### Unlocking
 
-### Summative Evaluation Workflow
+1. Either party requests unlock
+2. Other party approves or declines, or the requester cancels
+3. If approved, returns to Draft for revisions
+4. After revisions, owner re-submits
 
-The summative evaluation follows a similar pattern to observations, with additional features for district admin override and "drop to paper."
+#### Special Cases
 
-:::note Formal Mode
-Summative evaluations typically use **Formal Mode** because they represent your final performance rating and serve as a legal record. This requires evaluatee review and acknowledgment.
-:::
+- **Summative Evaluation**: District Admin can revert any locked state back to Draft without needing other party approval. Also supports "Drop to Paper" which terminates the digital evaluation.
+- **Student Growth**: The evaluatee controls submission and the evaluator approves. The evaluator cannot edit goal content directly.
 
-```mermaid
-flowchart TD
-    A[Draft] --> B[Locked - Waiting for Review]
-    A --> D[Locked - Sealed]
-    B --> C[Locked - Viewed]
-    C --> D
-    B --> D
+### Creator-Managed Workflows
 
-    style A fill:#E5A54B,color:#000
-    style B fill:#1F9BCF,color:#fff
-    style C fill:#6d9fef,color:#fff
-    style D fill:#4BBF73,color:#fff
-```
-
-**Draft**
-- Evaluator works on the evaluation
-- Can send reflection prompts to evaluatee
-- Can change plan type
-- Three paths to lock:
-  1. Send for review (standard path)
-  2. Lock directly (bypass review)
-  3. Drop to paper (terminate in eVAL)
-
-**Locked States**
-- Same as observations
-- **District Admin can revert** any locked state back to Draft (without needing other party approval)
-
-**Drop to Paper**
-- Terminates the digital evaluation
-- Evaluation continues using paper forms
-- Cannot be reversed
-
-</TabItem>
-<TabItem value="student-growth" label="Student Growth">
-
-### Student Growth Workflows
-
-Student Growth has two separate but identical workflows:
-1. **Goal Setting** - at the beginning of the year
-2. **Achievement** - at the end of the year
-
-Both follow a "submit and approve" pattern where the evaluatee owns the content and the evaluator approves.
-
-:::note Simple Mode
-Student Growth typically uses **Simple Mode** - when the evaluator approves, the collection is immediately sealed. This helps manage the November deadline when many teachers are submitting goals simultaneously.
-:::
-
-```mermaid
-flowchart TD
-    A[Draft] --> B[Waiting for Review]
-    B --> C[Locked - Sealed]
-
-    style A fill:#E5A54B,color:#000
-    style B fill:#1F9BCF,color:#fff
-    style C fill:#4BBF73,color:#fff
-```
-
-**Draft**
-- **Evaluatee** creates and edits goals/achievement data
-- Can share work-in-progress with evaluator for feedback
-- Evaluator can view shared content (read-only)
-- Both parties can add evidence/artifacts
-
-**Waiting for Review**
-- Evaluatee has submitted
-- Evaluator reviews and approves
-- If changes needed, evaluator can request unlock
-
-**Locked - Sealed**
-- Goals/achievement data approved
-- Either party can request unlock (requires mutual agreement)
-
-:::tip Key Difference
-Unlike observations, the **evaluatee controls submission** and the **evaluator only approves**. The evaluator cannot edit goal content directly.
-:::
-
-</TabItem>
-<TabItem value="self-assessment" label="Self-Assessment">
+Self-Assessments and Artifacts don't use completion modes. The creator manages them directly.
 
 ### Self-Assessment Workflow
 
@@ -240,60 +169,6 @@ Unlike locked evidence collections, the evaluatee can unlock a self-assessment d
 :::info Not Included in Summative
 Self-assessments are for reflection and goal-setting purposes. Evidence and scores created within a self-assessment do **not** flow to YTD Evidence or the Summative Evaluation, even after sharing.
 :::
-
-</TabItem>
-<TabItem value="coded-notes" label="Coded Notes">
-
-### Coded Notes Workflow
-
-Coded notes are evaluator-created notes linked to specific rubric criteria. They follow a locking workflow similar to observations.
-
-:::note Completion Mode
-The diagram below shows **Simple Mode** where the coded note locks directly when submitted. In **Formal Mode**, the evaluatee reviews and acknowledges before final lock.
-:::
-
-```mermaid
-flowchart TD
-    A[Draft] --> B[Locked - Sealed]
-    A --> C[Deleted]
-    B --> D{Unlock Request}
-    D --> A
-
-    style A fill:#E5A54B,color:#000
-    style B fill:#4BBF73,color:#fff
-    style C fill:#6c757d,color:#fff
-    style D fill:#1F9BCF,color:#fff
-```
-
-**Draft**
-- Evaluator creates and edits
-- Links notes to rubric criteria
-- Private - only evaluator can see
-- Can share sections with evaluatee before submission
-- Can submit or delete
-- **Can only be deleted** in this state
-
-**Locked - Sealed**
-- Visible to both parties
-- Evidence flows to YTD and Summative views
-- Cannot be edited without unlocking
-- Either party can request unlock
-
-**Unlocking**
-- Either party requests unlock
-- Other party approves or declines
-- If approved, returns to Draft for revisions
-- After revisions, evaluator re-submits to update published evidence
-
-:::note Use Cases
-Coded notes are useful for:
-- Walkthrough observations
-- Informal feedback
-- Notes from professional conversations
-:::
-
-</TabItem>
-<TabItem value="artifacts" label="Artifacts">
 
 ### Artifact Workflow
 
@@ -345,9 +220,6 @@ flowchart TD
 Artifacts offer the most flexibility for revisions. Unlike other evidence collections, the creator can unlock their own artifact without approval from the other party.
 :::
 
-</TabItem>
-<TabItem value="ytd" label="Year-to-Date">
-
 ### Year-to-Date Evidence
 
 Year-to-Date (YTD) Evidence is primarily an **aggregator** — it displays all published evidence from other evidence collections (observations, coded notes, artifacts, student growth) organized by rubric component.
@@ -370,9 +242,6 @@ If enabled by district settings, both parties can add Rubric Notes directly with
 Most evidence comes through other evidence collections (observations, artifacts, etc.). Adding Rubric Notes directly in YTD is an optional feature that districts may or may not enable.
 :::
 
-</TabItem>
-</Tabs>
-
 ---
 
 ## Completion Modes in Detail
@@ -382,7 +251,6 @@ Most evidence comes through other evidence collections (observations, artifacts,
 | Aspect | Simple Mode | Formal Mode |
 |--------|-------------|-------------|
 | **Other party review** | Not required | Required before final lock |
-| **Digital signatures** | No | Yes |
 | **Time to complete** | Faster | Slower (waiting for review) |
 | **Force lock option** | N/A | Owner can force-lock if other party doesn't respond |
 | **Best for** | High-volume evidence gathering | Score-contributing activities |
@@ -413,22 +281,7 @@ For evidence collections with locking workflows (Observations, Coded Notes, Eval
 3. The other party can **approve** (returns to Draft), **decline** (stays sealed), or the requester can **cancel**
 4. If approved, make edits in Draft, then re-submit to update the published evidence
 
-```mermaid
-flowchart TD
-    A[Locked - Sealed] --> B{Request Unlock}
-    B --> C[Evaluatee Requests]
-    B --> D[Evaluator Requests]
-    C --> E{Evaluator Decision}
-    D --> F{Evaluatee Decision}
-    E -->|Approve| G[Draft]
-    E -->|Decline| A
-    F -->|Approve| G
-    F -->|Decline| A
-    G -->|Re-submit| A
-
-    style A fill:#4BBF73,color:#fff
-    style G fill:#E5A54B,color:#000
-```
+![Unlock Request Workflow](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/unlock-request-workflow.svg)
 
 :::tip District Admin Override
 For **Summative Evaluations only**, District Admins can revert any locked evaluation to Draft without requiring the other party's approval.

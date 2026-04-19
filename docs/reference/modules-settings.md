@@ -135,7 +135,7 @@ For districts using the Danielson Framework:
 | Feature | Teachers | Principals |
 |---------|----------|------------|
 | Observations | Required module | Optional module |
-| Student Growth Goal Setting | Enabled by default | Disabled by default |
+| Student Growth Goal Setting | Enabled by default | Enabled by default (pilot program) |
 | Critical Attributes | Available (Danielson) | Not applicable |
 
 ---

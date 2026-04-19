@@ -100,16 +100,14 @@ Submission is blocked until all criteria are covered.
 
 ## Prompts in Goal Setting
 
-Districts can configure prompts to guide the goal-setting process. Prompts appear in three scopes, each placed where it's most relevant:
+Districts can configure prompts to guide the goal-setting process. Prompts appear in two scopes, each placed where it's most relevant:
 
 | Prompt Scope | Where It Appears | Example Use |
 |-------------|-----------------|-------------|
 | **General** | Top of the Goals tab, across all goals | "Describe your overall approach to student growth this year" |
-| **Goal** | Inside each goal, after the goal statement | "What data sources informed this goal?" |
 | **Criterion Alignment** | Inside each alignment section, after the narrative | "How will you measure progress toward this criterion?" |
 
-
-Goal-scoped prompts are answered once per goal — if you have 3 goals, you answer a goal prompt 3 times. General prompts are answered once. Criterion Alignment prompts appear under each relevant alignment section.
+General prompts are answered once. Criterion Alignment prompts appear under each relevant alignment section.
 
 Prompts are managed the same way as observation conferences. District Admins, School Admins, and evaluators can all create prompts at their level, and evaluators can create local prompts for a specific evaluatee. See [Using Prompts](./prompts.md) for more about the Prompt Bank.
 

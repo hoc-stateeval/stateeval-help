@@ -68,25 +68,25 @@ Most evidence collections use these states:
 
 ## Detailed Workflows
 
+The following diagram shows both the Simple and Formal workflow paths. This workflow applies to all evidence collections that use completion modes (Observations, Coded Notes, Student Growth, Summative Evaluation).
+
+![Workflow Diagram](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/observation-workflow-formal.svg)
+
 ### Simple Workflow
 
 In Simple mode, the evidence collection goes directly from Draft to Complete/Locked when submitted. There is no review step for the other party.
 
 **Draft** → **Complete/Locked**
 
-This applies to: Observations, Coded Notes, Student Growth, and Summative Evaluation.
-
 **Example: Observation (Simple Mode)**
 1. Evaluator creates the observation and works on it in **Draft**
-2. Evaluator clicks **Mark Complete** — the observation moves directly to **Complete/Locked**
+2. Evaluator clicks **Submit Observation Report** — the observation moves directly to **Complete/Locked**
 3. Evaluatee is notified and can view the completed observation
 4. If revisions are needed, either party can **Request Unlock** (requires other party approval) or the evaluator can **Revert to Draft**
 
 ### Formal Workflow
 
-In Formal mode, the other party must review and acknowledge before the evidence collection is finalized. The following diagram shows the full Formal workflow using an observation as an example. This same workflow applies to all evidence collections that use completion modes (Observations, Coded Notes, Student Growth, Summative Evaluation).
-
-![Formal Workflow](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/observation-workflow-formal.svg)
+In Formal mode, the other party must review and acknowledge before the evidence collection is finalized.
 
 #### State Details
 
@@ -122,7 +122,7 @@ In Formal mode, the other party must review and acknowledge before the evidence 
 
 #### Special Cases
 
-- **Summative Evaluation**: District Admin can revert any locked state back to Draft without needing other party approval. Also supports "Drop to Paper" which terminates the digital evaluation.
+- **Summative Evaluation**: Supports "Drop to Paper" which terminates the digital evaluation.
 - **Student Growth**: The evaluatee controls submission and the evaluator approves. The evaluator cannot edit goal content directly.
 
 ### Creator-Managed Workflows
@@ -278,14 +278,10 @@ For evidence collections with locking workflows (Observations, Coded Notes, Eval
 
 1. One party requests unlock
 2. The other party receives the request
-3. The other party can **approve** (returns to Draft), **decline** (stays sealed), or the requester can **cancel**
+3. The other party can **approve** (returns to Draft), **decline** (stays locked), or the requester can **cancel**
 4. If approved, make edits in Draft, then re-submit to update the published evidence
 
 ![Unlock Request Workflow](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/unlock-request-workflow.svg)
-
-:::tip District Admin Override
-For **Summative Evaluations only**, District Admins can revert any locked evaluation to Draft without requiring the other party's approval.
-:::
 
 ### Direct Unlock (Creator Control)
 
@@ -297,55 +293,6 @@ For evidence collections with sharing workflows (Self-Assessments, Artifacts), t
 | **Artifact** | The party who created it |
 
 This gives creators flexibility to revise their own shared evidence without waiting for approval.
-
----
-
-## Workflow Comparison
-
-### Evidence Collections with Completion Modes
-
-| Feature | Observation | Coded Notes | Student Growth | Summative |
-|---------|-------------|-------------|----------------|-----------|
-| **Owner** | Evaluator | Evaluator | Evaluatee | Evaluator |
-| **Default Mode** | Simple | Simple | Formal | Formal |
-| **Can Delete After Submit** | No | No | No | No |
-| **DA Override** | No | No | No | Yes |
-| **Unlock Mechanism** | Request | Request | Request | Request |
-
-### Creator-Managed Evidence Collections
-
-| Feature | Self-Assessment | Artifacts |
-|---------|-----------------|-----------|
-| **Owner** | Evaluatee | Either party |
-| **Can Delete After Share** | No* | Yes |
-| **Unlock Mechanism** | Direct | Direct |
-
-*Must unlock first, then delete from Draft.
-
----
-
-## Tips for Working with Workflows
-
-### For Evaluatees
-
-1. **Self-assessments can be unlocked** - If you need to revise, unlock it, make changes, and re-share
-2. **You control student growth submissions** - Your evaluator can only approve, not edit your goals
-3. **Use YTD Evidence for ongoing documentation** - It's collaborative and always accessible
-4. **Artifacts can be updated** - Unlock or re-share to push revisions
-
-### For Evaluators
-
-1. **Evidence collections can only be deleted in Draft** - Plan deletions before submitting
-2. **Coded notes are locked when submitted** - They follow the same locking workflow as observations
-3. **Send prompts before locking** - Once sealed, you can't request additional input
-4. **Review student growth goals carefully** - You're responsible for approving appropriate goals
-
-### For Both Parties
-
-1. **Locked collections require unlock requests** - One party requests, the other approves
-2. **Self-assessments and artifacts allow direct unlock** - The creator doesn't need approval
-3. **Draft state is your editing window** - Make all changes before progressing
-4. **Unlocking doesn't remove published evidence** - Evidence remains visible while you revise; re-submit to update
 
 ---
 

@@ -62,16 +62,10 @@ Each criterion receives a score of 1–4:
 
 ### Comprehensive vs. Focused Evaluations
 
-| Plan Type | Criteria Scored | Student Growth Scored |
-|-----------|----------------|----------------------|
-| **Comprehensive** | All 8 criteria (C1–C8) | All SG components |
-| **Focused** | One criterion (evaluatee's choice) | Only SG components for the chosen criterion |
-
-:::note Focused Evaluation Scoring
-In a Focused evaluation, only the selected criterion is scored this year. The other seven criteria retain their scores from the evaluatee's last Comprehensive evaluation.
-
-For Student Growth, only the components related to the chosen criterion are scored. For example, if a teacher selects C3 as their focus, they would score SG 3.1 and SG 3.2 (the C3-related Student Growth components).
-:::
+| Plan Type | Scoring |
+|-----------|---------|
+| **Comprehensive** | Evaluator scores all 8 criteria (C1–C8) and all Student Growth components |
+| **Focused** | No scoring. Scores carry forward from the evaluatee's last Comprehensive evaluation, which must have received a Proficient or Distinguished rating. The evaluator may "bump" a Proficient carry-forward score to Distinguished if warranted. |
 
 ---
 

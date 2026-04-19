@@ -82,28 +82,40 @@ Observations follow a review process where the evaluator creates content and opt
 The diagram below shows **Formal Mode** with evaluatee review. In **Simple Mode**, the evaluator locks directly from Draft to Sealed without the review steps.
 :::
 
+#### Standard Path
+
 ```mermaid
 flowchart TD
-    A[Draft] -->|Send Final Report\nevaluator| B[Locked - Waiting for Review]
-    A -->|Delete\nevaluator| E[Deleted]
-    B -->|View Report\nevaluatee| C[Locked - Viewed]
-    B -->|Mark Complete\nevaluator| D[Locked - Sealed]
-    B -->|Revert to Draft\nevaluator| A
-    C -->|Acknowledge Report\nevaluatee| D
-    C -->|Mark Complete\nevaluator| D
-    C -->|Revert to Draft\nevaluator| A
-    D -->|Revert to Draft\nevaluator| A
-    D -->|Request Unlock\neither party| F{Unlock Request}
-    F -->|Approve\nother party| A
-    F -->|Decline or Cancel| D
+    Draft -->|"Send Final Report (evaluator)"| WFR[Waiting for Review]
+    WFR -->|"View Report (evaluatee)"| Viewed
+    Viewed -->|"Acknowledge Report (evaluatee)"| Sealed
 
-    style A fill:#E5A54B,color:#000
-    style B fill:#1F9BCF,color:#fff
-    style C fill:#6d9fef,color:#fff
-    style D fill:#4BBF73,color:#fff
-    style E fill:#6c757d,color:#fff
-    style F fill:#1F9BCF,color:#fff
+    WFR -.->|"Mark Complete (evaluator)"| Sealed
+    Viewed -.->|"Mark Complete (evaluator)"| Sealed
+
+    style Draft fill:#E5A54B,color:#000
+    style WFR fill:#1F9BCF,color:#fff
+    style Viewed fill:#6d9fef,color:#fff
+    style Sealed fill:#4BBF73,color:#fff
 ```
+
+Solid lines show the standard path. Dashed lines show evaluator shortcuts that bypass evaluatee review.
+
+#### After Sealed
+
+```mermaid
+flowchart TD
+    Sealed -->|"Request Unlock (either party)"| UR{Unlock Request}
+    UR -->|"Approve (other party)"| Draft
+    UR -.->|"Decline or Cancel"| Sealed
+    Sealed -.->|"Revert to Draft (evaluator)"| Draft
+
+    style Draft fill:#E5A54B,color:#000
+    style Sealed fill:#4BBF73,color:#fff
+    style UR fill:#1F9BCF,color:#fff
+```
+
+#### State Details
 
 **Draft**
 - Evaluator creates and edits observation
@@ -112,19 +124,22 @@ flowchart TD
 - Can share sections with evaluatee
 - **Can be deleted** in this state
 
-**Locked - Waiting for Review**
+**Waiting for Review**
 - Evaluator has sent the Final Report
 - Evaluatee can view the report
-- Evaluator can force-lock (skip evaluatee review)
+- Evaluator can **Mark Complete** to bypass evaluatee review
+- Evaluator can **Revert to Draft** to make further changes
 
-**Locked - Viewed**
+**Viewed**
 - Evaluatee has viewed the Final Report
-- Evaluatee can acknowledge
-- Evaluator can lock
+- Evaluatee can **Acknowledge Report** to finalize
+- Evaluator can **Mark Complete** to finalize without acknowledgment
+- Evaluator can **Revert to Draft** to make further changes
 
-**Locked - Sealed**
+**Sealed**
 - Observation is finalized
-- Either party can request to unlock (requires other party approval)
+- Either party can **Request Unlock** (requires other party approval)
+- Evaluator can **Revert to Draft** directly
 
 </TabItem>
 <TabItem value="evaluation" label="Summative Evaluation">

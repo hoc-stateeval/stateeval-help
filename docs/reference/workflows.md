@@ -82,7 +82,7 @@ Observations follow a review process where the evaluator creates content and opt
 The diagram below shows **Formal Mode** with evaluatee review. In **Simple Mode**, the evaluator locks directly from Draft to Sealed without the review steps.
 :::
 
-![Observation Workflow - Formal Mode](/img/observation-workflow-formal.svg)
+![Observation Workflow - Formal Mode](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/observation-workflow-formal.svg)
 
 #### State Details
 

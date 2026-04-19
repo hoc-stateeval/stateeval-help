@@ -82,38 +82,7 @@ Observations follow a review process where the evaluator creates content and opt
 The diagram below shows **Formal Mode** with evaluatee review. In **Simple Mode**, the evaluator locks directly from Draft to Sealed without the review steps.
 :::
 
-#### Standard Path
-
-```mermaid
-flowchart TD
-    Draft -->|"Send Final Report (evaluator)"| WFR[Waiting for Review]
-    WFR -->|"View Report (evaluatee)"| Viewed
-    Viewed -->|"Acknowledge Report (evaluatee)"| Sealed
-
-    WFR -.->|"Mark Complete (evaluator)"| Sealed
-    Viewed -.->|"Mark Complete (evaluator)"| Sealed
-
-    style Draft fill:#E5A54B,color:#000
-    style WFR fill:#1F9BCF,color:#fff
-    style Viewed fill:#6d9fef,color:#fff
-    style Sealed fill:#4BBF73,color:#fff
-```
-
-Solid lines show the standard path. Dashed lines show evaluator shortcuts that bypass evaluatee review.
-
-#### After Sealed
-
-```mermaid
-flowchart TD
-    Sealed -->|"Request Unlock (either party)"| UR{Unlock Request}
-    UR -->|"Approve (other party)"| Draft
-    UR -.->|"Decline or Cancel"| Sealed
-    Sealed -.->|"Revert to Draft (evaluator)"| Draft
-
-    style Draft fill:#E5A54B,color:#000
-    style Sealed fill:#4BBF73,color:#fff
-    style UR fill:#1F9BCF,color:#fff
-```
+![Observation Workflow - Formal Mode](/img/observation-workflow-formal.svg)
 
 #### State Details
 

@@ -13,7 +13,7 @@ As a teacher in eVAL, you participate in your annual evaluation by providing evi
 | Phase | What Happens |
 |-------|--------------|
 | **Fall** | Complete self-assessment, set student growth goals |
-| **Throughout Year** | Submit artifacts, participate in observations |
+| **Throughout Year** | Submit artifacts, participate in observations, work toward student growth goals |
 | **Mid-Year** | Review mid-year feedback (if your district uses this) |
 | **Spring** | Final observations, review summative evaluation |
 

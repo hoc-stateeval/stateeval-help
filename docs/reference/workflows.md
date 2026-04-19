@@ -84,15 +84,25 @@ The diagram below shows **Formal Mode** with evaluatee review. In **Simple Mode*
 
 ```mermaid
 flowchart TD
-    A[Draft] --> B[Locked - Waiting for Review]
-    B --> C[Locked - Viewed]
-    C --> D[Locked - Sealed]
-    B --> D
+    A[Draft] -->|Send Final Report\nevaluator| B[Locked - Waiting for Review]
+    A -->|Delete\nevaluator| E[Deleted]
+    B -->|View Report\nevaluatee| C[Locked - Viewed]
+    B -->|Mark Complete\nevaluator| D[Locked - Sealed]
+    B -->|Revert to Draft\nevaluator| A
+    C -->|Acknowledge Report\nevaluatee| D
+    C -->|Mark Complete\nevaluator| D
+    C -->|Revert to Draft\nevaluator| A
+    D -->|Revert to Draft\nevaluator| A
+    D -->|Request Unlock\neither party| F{Unlock Request}
+    F -->|Approve\nother party| A
+    F -->|Decline or Cancel| D
 
     style A fill:#E5A54B,color:#000
     style B fill:#1F9BCF,color:#fff
     style C fill:#6d9fef,color:#fff
     style D fill:#4BBF73,color:#fff
+    style E fill:#6c757d,color:#fff
+    style F fill:#1F9BCF,color:#fff
 ```
 
 **Draft**

@@ -17,7 +17,7 @@ Throughout the year, evidence is collected through different activities — obse
 |------|-------------|----------------|
 | **Before school starts** | Administrators select frameworks, configure settings, assign evaluators and plan types | District Admin, School Admin |
 | **Early fall** | Self-assessments, student growth goal setting | Evaluatee, Evaluator |
-| **Throughout the year** | Observations, artifacts, coded notes | Evaluator, Evaluatee |
+| **Throughout the year** | Observations, artifacts, coded notes, work on student growth goals | Evaluator, Evaluatee |
 | **Mid-year** (optional) | Mid-year review checkpoint | Evaluator, Evaluatee |
 | **Spring** | Final observations, summative reflections | Evaluator, Evaluatee |
 | **End of year** | Summative scoring, final report, end-of-year conference | Evaluator |
@@ -32,7 +32,7 @@ Evidence starts in individual activities and flows into aggregated views:
 
 3. **Aggregated in YTD Evidence** — The Year-to-Date Evidence view collects all published evidence across the full evaluation rubric, giving both parties a running view of everything gathered so far.
 
-4. **Scored in Summative** — At year end, the Summative Evaluation aggregates evidence scoped to the evaluatee's plan type. The evaluator reviews this evidence and assigns scores for criteria C1-C8 and the student growth components, producing a final performance rating.
+4. **Scored in Summative** — At year end, the evaluator reviews the aggregated evidence and the final evaluation score is determined. How scoring works depends on the evaluatee's plan type (see below).
 
 :::info YTD vs. Summative
 **YTD Evidence** shows everything across the entire rubric, regardless of plan type. **Summative Evidence** shows only what's in scope for the evaluation plan type (all criteria for Comprehensive, or the selected focus criteria for Focused).

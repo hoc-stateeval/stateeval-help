@@ -27,7 +27,7 @@ See [Start of Year Setup](../getting-started/start-of-year.md) for the required 
 
 ### Modules and Settings
 You control which features are available and how they behave. See [Modules and Settings](../reference/modules-settings.md):
-- **Optional Modules**: Enable/disable features like Coded Notes, Mid-Year, Self-Assessments
+- **Optional Modules**: Enable/disable features like Mid-Year, Self-Assessments
 - **Settings**: Configure behavior like workflow modes, scoring options, carry-forward limits
 - **School Override**: Allow or prevent schools from overriding your settings
 

@@ -64,10 +64,6 @@ A focused evaluation affects the scope of evidence collections created during th
 - **Expanding scope** — An evidence collection can be expanded to comprehensive scope outside the summative. This is common for self-assessments at the beginning of the year, where the evaluatee may want to reflect across all criteria
 - **Summative scope** — The Summative evaluation only includes evidence aligned to the focus criterion and student growth components
 
-:::info YTD vs. Summative
-The YTD Evidence view always shows evidence across the full rubric regardless of plan type. Only the Summative Evidence view is filtered to the focused scope.
-:::
-
 ## Switching Between Focused and Comprehensive
 
 An evaluator may determine that an evaluatee on a focused evaluation should be moved to a comprehensive evaluation. Per state requirements, this decision must be communicated in writing by December 15th.

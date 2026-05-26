@@ -18,10 +18,10 @@ Most evidence collections use a **completion mode** that determines whether the 
 
 | Mode | How It Works | Default For |
 |------|--------------|-------------|
-| **Simple** | Submits directly to locked/sealed. Other party is notified and can view. | Observations, Coded Notes |
+| **Simple** | Submits directly to locked/sealed. Other party is notified and can view. | Observations |
 | **Formal** | After submission, other party must review and acknowledge before final lock. | Student Growth, Summative Evaluation |
 
-**Why the difference?** Evidence collections that contribute **scores** to the final performance rating (Student Growth, Summative) default to Formal mode because those scores have significant impact. Collections focused on **evidence gathering** (Observations, Coded Notes) default to Simple mode to handle higher volumes efficiently. In many cases, the evaluator and evaluatee meet in person to review the report together without needing to go through a digital approval workflow.
+**Why the difference?** Evidence collections that contribute **scores** to the final performance rating (Student Growth, Summative) default to Formal mode because those scores have significant impact. Collections focused on **evidence gathering** (Observations) default to Simple mode to handle higher volumes efficiently. In many cases, the evaluator and evaluatee meet in person to review the report together without needing to go through a digital approval workflow.
 
 ### District Flexibility
 
@@ -46,12 +46,6 @@ Self-Assessments and Artifacts don't use completion modes. The creator simply ma
 | **Self-Assessment** | Evaluatee | No (reflection tool only) |
 | **Artifacts** | Either party | Yes (evidence) |
 
-### Year-to-Date Evidence
-
-YTD Evidence is primarily an aggregator that displays published evidence from other collections. See the Year-to-Date tab below for details.
-
----
-
 ## Common Workflow States
 
 Most evidence collections use these states:
@@ -68,7 +62,7 @@ Most evidence collections use these states:
 
 ## Detailed Workflows
 
-The following diagram shows both the Simple and Formal workflow paths. This workflow applies to all evidence collections that use completion modes (Observations, Coded Notes, Student Growth, Summative Evaluation).
+The following diagram shows both the Simple and Formal workflow paths. This workflow applies to all evidence collections that use completion modes (Observations, Student Growth, Summative Evaluation).
 
 ![Workflow Diagram](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/observation-workflow-formal.svg)
 
@@ -109,7 +103,7 @@ In Formal mode, the other party must review and acknowledge before the evidence 
 
 **Complete/Locked**
 - Evidence collection is finalized and an archive is created
-- Evidence flows to YTD and Summative views
+- Evidence flows to the Summative view
 - Either party can **Request Unlock** (requires other party approval)
 - Owner can **Revert to Draft** directly
 
@@ -167,7 +161,7 @@ Unlike locked evidence collections, the evaluatee can unlock a self-assessment d
 :::
 
 :::info Not Included in Summative
-Self-assessments are for reflection and goal-setting purposes. Evidence and scores created within a self-assessment do **not** flow to YTD Evidence or the Summative Evaluation, even after sharing.
+Self-assessments are for reflection and goal-setting purposes. Evidence and scores created within a self-assessment do **not** flow to the Summative Evaluation, even after sharing.
 :::
 
 ### Artifact Workflow
@@ -207,7 +201,7 @@ flowchart TD
 
 **Shared**
 - Visible to both parties
-- Evidence flows to YTD and Summative views
+- Evidence flows to the Summative view
 - Can re-share to push minor updates
 - **Can be unlocked** to return to Draft for more significant revisions
 - **Can be deleted** by creator
@@ -219,30 +213,6 @@ flowchart TD
 :::tip
 Artifacts offer the most flexibility for revisions. Unlike other evidence collections, the creator can unlock their own artifact without approval from the other party.
 :::
-
-### Year-to-Date Evidence
-
-Year-to-Date (YTD) Evidence is primarily an **aggregator** — it displays all published evidence from other evidence collections (observations, coded notes, artifacts, student growth) organized by rubric component.
-
-**What YTD Shows:**
-- Evidence from submitted observations
-- Evidence from submitted coded notes
-- Evidence from shared artifacts
-- Evidence from approved student growth goals/achievement
-
-**Optional Activity: Rubric Notes**
-
-If enabled by district settings, both parties can add Rubric Notes directly within YTD Evidence. These are simple text notes aligned to rubric components.
-
-- Both parties can add and delete their own notes
-- Notes are immediately visible to both parties
-- No workflow states — always editable
-
-:::note
-Most evidence comes through other evidence collections (observations, artifacts, etc.). Adding Rubric Notes directly in YTD is an optional feature that districts may or may not enable.
-:::
-
----
 
 ## Completion Modes in Detail
 
@@ -272,7 +242,7 @@ When evidence is published (locked or shared), it cannot be edited directly. To 
 
 ### Unlock Requests (Mutual Approval)
 
-For evidence collections with locking workflows (Observations, Coded Notes, Evaluations, Student Growth), either party can request to unlock after it's sealed. The other party must approve.
+For evidence collections with locking workflows (Observations, Evaluations, Student Growth), either party can request to unlock after it's sealed. The other party must approve.
 
 **How Unlock Requests Work:**
 

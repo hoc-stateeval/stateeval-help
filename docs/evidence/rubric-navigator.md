@@ -57,7 +57,6 @@ What you see in the Rubric Navigator depends on your plan type:
 |-----------|------------------|
 | **Comprehensive** | All criteria (C1-C8) and student growth components |
 | **Focused** | Focus criterion, student growth components |
-| **YTD Evidence** | Always shows the full framework, regardless of plan type |
 
 :::note Framework Views
 Your district chooses an instructional framework (like Danielson or Marzano) that maps to the state's eight criteria. You can switch between state framework view (C1-C8) and instructional framework view using the dropdown in the top navigation.

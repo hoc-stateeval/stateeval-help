@@ -20,7 +20,6 @@ These are always active:
 - **Prompt Bank** — Pre-defined questions for observations and reflections
 - **Student Growth** — Goal setting and achievement tracking
 - **Summative** — End-of-year evaluation and final reports
-- **YTD Evidence** — Collaborative evidence collection
 - **Report Archives** — Access to completed evaluation reports
 
 ### Optional Modules
@@ -30,7 +29,6 @@ Districts can enable or disable these:
 | Module | Default | Notes |
 |--------|---------|-------|
 | **Observations** | On for Teachers, Off for Principals | Required for teacher evaluations |
-| **Coded Notes** | On | Evaluator notes linked to rubric criteria |
 | **Self Assessments** | On | Evaluatee reflection (not included in Summative) |
 | **Mid Year** | Off | Mid-year review checkpoint |
 | **Resources** | On | Documents and links available in evaluations |
@@ -74,7 +72,6 @@ Controls whether rubric scoring is available during evidence collection.
 | Setting | Who It Affects | Default |
 |---------|---------------|---------|
 | Allow Rubric Scoring (Observations) | Evaluators | Enabled |
-| Allow Rubric Scoring (Coded Notes) | Evaluators | Enabled |
 | Allow Rubric Scoring (Self Assessments) | Evaluatees | Enabled |
 | Allow Focused Rubric Component Scoring | Evaluators | Disabled |
 
@@ -90,7 +87,6 @@ When an evaluatee's plan type changes mid-year (Comprehensive ↔ Focused), thes
 |---------|----------------|
 | Keep Observation Plan Type in Sync | Existing observations |
 | Keep Artifact Plan Type in Sync | Existing artifacts |
-| Keep Coded Notes Plan Type in Sync | Existing coded notes |
 
 Default: All disabled (existing work keeps its original plan type).
 

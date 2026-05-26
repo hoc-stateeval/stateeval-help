@@ -54,7 +54,6 @@ See [Workflows](../reference/workflows.md#creator-managed-evidence-collections) 
 
 When you share an artifact, each rubric component alignment becomes a separate evidence item. These evidence items appear in:
 
-- **YTD Evidence** — Aggregated with all other published evidence
 - **Summative Evidence** — Filtered to the plan type scope
 
 If you aligned an artifact to multiple rubric components, each alignment shows up as its own evidence item in the collected evidence for that component.
@@ -63,20 +62,14 @@ If you aligned an artifact to multiple rubric components, each alignment shows u
 
 | Type | Created In | Evidence Appears In |
 |------|------------|---------------------|
-| **Global** | Artifacts work area | YTD and Summative when shared |
-| **Embedded** | Within an observation, coded note, etc. | The parent evidence collection |
+| **Global** | Artifacts work area | Summative when shared |
+| **Embedded** | Within an observation, etc. | The parent evidence collection |
 
 Embedded artifacts must be shared before the parent evidence collection is submitted, or they won't be included in the published evidence.
 
 ## Best Practices
 
-**For Evaluatees:**
+- Create artifacts within the related activity (such as an observation or student growth goal) rather than as global artifacts — reserve global artifacts for evidence that isn't tied to a specific activity
 - Submit artifacts throughout the year, not just at the end
-- Align artifacts to specific rubric components
+- Be intentional about the alignment of artifacts to specific rubric components
 - Add context explaining what the artifact demonstrates
-- Include reflection on student impact or professional growth
-
-**For Evaluators:**
-- Review shared artifacts regularly, not just at evaluation time
-- Your own artifacts can document evidence you've gathered
-- Consider artifacts alongside observations when scoring

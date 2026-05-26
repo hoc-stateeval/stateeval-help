@@ -24,7 +24,6 @@ Evidence comes from various activities throughout the evaluation:
 |--------|----------|
 | **Observations** | Observation notes, pre/post-conference responses, conference summaries |
 | **Artifacts** | Documents, files, links, narrative descriptions |
-| **Coded Notes** | Informal evaluator notes from walkthroughs or conversations |
 | **Student Growth** | Goal text, achievement data, prompt responses |
 | **Rubric Notes** | Narrative text added directly in Evidence View |
 | **Summative** | Reflection prompt responses |

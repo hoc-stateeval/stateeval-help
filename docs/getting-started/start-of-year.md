@@ -109,8 +109,6 @@ Most modules are always on — they define core parts of the evaluation process.
 
 | Module | Can Disable? | Default | What It Controls |
 |--------|:------------:|:-------:|------------------|
-| YTD Evidence | No | On | Year-to-date aggregated evidence view |
-| Coded Notes | Yes | On | Evaluator notes with rubric coding |
 | Artifacts | No | On | Artifact creation, sharing, and evidence alignment |
 | Student Growth Goal Setting | No | On | Student growth goal setting conference and goals |
 | Student Growth Goal Achievement | No | On | End-of-year student growth results |
@@ -123,8 +121,6 @@ Most modules are always on — they define core parts of the evaluation process.
 
 | Module | Can Disable? | Default | What It Controls |
 |--------|:------------:|:-------:|------------------|
-| YTD Evidence | No | On | Year-to-date aggregated evidence view |
-| Coded Notes | Yes | On | Evaluator notes with rubric coding |
 | Artifacts | No | On | Artifact creation, sharing, and evidence alignment |
 | Student Growth Goal Setting | Yes | On | Student growth goal setting conference and goals |
 | Student Growth Goal Achievement | No | On | End-of-year student growth results |
@@ -158,7 +154,6 @@ See [Completion Modes](../reference/workflows.md#completion-modes-in-detail) for
 |---------|------------------|
 | Allow Observation Scoring | Whether evaluators can assign rubric scores during observations |
 | Allow Self-Assessment Scoring | Whether evaluatees can assign rubric scores in self-assessments |
-| Allow Coded Notes Scoring | Whether evaluators can assign rubric scores in coded notes |
 
 **Plan Type Sync**
 
@@ -168,7 +163,6 @@ When an evaluatee's plan type changes mid-year (Comprehensive ↔ Focused), thes
 |---------|---------------------|
 | Keep Observation Plan Type in Sync | Existing observations update to match new plan type |
 | Keep Artifact Plan Type in Sync | Existing artifacts update to match new plan type |
-| Keep Coded Notes Plan Type in Sync | Existing coded notes update to match new plan type |
 
 **Critical Attributes (Danielson Framework Only)**
 
@@ -181,7 +175,7 @@ For districts using the Danielson Framework for Teaching:
 
 **Report Settings**
 
-Configure the title and layout of archived reports. Each report type (Summative, Observation, Mid-Year, Self-Assessment, Coded Note, Student Growth) can be customized with a custom title and which sections to include.
+Configure the title and layout of archived reports. Each report type (Summative, Observation, Mid-Year, Self-Assessment, Student Growth) can be customized with a custom title and which sections to include.
 
 **Where:** Evaluation Setup > Report Settings
 

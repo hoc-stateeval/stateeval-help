@@ -78,12 +78,6 @@ See [Understanding Your Evaluation](./reference/evaluation-basics.md#plan-types-
 ### Why can't I edit an observation?
 Observations lock after you send the Final Report. You'll need to request an unlock, which the evaluatee must approve. See [Unlock Requests](./reference/workflows.md#unlock-requests-mutual-approval).
 
-### What's the difference between Coded Notes and YTD Evidence?
-- **Coded Notes**: Your private notes until you share them. You can delete them anytime.
-- **YTD Evidence**: Collaborative space - immediately visible to both parties.
-
-Use Coded Notes for working notes; YTD Evidence for shared documentation. See [Evidence Types](./reference/workflows.md#detailed-workflows).
-
 ### Do I need to wait for the evaluatee to acknowledge?
 Depends on your district's workflow settings. Some use Simple mode (you complete directly), others use Formal mode (evaluatee must acknowledge). See [Completion Modes](./reference/workflows.md#completion-modes-in-detail).
 

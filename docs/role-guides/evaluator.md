@@ -13,7 +13,7 @@ As an evaluator (Principal, DPE, or DTE), you conduct observations, collect evid
 | Phase | What Happens |
 |-------|--------------|
 | **Fall** | Review self-assessments, approve student growth goals |
-| **Throughout Year** | Conduct observations, collect evidence, add coded notes |
+| **Throughout Year** | Conduct observations, collect evidence |
 | **Mid-Year** | Complete mid-year reviews (if enabled) |
 | **Spring** | Final observations, complete summative evaluations |
 
@@ -55,8 +55,6 @@ The settings you see (prompts, modules, resources) depend on your position in th
 | Type | Purpose | Workflow |
 |------|---------|----------|
 | **Observations** | Formal classroom/leadership observations | Locking workflow with review |
-| **Coded Notes** | Informal notes linked to rubric criteria | Share-only, can delete anytime |
-| **YTD Evidence** | Collaborative evidence notes | Always open, no approval |
 
 See [Workflows](../reference/workflows.md#detailed-workflows) for details on each.
 
@@ -64,9 +62,6 @@ See [Workflows](../reference/workflows.md#detailed-workflows) for details on eac
 
 **Why can't I edit an observation?**
 Once locked, observations require an unlock request approved by the evaluatee. See [Unlock Requests](../reference/workflows.md#unlock-requests-mutual-approval).
-
-**What's the difference between Coded Notes and YTD Evidence?**
-Coded Notes are yours - private until you share, deletable anytime. YTD Evidence is collaborative - immediately visible to both parties. Use Coded Notes for working notes; YTD Evidence for shared documentation.
 
 **Can I change an evaluatee's plan type?**
 Yes, in the Summative section while it's in Draft. If observations/artifacts were created with the old plan type, check your district's "Keep Plan Type in Sync" setting - see [Modules and Settings](../reference/modules-settings.md#plan-type-sync).

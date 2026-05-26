@@ -46,6 +46,7 @@ These work areas are for participating in or conducting evaluations.
 For teachers and principals being evaluated. This is where you:
 - Participate in observation conferences and view feedback
 - Complete self-assessments
+- Define goals and show evidence of progress
 - Submit artifacts
 - Track your evaluation progress
 
@@ -53,6 +54,7 @@ For teachers and principals being evaluated. This is where you:
 For principals and district teacher evaluators. This is where you:
 - View your assigned teachers
 - Conduct and document observations
+- Review and support teacher goal setting
 - Review teacher artifacts
 - Complete teacher evaluations
 
@@ -60,6 +62,7 @@ For principals and district teacher evaluators. This is where you:
 For head principals and district principal evaluators. This is where you:
 - View your assigned principals
 - Conduct and document observations
+- Review and support principal goal setting
 - Review principal artifacts
 - Complete principal evaluations
 

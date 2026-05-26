@@ -33,10 +33,8 @@ Be specific about what you observed and how it relates to the rubric component. 
 | Evidence Collection | Available |
 |--------------------|-----------|
 | Observations | Yes |
-| Coded Notes | Yes |
 | Student Growth | Yes |
 | Self-Assessment | Yes |
-| YTD Evidence | Depends on district settings |
 | Summative Evaluation | No |
 
 ## Managing Rubric Notes

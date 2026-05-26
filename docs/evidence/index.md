@@ -32,17 +32,15 @@ Every evidence collection except Artifacts has an Evidence View tab. The Evidenc
 | Evidence Collection | What the Evidence View Shows |
 |--------------------|------------------------------|
 | Observations | Evidence from that observation (notes, conference responses, embedded artifacts) |
-| Coded Notes | Evidence from that coded note |
 | Student Growth | Evidence from goal setting or achievement |
 | Self-Assessment | Evidence from that self-assessment (for reflection; doesn't flow to summative) |
-| YTD Evidence | Aggregated view of all published evidence across the rubric |
 | Summative Evaluation | Aggregated view of all published evidence scoped to the plan type |
 
 ### Why No Evidence View for Artifacts?
 
 Artifacts work differently. When you create an artifact, you align it to one or more rubric components. Each alignment becomes a separate evidence item that appears in:
-- **YTD and Summative** — when the artifact is shared (global artifacts)
-- **The parent evidence collection** — when the artifact is embedded within an observation, coded note, etc.
+- **Summative** — when the artifact is shared (global artifacts)
+- **The parent evidence collection** — when the artifact is embedded within an observation, etc.
 
 ## Common Tasks
 

@@ -6,13 +6,13 @@ roles: [TR, PR, DPE, DTE]
 
 # Evidence Collections
 
-In eVAL, each evaluation activity — an observation, an artifact, a student growth goal, a self-assessment, or a coded note — creates an **evidence collection**. An evidence collection is a container that holds the evidence produced by that activity and controls who can see it and when.
+In eVAL, each evaluation activity — an observation, an artifact, a student growth goal, or a self-assessment — creates an **evidence collection**. An evidence collection is a container that holds the evidence produced by that activity and controls who can see it and when.
 
 ## How Evidence Collections Work
 
 Each evidence collection has:
 
-- **A type** — determined by the activity (observation, artifact, student growth, self-assessment, coded note)
+- **A type** — determined by the activity (observation, artifact, student growth, self-assessment)
 - **A scope** — which rubric criteria and components the evidence can be aligned to, based on the evaluatee's plan type
 - **A workflow** — rules for how the collection moves from draft to final, who can edit, and when it becomes visible to others
 
@@ -47,16 +47,14 @@ Student Growth is evaluatee-initiated. The evaluatee creates goals first and has
 
 Once an evidence collection is **submitted**, its evidence becomes **public** — meaning it flows to and is visible in:
 
-- **YTD Evidence** — The year-to-date view showing all published evidence
 - **Summative Evidence** — The end-of-year view filtered to the evaluatee's plan type scope
 
 | Evidence Collection | Submitted When... | Evidence Then Visible In |
 |--------------------|--------------------|-------------------------|
-| **Observation** | Evaluator submits/locks | YTD and Summative |
-| **Coded Note** | Evaluator submits | YTD and Summative |
-| **Student Growth** | Goals/achievement approved | YTD and Summative |
-| **Artifact** | Creator shares | YTD and Summative |
-| **Self-Assessment** | Evaluatee shares | Shared with evaluator only (not YTD or Summative) |
+| **Observation** | Evaluator submits/locks | Summative |
+| **Student Growth** | Goals/achievement approved | Summative |
+| **Artifact** | Creator shares | Summative |
+| **Self-Assessment** | Evaluatee shares | Shared with evaluator only (not Summative) |
 
 ### Embedded Artifacts
 
@@ -65,7 +63,7 @@ Some evidence collections allow you to attach artifacts directly within them (em
 When submitting an evidence collection, you'll see a warning if any embedded artifacts haven't been shared yet.
 
 :::info Why Can't I See Evidence?
-If evidence you expect isn't showing in YTD or Summative, the source evidence collection likely hasn't been submitted yet. Check the workflow state of the source activity.
+If evidence you expect isn't showing in Summative, the source evidence collection likely hasn't been submitted yet. Check the workflow state of the source activity.
 :::
 
 ## How Evidence Is Organized
@@ -81,7 +79,7 @@ Your district selects an instructional framework (such as Danielson, Marzano, or
 
 When you create an **evidence package**, you can further align the evidence to specific **rubric indicator text** within the performance level descriptors. This provides more precise alignment than component-level only.
 
-This alignment structure is what makes it possible for YTD and Summative views to aggregate evidence from many different collections and show it organized by rubric component.
+This alignment structure is what makes it possible for the Summative view to aggregate evidence from many different collections and show it organized by rubric component.
 
 ## Related Topics
 

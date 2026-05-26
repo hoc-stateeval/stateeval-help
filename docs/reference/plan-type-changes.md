@@ -10,7 +10,7 @@ Your summative evaluation is either **Comprehensive** (all eight criteria) or **
 
 ## How Plan Type Affects Evidence
 
-When you create evidence (observations, coded notes, artifacts, etc.), it's associated with the plan type that was active at the time. This determines which rubric components the evidence can be aligned to.
+When you create evidence (observations, artifacts, etc.), it's associated with the plan type that was active at the time. This determines which rubric components the evidence can be aligned to.
 
 - **Comprehensive**: Evidence can align to all eight criteria and their components
 - **Focused**: Evidence aligns only to the selected criteria/components
@@ -21,7 +21,7 @@ When an evaluator changes the summative plan type, eVAL checks each evidence col
 
 - **Draft artifacts** - Automatically updated to match the new plan type (rubric alignments adjust to new scope)
 - **Empty draft collections** - Automatically updated to match the new plan type
-- **Draft collections with evidence** (observations, coded notes, etc.) - Cannot be auto-updated (would hide existing evidence), so you'll see a notification
+- **Draft collections with evidence** (observations, etc.) - Cannot be auto-updated (would hide existing evidence), so you'll see a notification
 - **Locked collections** - Cannot be updated, so you'll see a notification
 
 ### Evidence Outside Summative Focus

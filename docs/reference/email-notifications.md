@@ -76,7 +76,7 @@ Notifications are organized by the workflow area they relate to:
 | **Observations** | Observation scheduled, pre-conference sent, report ready for review |
 | **Student Growth** | Goals submitted, goals approved, achievement submitted |
 | **Summative** | Summative sent for review, summative acknowledged |
-| **Evidence** | Artifact shared, coded note shared, YTD evidence added |
+| **Evidence** | Artifact shared |
 | **Administrative** | Assignment changed, plan type changed |
 
 ---

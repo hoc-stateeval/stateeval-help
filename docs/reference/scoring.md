@@ -17,7 +17,6 @@ During the year, evaluators and evaluatees can optionally assign performance lev
 | Evidence Type | Who Scores | Controlled By |
 |--------------|------------|---------------|
 | **Observations** | Evaluator | Allow Observation Scoring setting |
-| **Coded Notes** | Evaluator | Allow Coded Notes Scoring setting |
 | **Self-Assessments** | Evaluatee | Allow Self-Assessment Scoring setting |
 
 District Administrators configure these settings. When a setting is disabled, the scoring interface doesn't appear for that evidence type.
@@ -168,7 +167,6 @@ District Administrators configure scoring through module settings:
 | Setting | Module | Effect |
 |---------|--------|--------|
 | Allow Rubric Scoring | Observations | Enables/disables scoring in observations |
-| Allow Rubric Scoring | Coded Notes | Enables/disables scoring in coded notes |
 | Allow Rubric Scoring | Self Assessments | Enables/disables scoring in self-assessments |
 | Allow Focused Rubric Component Scoring | Summative | Enables/disables component scoring in Focused evaluations |
 

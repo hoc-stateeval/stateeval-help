@@ -24,7 +24,6 @@ Each evidence collection type generates its own report when archived:
 |-------------|---------------|
 | **Summative** | End-of-year evaluation is completed |
 | **Observation** | Observation is locked/archived |
-| **Coded Note** | Coded note is shared |
 | **Student Growth Goal Setting** | Goals are approved |
 | **Student Growth Achievement** | Achievement is approved |
 
@@ -72,9 +71,9 @@ Sections marked with *(supports display mode)* can be configured with **All Evid
 | Final Notes | No | Final notes from evaluator and evaluatee |
 | Signature Block | No | Digital signatures from both parties |
 | **Appendix** |||
-| EC Summary | No | List of observations and coded notes conducted |
-| EC Score Summary | No | Summary of scores from each observation/coded note |
-| EC Reports | No | Full observation and coded note reports embedded |
+| EC Summary | No | List of observations conducted |
+| EC Score Summary | No | Summary of scores from each observation |
+| EC Reports | No | Full observation reports embedded |
 
 ### Observation Report
 
@@ -93,21 +92,6 @@ Sections marked with *(supports display mode)* can be configured with **All Evid
 | Pre-Conference Summaries | No | Pre-conference evaluator and evaluatee summaries |
 | Post-Conference Prompts | No | Post-conference prompt responses |
 | Post-Conference Summaries | No | Post-conference evaluator and evaluatee summaries |
-
-### Coded Note Report
-
-| Section | Required | Description |
-|---------|:--------:|-------------|
-| **Main** |||
-| Header | Yes | Date, evaluatee info |
-| Framework Scores | No | Component scores |
-| Collected Evidence | No | Evidence items *(supports display mode)* |
-| Packaged Evidence | No | Evidence packages *(supports display mode)* |
-| Prompts | No | Conference prompts and responses |
-| Final Notes | No | Final notes from evaluator and evaluatee |
-| Signature Block | No | Signatures |
-| **Appendix** |||
-| Coded Note | No | The coded note content |
 
 ### Student Growth Reports (Goal Setting & Achievement)
 
@@ -250,7 +234,6 @@ When a framework is set up, reports are initialized with default titles:
 |-------------|--------------|
 | Summative | eVAL Final Report |
 | Observation | eVAL Observation Report |
-| Coded Note | eVAL Coded Note Report |
 | Student Growth Goal Setting | eVAL Student Growth Goal Setting Report |
 | Student Growth Achievement | eVAL Student Growth Goal Achievement Report |
 

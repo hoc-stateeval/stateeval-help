@@ -50,10 +50,8 @@ A created package displays:
 | Evidence Collection | Can Create Packages |
 |--------------------|-------------------|
 | Observations | Yes |
-| Coded Notes | Yes |
 | Student Growth | Yes |
 | Self-Assessment | Yes |
-| YTD Evidence | Yes |
 | Summative Evaluation | No (view only) |
 
 ## Effects on Evidence Items

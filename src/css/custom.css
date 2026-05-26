@@ -11,19 +11,19 @@
    CSS Variables - eVAL Color Palette
    ============================================ */
 :root {
-  /* Primary Colors - eVAL Brand Green */
-  --ifm-color-primary: #1bb494;
-  --ifm-color-primary-dark: #128f78;
-  --ifm-color-primary-darker: #137261;
-  --ifm-color-primary-darkest: #145b4f;
-  --ifm-color-primary-light: #34cdab;
-  --ifm-color-primary-lighter: #64e4c3;
+  /* Primary Colors - eVAL Brand Blue */
+  --ifm-color-primary: #1A6ADB;
+  --ifm-color-primary-dark: #1A4480;
+  --ifm-color-primary-darker: #153B6E;
+  --ifm-color-primary-darkest: #10305A;
+  --ifm-color-primary-light: #3D82DB;
+  --ifm-color-primary-lighter: #6BA3F0;
 
-  --ifm-color-primary-lightest: #9df2da;
+  --ifm-color-primary-lightest: #A3C7FF;
 
   /* eVAL Link Colors */
-  --eval-link: #1bb494;
-  --eval-link-hover: #128f78;
+  --eval-link: #1A6ADB;
+  --eval-link-hover: #1A4480;
 
   /* Semantic Colors */
   --eval-success: #4BBF73;
@@ -47,7 +47,7 @@
 
   /* Layout */
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(63, 128, 234, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(26, 106, 219, 0.1);
   --ifm-global-radius: 0.375rem;
   --ifm-pre-border-radius: 0.5rem;
 
@@ -64,17 +64,17 @@
 
 /* Dark mode */
 [data-theme='dark'] {
-  --ifm-color-primary: #34cdab;
-  --ifm-color-primary-dark: #1bb494;
-  --ifm-color-primary-darker: #128f78;
-  --ifm-color-primary-darkest: #137261;
-  --ifm-color-primary-light: #64e4c3;
-  --ifm-color-primary-lighter: #9df2da;
-  --ifm-color-primary-lightest: #cef9ec;
-  --docusaurus-highlighted-code-line-bg: rgba(27, 180, 148, 0.2);
+  --ifm-color-primary: #6BA3F0;
+  --ifm-color-primary-dark: #3D82DB;
+  --ifm-color-primary-darker: #1A6ADB;
+  --ifm-color-primary-darkest: #1A4480;
+  --ifm-color-primary-light: #A3C7FF;
+  --ifm-color-primary-lighter: #D1E3FF;
+  --ifm-color-primary-lightest: #EBF2FF;
+  --docusaurus-highlighted-code-line-bg: rgba(107, 163, 240, 0.2);
   --ifm-navbar-background-color: #1b1b1d;
-  --eval-link: #34cdab;
-  --eval-link-hover: #64e4c3;
+  --eval-link: #6BA3F0;
+  --eval-link-hover: #A3C7FF;
 }
 
 /* ============================================
@@ -147,10 +147,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(255, 255, 255, 0.15);
 }
 
-/* Navbar buttons - eVAL green button style */
+/* Navbar buttons - eVAL blue button style */
 .navbar__items--left .navbar__link,
 .navbar__items:not(.navbar__items--right) .navbar__link {
-  background-color: #1bb494 !important;
+  background-color: #1A6ADB !important;
   color: #fff !important;
   font-weight: 600;
   padding: 0.5rem 1rem;
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar__items--left .navbar__link:hover,
 .navbar__items:not(.navbar__items--right) .navbar__link:hover {
-  background-color: #128f78 !important;
+  background-color: #1A4480 !important;
   color: #fff !important;
 }
 
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar__search-input:focus {
   width: 320px;
   border-color: var(--ifm-color-primary);
-  box-shadow: 0 0 0 3px rgba(27, 180, 148, 0.2);
+  box-shadow: 0 0 0 3px rgba(26, 106, 219, 0.2);
   outline: none;
 }
 
@@ -279,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
 .search-result-match {
   color: var(--ifm-color-primary);
   font-weight: 600;
-  background: rgba(27, 180, 148, 0.15);
+  background: rgba(26, 106, 219, 0.15);
   padding: 0.125rem 0.25rem;
   border-radius: 0.25rem;
 }
@@ -372,7 +372,7 @@ nav.menu {
 }
 
 .menu__list .menu__list .menu__link--active {
-  background-color: rgba(63, 128, 234, 0.2);
+  background-color: rgba(26, 106, 219, 0.2);
   color: #fff;
   font-weight: 500;
   border-left-color: var(--ifm-color-primary);
@@ -571,11 +571,11 @@ table tbody tr:hover {
 }
 
 /* ============================================
-   Tabs - eVAL style (teal/green)
+   Tabs - eVAL style (blue)
    ============================================ */
 :root {
-  --eval-brand-primary-600: #128f78;
-  --eval-brand-primary-700: #137261;
+  --eval-brand-primary-600: #1A4480;
+  --eval-brand-primary-700: #153B6E;
 }
 
 .tabs {
@@ -612,8 +612,8 @@ table tbody tr:hover {
 }
 
 [data-theme='dark'] .tabs__item--active {
-  border-bottom-color: #34cdab;
-  color: #64e4c3;
+  border-bottom-color: #6BA3F0;
+  color: #A3C7FF;
 }
 
 /* ============================================
@@ -647,7 +647,7 @@ code {
 }
 
 .badge--primary {
-  background-color: rgba(63, 128, 234, 0.15);
+  background-color: rgba(26, 106, 219, 0.15);
   color: var(--ifm-color-primary-dark);
 }
 
@@ -698,7 +698,7 @@ code {
 
 .card:hover {
   border-color: var(--ifm-color-primary);
-  box-shadow: 0 4px 12px rgba(63, 128, 234, 0.1);
+  box-shadow: 0 4px 12px rgba(26, 106, 219, 0.1);
 }
 
 [data-theme='dark'] .card {

@@ -7,6 +7,10 @@ title: FAQ
 
 ## Access Issues
 
+:::tip Full Explanation
+Access to eVAL turns on in stages as setup completes. For the complete picture — including how to read your **Account → User Location/Roles** page and why you might have partial access — see [Account Status & Access](./getting-started/account-status.md). The quick answers below cover the most common cases.
+:::
+
 ### Why do I see "Framework Setup Incomplete"?
 
 Your District Admin hasn't selected an evaluation framework yet. Until at least one framework is selected, only District Admins can access eVAL. All other users see this message:

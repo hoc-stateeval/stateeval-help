@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 title: Start of Year Setup
 roles: [DA, SA]
 ---
@@ -124,6 +124,10 @@ After selecting a framework, a warning confirms this is an irreversible step. Fr
 Before the District Admin loads a framework, other users can still log in to eVAL but will have limited access. Their Account > User Location/Roles page shows their work areas with a "Pending" status:
 
 ![Account Page - Pending Framework](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/account-pending-framework.png)
+
+:::tip Point Users Here
+This is a common source of support questions. For a user-facing explanation of what staff see before setup is complete — and why they might have partial access — direct them to [Account Status & Access](./account-status.md).
+:::
 
 ### What Happens After Selection
 

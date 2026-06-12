@@ -20,8 +20,8 @@ Three setup steps gate access, completed by your administrators in order:
 | Stage | Who Completes It | Until It's Done… |
 |-------|------------------|------------------|
 | 1. **Framework selection** (per evaluation type) | District Admin | Users with that evaluation type can't access it yet |
-| 2. **Evaluator assignment** | District/School Admin | The evaluatee can't open their own evaluation |
-| 3. **Plan type** (Comprehensive/Focused) | District/School Admin | The evaluatee can't open their own evaluation |
+| 2. **Evaluator assignment** | District Admin — or a School Admin/principal if the district has delegated assignment setup to schools | The evaluatee can't open their evaluation, **and the assigned evaluator won't see it either**, until evaluation setup is complete |
+| 3. **Plan type** (Comprehensive/Focused) | District Admin — or a School Admin/principal if delegated to schools | Same gate as above — neither the evaluatee nor the evaluator can open the evaluation until both assignment and plan type are set |
 
 District Admins always have access. Everyone else gains access as the stages above complete for *their* roles.
 

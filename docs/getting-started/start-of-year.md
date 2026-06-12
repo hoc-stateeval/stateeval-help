@@ -121,13 +121,9 @@ After selecting a framework, a warning confirms this is an irreversible step. Fr
 
 ### What Users See Before Setup
 
-Before the District Admin loads a framework, other users can still log in to eVAL but will have limited access. Their Account > User Location/Roles page shows their work areas with a "Pending" status:
+While setup is still in progress, other users can log in but may hit **access gates** — instead of full access, eVAL shows them what's still pending. For example, before you load a framework, users with that evaluation type see their work areas as "Pending."
 
-![Account Page - Pending Framework](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/account-pending-framework.png)
-
-:::tip Point Users Here
-This is a common source of support questions. For a user-facing explanation of what staff see before setup is complete — and why they might have partial access — direct them to [Account Status & Access](./account-status.md).
-:::
+This is a common source of support questions. For a user-facing explanation of these gates — what staff see, and why they might have partial access while setup continues — point them to [Account Status & Access](./account-status.md).
 
 ### What Happens After Selection
 
@@ -136,14 +132,6 @@ Once you select a framework:
 - The left sidebar menu populates with evaluation activities (Dashboard, Observations, etc.)
 - Related work areas become available for all users with those roles
 - You can proceed to the remaining setup tasks
-
-After both Teacher and Principal frameworks are loaded, a principal's Account page shows their work areas as "Ready" or "Pending" (waiting for evaluator assignment and plan type):
-
-![Account Page - After Setup](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/account-principal-after-setup.png)
-
-A teacher's Account page will show "Pending — evaluator and plan type not assigned" until the evaluator assignment and plan type configuration tasks are completed:
-
-![Account Page - Teacher Pending](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/account-teacher-pending-setup.png)
 
 ---
 

@@ -16,6 +16,7 @@ If users are seeing "Framework Setup Incomplete" or "Evaluation Setup Incomplete
 
 | Task | District Admin | School Admin | Required? |
 |------|:--------------:|:------------:|:---------:|
+| [EDS Staff Setup](#task---eds-staff-setup) | Coordinate with DSM | — | ✓ Prerequisite (in EDS) |
 | [Framework Selection](#task---framework-selection) | ✓ Required | — | ✓ Blocks all users |
 | [Modules & Settings](#task---modules-and-settings) | ✓ Sets defaults | If allowed | Optional |
 | [Evaluator Assignments](#task---evaluator-assignments) | ✓ Always | If delegated | ✓ Required |
@@ -24,6 +25,55 @@ If users are seeing "Framework Setup Incomplete" or "Evaluation Setup Incomplete
 | [Resources](#task---resources-setup) | ✓ Yes | ✓ Yes | Optional |
 | [Notification Settings](#task---notification-settings) | ✓ Yes | — | Recommended |
 | [District Viewers](#task---district-viewer-setup) | ✓ Yes | — | If needed |
+
+---
+
+## Task - EDS Staff Setup
+
+**Who:** District Security Manager (DSM) — done in EDS, not eVAL
+
+**Where:** [EDS](https://eds.ospi.k12.wa.us/), OSPI's Education Data System
+
+eVAL doesn't manage its own accounts. It gets every staff member — along with their building(s) and eVAL role(s) — from **EDS**. Before anyone can use eVAL, their EDS account must exist and be associated with the right building and role. This is set up by your **District Security Manager**, before eVAL setup begins.
+
+:::info This Happens in EDS, Before eVAL
+New or changed staff flow into eVAL automatically (a nightly sync, and on the person's first sign-in). If someone is missing from eVAL or has the wrong school or role, the fix is almost always in EDS — see [Troubleshooting](#troubleshooting).
+:::
+
+### Your District Security Manager (DSM)
+
+Every district has at least one **DSM** who manages EDS access. If you're onboarding, you likely already know yours; if not, OSPI publishes the [District Security Manager list](https://eds.ospi.k12.wa.us/securitymanagerlist.aspx). The DSM is usually already comfortable with EDS — so this is mainly about telling them what eVAL needs.
+
+### What the DSM Does for eVAL
+
+For each person who will use eVAL, the DSM:
+
+1. **Confirms they have an EDS account.** Most teachers and principals already do — OSPI requires one to register a teaching certificate. Staff in non-certificated roles (a District Admin, for example) may need a new account created.
+2. **Associates their building(s) and eVAL role(s)** — for example, *Principal at Lincoln Elementary*, or *District Admin for the district*.
+
+The role assigned in EDS becomes the person's role in eVAL. See [Roles in eVAL](./roles.md) for what each role does.
+
+:::tip Head Principal Covers Principal + School Admin
+At a school with more than one principal, assign the lead the **Head Principal** role — it automatically includes the **Principal** and **School Admin** roles, so don't add those separately. At a school with a single principal, just assign **Principal**.
+:::
+
+:::caution Match the Role to the Building Type
+EDS won't stop you from putting a **district** role on a **school** building, or a **school** role on the **district** — but those mismatches don't work correctly in eVAL. Keep school roles (Teacher, Principal, Head Principal, School Admin) on **schools**, and district roles (District Admin, District Evaluators) on the **district**.
+:::
+
+### Start Small — Add Roles Only If Needed
+
+Give each person the fewest roles that cover what they actually do, and add more later only if needed. Two common over-assignments to avoid:
+
+- **District Admin already covers it.** A District Admin can do everything a **District Assignment Manager** (manage assignments) or a **District Viewer** (read-only oversight) can. Don't stack those on top of District Admin — assign the narrower role only to people who *aren't* District Admins.
+- **District Teacher Evaluator is for the district, not a school.** Only assign **District Teacher Evaluator** to someone who genuinely works at the district level and evaluates teachers across multiple schools. A principal already evaluates the teachers at their own school through the **Principal** role — they don't need (and shouldn't be given) District Teacher Evaluator.
+
+### Learn More (OSPI)
+
+EDS is an OSPI system, so OSPI maintains the authoritative how-to guides:
+
+- [EDS Administration Manual (2025)](https://ospi.k12.wa.us/sites/default/files/2025-06/eds-administration-manual_2025.pdf) — managing accounts and role associations, including descriptions of every available role
+- [EDS Bulk Upload Instructions](https://ospi.k12.wa.us/sites/default/files/2023-08/edsbulkuploadinstructions.pdf) — for larger districts loading many staff at once
 
 ---
 
@@ -353,6 +403,7 @@ Once setup is complete, use the dashboard to monitor:
 
 | When | Task | Who |
 |------|------|-----|
+| Before setup begins | Ensure staff have EDS accounts + eVAL building/role associations | DSM (with DA) |
 | Before school starts | Select evaluation frameworks | DA |
 | Before school starts | Configure modules & settings | DA |
 | Before school starts | Configure required notifications | DA |
@@ -368,9 +419,10 @@ Once setup is complete, use the dashboard to monitor:
 
 ## Troubleshooting
 
-**Staff member missing from eVAL**
-- Verify they exist in your district's employee data system (EDS)
-- Contact your district data administrator
+**Staff member missing from eVAL (or wrong school/role)**
+- Confirm their EDS account and eVAL building/role association — see [EDS Staff Setup](#task---eds-staff-setup)
+- Contact your District Security Manager (DSM)
+- New or changed staff appear after the nightly sync or on their first sign-in
 
 **Evaluator dropdown is empty when assigning**
 - Ensure valid evaluators exist at that location

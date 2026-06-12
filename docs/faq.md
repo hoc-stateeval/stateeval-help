@@ -41,6 +41,10 @@ This is expected if assignments aren't complete yet. Evaluators can access eVAL 
 
 Contact your District Admin or School Admin to check on assignment progress.
 
+:::tip Principals Can Often Do This Themselves
+If your district has **delegated assignment responsibility to your school**, a principal can complete this setup directly — assigning the evaluator and selecting the plan type for staff at their school in the **Assignments** area — instead of waiting on the District Admin. If you don't have access to assignments, the district hasn't delegated it to your school. See [Evaluator Assignments](./getting-started/start-of-year.md#task---evaluator-assignments).
+:::
+
 ### Access requirements summary
 
 | User Type | What They Need | Message If Missing |

@@ -16,7 +16,7 @@ See [The Evaluation Year](../getting-started/evaluation-year.md) for the rhythm 
 
 | Area | What You Do |
 |------|-------------|
-| **Observations** | Conduct observations, collect evidence, and send final reports |
+| **[Observations](../reference/observations.md)** | Conduct observations, collect evidence, and send final reports |
 | **[Student Growth](../reference/student-growth-goals.md)** | Review and approve student growth goals and end-of-year achievement |
 | **[Summative Evaluation](../reference/scoring.md)** | Score the criteria and produce the final evaluation report |
 

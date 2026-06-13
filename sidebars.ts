@@ -19,7 +19,20 @@ const sidebars: SidebarsConfig = {
         'getting-started/start-of-year',
       ],
     },
-    'artifacts/index',
+    {
+      type: 'category',
+      label: 'Evidence Collections',
+      link: {
+        type: 'doc',
+        id: 'reference/evidence-collection',
+      },
+      items: [
+        'reference/observations',
+        'reference/self-assessment',
+        'reference/student-growth-goals',
+        'artifacts/index',
+      ],
+    },
     {
       type: 'category',
       label: 'Evidence View',
@@ -48,12 +61,19 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'How-To Guides',
+      items: [
+        'how-to/conduct-an-observation',
+        'how-to/complete-a-self-assessment',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Reference',
       items: [
         'reference/evaluation-basics',
         'reference/assignments',
         'reference/focused-evaluations',
-        'reference/evidence-collection',
         'reference/plan-type-changes',
         'reference/workflows',
         'reference/state-framework',
@@ -61,7 +81,6 @@ const sidebars: SidebarsConfig = {
         'reference/settings-inheritance',
         'reference/report-configuration',
         'reference/prompts',
-        'reference/student-growth-goals',
         'reference/scoring',
         'reference/email-notifications',
       ],

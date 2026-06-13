@@ -16,7 +16,7 @@ If you're a principal, you're an evaluatee here (your own evaluation, conducted 
 
 | Area | What You Do |
 |------|-------------|
-| **Self-Assessment** | Reflect on your practice and share it with your evaluator |
+| **[Self-Assessment](../reference/self-assessment.md)** | Reflect on your practice and share it with your evaluator |
 | **[Artifacts](../artifacts/index.md)** | Submit evidence that demonstrates your practice |
 | **[Student Growth Goals](../reference/student-growth-goals.md)** | Set your goals and report on achievement |
 | **[Conferences & Prompts](../reference/prompts.md)** | Respond to pre/post-conference and reflection prompts |

@@ -59,7 +59,7 @@ If your district has **delegated assignment responsibility to your school**, a p
 ## Evaluatees (Teachers & Principals)
 
 ### Why can't I edit my self-assessment?
-Once you share a self-assessment with your evaluator, it's permanently locked. This is by design - review carefully before sharing. See [Self-Assessment Workflow](./reference/workflows.md#detailed-workflows).
+When you share a self-assessment, it becomes read-only. You can **Unlock** it yourself to make changes — no evaluator approval needed — and then share it again. See [Self-Assessment](./reference/self-assessment.md).
 
 ### Why can't I edit my student growth goals?
 Your goals may be in a locked state. If they've been approved by your evaluator, you'll need to request an unlock to make changes. See [Unlock Requests](./reference/workflows.md#unlock-requests-mutual-approval).

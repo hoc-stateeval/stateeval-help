@@ -50,12 +50,12 @@ Controls whether the evaluatee must review and acknowledge before a report is se
 |---------|-----------------|---------|
 | Use Simple Workflow | Observations | Formal |
 | Use Simple Workflow | Summative | Formal |
-| Use Simple Workflow for Goal Setting | Student Growth | Formal |
-| Use Simple Workflow for Goal Achievement | Student Growth | Formal |
+| Use Simple Workflow for Goal Setting | Student Growth | Simple |
+| Use Simple Workflow for Goal Achievement | Student Growth | Simple |
 
-**Formal mode** (default): Evaluatee reviews and acknowledges before sealing. Provides digital signatures from both parties.
+**Formal mode** (default for Observations and Summative): Evaluatee reviews and acknowledges before sealing. Provides digital signatures from both parties.
 
-**Simple mode**: Evaluator completes directly. Evaluatee is notified but doesn't sign. Useful for high-volume observation cycles.
+**Simple mode** (default for Student Growth): Evaluator completes directly. Evaluatee is notified but doesn't sign. Useful for high-volume observation cycles.
 
 :::tip When to Use Each
 - **Observations**: Simple mode works well for frequent walkthroughs; Formal for formal observations

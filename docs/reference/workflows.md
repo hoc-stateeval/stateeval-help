@@ -18,10 +18,10 @@ Most evidence collections use a **completion mode** that determines whether the 
 
 | Mode | How It Works | Default For |
 |------|--------------|-------------|
-| **Simple** | Submits directly to locked/sealed. Other party is notified and can view. | Observations |
-| **Formal** | After submission, other party must review and acknowledge before final lock. | Student Growth, Summative Evaluation |
+| **Simple** | Submits directly to locked/sealed. Other party is notified and can view. | Student Growth (Goal Setting & Goal Achievement) |
+| **Formal** | After submission, other party must review and acknowledge before final lock. | Observations, Summative Evaluation |
 
-**Why the difference?** Evidence collections that contribute **scores** to the final performance rating (Student Growth, Summative) default to Formal mode because those scores have significant impact. Collections focused on **evidence gathering** (Observations) default to Simple mode to handle higher volumes efficiently. In many cases, the evaluator and evaluatee meet in person to review the report together without needing to go through a digital approval workflow.
+**Defaults by collection.** Observations and the Summative evaluation default to **Formal** — the evaluatee reviews and acknowledges the report within eVAL before it's locked, creating a documented sign-off for these formal steps of the evaluation. Student growth goal setting and achievement default to **Simple**. These are only starting points: in many cases the evaluator and evaluatee meet in person to review a report together, so each district can set the completion mode that best fits its process.
 
 ### District Flexibility
 
@@ -72,7 +72,7 @@ In Simple mode, the evidence collection goes directly from Draft to Complete/Loc
 
 **Draft** → **Complete/Locked**
 
-**Example: Observation (Simple Mode)**
+**Example: Observation with Simple Mode enabled** (observations default to Formal; a district can switch them to Simple)
 1. Evaluator creates the observation and works on it in **Draft**
 2. Evaluator clicks **Submit Observation Report** — the observation moves directly to **Complete/Locked**
 3. Evaluatee is notified and can view the completed observation

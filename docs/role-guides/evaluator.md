@@ -6,7 +6,28 @@ roles: [PR, DPE, DTE]
 
 # Evaluator Guide
 
-As an evaluator (Principal, DPE, or DTE), you conduct observations, collect evidence, and complete evaluations for staff assigned to you.
+As an evaluator (Principal, DPE, or DTE), you conduct observations, collect evidence, and complete evaluations for the staff assigned to you.
+
+:::tip How the Year Unfolds
+See [The Evaluation Year](../getting-started/evaluation-year.md) for the rhythm of the year, from setup to final score.
+:::
+
+## Your Responsibilities
+
+| Area | What You Do |
+|------|-------------|
+| **Observations** | Conduct observations, collect evidence, and send final reports |
+| **[Student Growth](../reference/student-growth-goals.md)** | Review and approve student growth goals and end-of-year achievement |
+| **[Summative Evaluation](../reference/scoring.md)** | Score the criteria and produce the final evaluation report |
+
+## Start of Year
+
+A couple of setup tasks are worth doing at the beginning of the year:
+
+| Task | What to Do |
+|------|------------|
+| **[Prompt Bank](../reference/prompts.md)** | Set up your own prompts for conferences and student growth so they're ready when you begin. Your prompts are available only to you, on top of any district or school prompts. |
+| **[Assignments](../reference/assignments.md)** | If your district has delegated assignments to your school, assign evaluators and plan types for your staff. |
 
 ## Your Evaluation Year
 
@@ -16,23 +37,6 @@ As an evaluator (Principal, DPE, or DTE), you conduct observations, collect evid
 | **Throughout Year** | Conduct observations, collect evidence |
 | **Mid-Year** | Complete mid-year reviews (if enabled) |
 | **Spring** | Final observations, complete summative evaluations |
-
-## Setting Up Your Prompt Bank
-
-**Where:** Prompt Bank
-
-You can pre-define your own prompts for use during evaluations. These prompts are available only to you, in addition to any district or school prompts.
-
-| Prompt Type | Used When |
-|-------------|-----------|
-| Pre-Conference | Setting up observation conferences |
-| Post-Conference | Observation post-conference reflections |
-| Student Growth | Goal-setting and achievement discussions |
-| Summative Reflection | End-of-year evaluation discussions |
-
-:::tip Start of Year
-Consider setting up your prompts at the beginning of the year so they're ready when you start observations.
-:::
 
 ## Key Concepts
 
@@ -48,23 +52,4 @@ Your district configures whether evaluations use [Simple or Formal workflow](../
 - **Formal**: Evaluatee must review and acknowledge before sealing
 
 ### What You Inherit
-The settings you see (prompts, modules, resources) depend on your position in the hierarchy. See [How Settings Are Inherited](../reference/settings-inheritance.md) - particularly important if you're a DTE/DPE, as school-level settings are bypassed.
-
-## Evidence You Create
-
-| Type | Purpose | Workflow |
-|------|---------|----------|
-| **Observations** | Formal classroom/leadership observations | Locking workflow with review |
-
-See [Workflows](../reference/workflows.md#detailed-workflows) for details on each.
-
-## Common Questions
-
-**Why can't I edit an observation?**
-Once locked, observations require an unlock request approved by the evaluatee. See [Unlock Requests](../reference/workflows.md#unlock-requests-mutual-approval).
-
-**Can I change an evaluatee's plan type?**
-Yes, in the Summative section while it's in Draft. If observations/artifacts were created with the old plan type, check your district's "Keep Plan Type in Sync" setting - see [Modules and Settings](../reference/modules-settings.md#plan-type-sync).
-
-**Do I need to wait for the evaluatee to acknowledge?**
-Depends on your district's workflow settings. See [Completion Modes](../reference/workflows.md#completion-modes-in-detail).
+The settings you see (prompts, modules, resources) depend on your position in the hierarchy. See [How Settings Are Inherited](../reference/settings-inheritance.md) — particularly important if you're a DTE/DPE, as school-level settings are bypassed.

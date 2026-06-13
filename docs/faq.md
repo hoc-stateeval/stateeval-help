@@ -42,7 +42,7 @@ This is expected if assignments aren't complete yet. Evaluators can access eVAL 
 Contact your District Admin or School Admin to check on assignment progress.
 
 :::tip Principals Can Often Do This Themselves
-If your district has **delegated assignment responsibility to your school**, a principal can complete this setup directly — assigning the evaluator and selecting the plan type for staff at their school in the **Assignments** area — instead of waiting on the District Admin. If you don't have access to assignments, the district hasn't delegated it to your school. See [Evaluator Assignments](./getting-started/start-of-year.md#task---evaluator-assignments).
+If your district has **delegated assignment responsibility to your school**, a principal can complete this setup directly — assigning the evaluator and selecting the plan type for staff at their school in the **Assignments** area — instead of waiting on the District Admin. If you don't have access to assignments, the district hasn't delegated it to your school. See [Assignments & Plan Types](./reference/assignments.md).
 :::
 
 ### Access requirements summary
@@ -79,6 +79,9 @@ Quality over quantity. Submit evidence that demonstrates your practice with clea
 
 See [Understanding Your Evaluation](./reference/evaluation-basics.md#plan-types-comprehensive-vs-focused).
 
+### How do I know what's expected of me?
+Your evaluation is based on your district's instructional framework (like Danielson or CEL 5D+). See [State Framework](./reference/state-framework.md) for how frameworks connect to Washington's eight criteria.
+
 ---
 
 ## Evaluators
@@ -101,6 +104,18 @@ The district hasn't enabled school-level override for that setting. Only setting
 
 ### Why don't school settings apply to a teacher's evaluation?
 Check who the evaluator is. If it's a DTE (district-level evaluator) rather than a school principal, school settings are bypassed. See [Settings Inheritance](./reference/settings-inheritance.md#summary).
+
+### Should I delegate assignments to schools?
+The "Assignments Delegated" setting lets School Admins (and principals, if enabled) manage their own evaluator assignments. Useful for large districts; keep it centralized for tighter control. See [Assignments & Plan Types](./reference/assignments.md).
+
+### Can a School Admin assign evaluators?
+Only if your district has enabled "Assignments Delegated" for your school. Otherwise, the District Admin manages all assignments. See [Assignments & Plan Types](./reference/assignments.md).
+
+### What prompts and resources will teachers see?
+Everything from the district level plus anything added at the school level — the lists combine (additive pattern). See [Using Prompts](./reference/prompts.md).
+
+### Can a District Admin override a locked evaluation?
+Yes — District Admins can revert any summative evaluation to Draft without evaluatee approval. This is the only role with that power. See [Summative Workflow](./reference/workflows.md#detailed-workflows).
 
 ### Evaluator dropdown is empty when assigning
 - Check that valid evaluators exist at that location (principals must have evaluator role)

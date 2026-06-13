@@ -12,6 +12,16 @@ As an evaluatee — a teacher or principal being evaluated — you participate i
 If you're a principal, you're an evaluatee here (your own evaluation, conducted by a District Principal Evaluator) **and** an evaluator of your teachers. See the [Principal Guide](./principal.md) for how the two fit together.
 :::
 
+## Your Responsibilities
+
+| Area | What You Do |
+|------|-------------|
+| **Self-Assessment** | Reflect on your practice and share it with your evaluator |
+| **[Artifacts](../artifacts/index.md)** | Submit evidence that demonstrates your practice |
+| **[Student Growth Goals](../reference/student-growth-goals.md)** | Set your goals and report on achievement |
+| **[Conferences & Prompts](../reference/prompts.md)** | Respond to pre/post-conference and reflection prompts |
+| **Summative Review** | Review and acknowledge your final evaluation |
+
 ## Your Evaluation Year
 
 | Phase | What Happens |
@@ -28,25 +38,5 @@ Before diving in, understand these concepts that affect your experience:
 ### How Evidence Works
 Your evaluation is built on evidence collected throughout the year. See [Evidence Collection](../reference/evidence-collection.md) to understand what counts and how it's organized.
 
-### Why You Can't Edit Some Things
-Evidence collections move through workflows with specific states. If you can't edit something, it's likely been shared or locked. See [How Workflows Work](../reference/workflows.md) to understand:
-- Why self-assessments can't be changed once shared
-- How observation feedback becomes finalized
-- When your evaluator needs to unlock something for you
-
 ### Comprehensive vs. Focused
 Your evaluation is either **Comprehensive** (all 8 criteria) or **Focused** (one criterion you select). See [Understanding Your Evaluation](../reference/evaluation-basics.md#plan-types-comprehensive-vs-focused) for how this affects your year.
-
-## Common Questions
-
-**Why can't I edit my self-assessment?**
-Once you share a self-assessment with your evaluator, it's permanently locked. This is by design - see [Self-Assessment Workflow](../reference/workflows.md#detailed-workflows).
-
-**When will I see my observation feedback?**
-After your evaluator sends the Final Report. Depending on your district's settings, you may need to acknowledge it before it's sealed. See [Observation Workflow](../reference/workflows.md#detailed-workflows).
-
-**What artifacts should I submit?**
-Anything that demonstrates your practice. For a teacher, that might be lesson plans, student work, professional development, or parent communication; for a principal, things like school improvement plans, staff communications, or leadership artifacts. Quality over quantity - include context explaining what the evidence shows.
-
-**How do I know what's expected of me?**
-Your evaluation is based on your district's instructional framework (like Danielson or CEL 5D+). See [State Framework](../reference/state-framework.md) for how frameworks connect to Washington's eight criteria.

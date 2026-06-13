@@ -16,10 +16,10 @@ See [Start of Year Setup](../getting-started/start-of-year.md) for the sequence 
 
 | Area | What You Can Do |
 |------|-----------------|
-| **Assignments** | Assign evaluators to teachers (if delegated by district) |
-| **Settings** | Override district settings (where allowed) |
-| **Prompt Bank** | Add school-level prompts for observations and student growth |
-| **Resources** | Add school-level resources for evaluations |
+| **[Assignments](../reference/assignments.md)** | Assign evaluators to teachers (if delegated by district) |
+| **[Settings](../reference/modules-settings.md)** | Override district settings (where allowed) |
+| **[Prompt Bank](../reference/prompts.md)** | Add school-level prompts for observations and student growth |
+| **[Resources](../getting-started/start-of-year.md#task---resources-setup)** | Add school-level resources for evaluations |
 | **Oversight** | Monitor evaluation progress at your school |
 
 ## What You Control vs. District
@@ -50,17 +50,3 @@ School-level settings only apply to **teacher evaluations conducted by school pr
 - Teacher evaluations by DTEs (district-level evaluators)
 
 See [Settings Inheritance](../reference/settings-inheritance.md#summary) for the full matrix.
-
-## Common Questions
-
-**Why can't I change a setting?**
-The district hasn't enabled school-level override for that setting. Contact your District Admin if you need it changed.
-
-**Why don't my settings apply to a teacher's evaluation?**
-Check who the evaluator is. If it's a DTE (not a school principal), district settings apply instead. See [Settings Inheritance](../reference/settings-inheritance.md#summary).
-
-**Can I assign evaluators?**
-Only if your district has enabled "Assignments Delegated." Otherwise, the District Admin manages all assignments.
-
-**What prompts/resources will teachers see?**
-They'll see everything from the district level plus anything you've added at the school level. The lists combine (additive pattern).

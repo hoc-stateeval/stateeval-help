@@ -16,11 +16,11 @@ See [Start of Year Setup](../getting-started/start-of-year.md) for the required 
 
 | Area | What You Control |
 |------|------------------|
-| **Framework Setup** | Select evaluation frameworks for the school year |
-| **Assignments** | Assign evaluators to evaluatees (or delegate to schools) |
-| **Configuration** | Enable/disable modules, configure settings |
-| **Prompt Bank** | Pre-define prompts for observations, student growth, summatives |
-| **Resources** | Add district-wide resources for evaluations |
+| **[Framework Setup](../getting-started/start-of-year.md#task---framework-selection)** | Select evaluation frameworks for the school year |
+| **[Assignments](../reference/assignments.md)** | Assign evaluators to evaluatees (or delegate to schools) |
+| **[Configuration](../reference/modules-settings.md)** | Enable/disable modules, configure settings |
+| **[Prompt Bank](../reference/prompts.md)** | Pre-define prompts for observations, student growth, summatives |
+| **[Resources](../getting-started/start-of-year.md#task---resources-setup)** | Add district-wide resources for evaluations |
 | **Oversight** | Monitor progress, generate reports, intervene when needed |
 
 ## Key Concepts
@@ -40,26 +40,3 @@ You configure whether evaluations use [Simple or Formal completion](../reference
 - **Formal**: Evaluatee must acknowledge, provides digital signatures
 
 Consider Formal for high-stakes summatives, Simple for high-volume observations.
-
-## Common Questions
-
-**Should I delegate assignments to schools?**
-The "Assignments Delegated" setting lets School Admins manage their own evaluator assignments. Useful for large districts; keep centralized for tighter control. See [Assignment Delegation](../reference/modules-settings.md#assignment-delegation).
-
-**What happens if I change a setting mid-year?**
-Settings apply to new work. Existing observations/evaluations keep their original settings. For plan type changes, consider the "Keep Plan Type in Sync" settings.
-
-**Can I override a locked evaluation?**
-Yes - District Admins can revert any summative evaluation to Draft without evaluatee approval. This is the only role with this power. See [Summative Workflow](../reference/workflows.md#detailed-workflows).
-
-## Teacher vs. Principal Evaluations
-
-You configure these separately. Key differences:
-
-| Setting | Teachers | Principals |
-|---------|----------|------------|
-| Observations | Required | Optional |
-| Student Growth Goals | Enabled by default | Disabled by default |
-| School-level settings | Apply | Bypassed |
-
-See [Modules and Settings](../reference/modules-settings.md#teacher-vs-principal-differences) for full comparison.

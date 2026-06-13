@@ -34,6 +34,16 @@ These roles manage the setup and configuration of evaluations.
 | **District Assignment Manager** | Entire district | Manage evaluator assignments only (a limited admin role) |
 | **District Viewer** | Assigned schools | View evaluation progress in read-only mode for oversight |
 
+## Guides for Your Role
+
+Once you know your role, the role guides walk through what to do:
+
+- [Evaluator Guide](../role-guides/evaluator.md) — for Principals, DPEs, and DTEs conducting evaluations
+- [Evaluatee Guide](../role-guides/evaluatee.md) — for teachers and principals being evaluated
+- [Principal Guide](../role-guides/principal.md) — for principals, who are both an evaluator and an evaluatee
+- [District Admin Guide](../role-guides/district-admin.md) — configuring and overseeing evaluations district-wide
+- [School Admin Guide](../role-guides/school-admin.md) — managing school-level settings and assignments
+
 ## Multiple Roles and Locations
 
 A single person can hold multiple roles across multiple locations. For example:

@@ -1,12 +1,16 @@
 ---
 sidebar_position: 4
-title: Teacher Guide
-roles: [TR]
+title: Evaluatee Guide
+roles: [TR, PR]
 ---
 
-# Teacher Guide
+# Evaluatee Guide
 
-As a teacher in eVAL, you participate in your annual evaluation by providing evidence of your practice and engaging with feedback from your evaluator.
+As an evaluatee — a teacher or principal being evaluated — you participate in your annual evaluation by providing evidence of your practice and engaging with feedback from your evaluator.
+
+:::info Principals Wear Two Hats
+If you're a principal, you're an evaluatee here (your own evaluation, conducted by a District Principal Evaluator) **and** an evaluator of your teachers. See the [Principal Guide](./principal.md) for how the two fit together.
+:::
 
 ## Your Evaluation Year
 
@@ -42,7 +46,7 @@ Once you share a self-assessment with your evaluator, it's permanently locked. T
 After your evaluator sends the Final Report. Depending on your district's settings, you may need to acknowledge it before it's sealed. See [Observation Workflow](../reference/workflows.md#detailed-workflows).
 
 **What artifacts should I submit?**
-Anything that demonstrates your practice: lesson plans, student work, professional development, parent communication. Quality over quantity - include context explaining what the evidence shows.
+Anything that demonstrates your practice. For a teacher, that might be lesson plans, student work, professional development, or parent communication; for a principal, things like school improvement plans, staff communications, or leadership artifacts. Quality over quantity - include context explaining what the evidence shows.
 
 **How do I know what's expected of me?**
 Your evaluation is based on your district's instructional framework (like Danielson or CEL 5D+). See [State Framework](../reference/state-framework.md) for how frameworks connect to Washington's eight criteria.

@@ -19,7 +19,8 @@ Find guides and answers to help you get the most out of eVAL, Washington State's
 - **[District Administrators](./role-guides/district-admin.md)** — Configure evaluations, manage assignments, oversee progress
 - **[School Administrators](./role-guides/school-admin.md)** — Manage school-level settings and assignments
 - **[Evaluators](./role-guides/evaluator.md)** — Conduct observations, review evidence, complete evaluations
-- **[Teachers](./role-guides/teacher.md)** — Submit artifacts, view feedback, track your evaluation
+- **[Evaluatees](./role-guides/evaluatee.md)** — Teachers and principals being evaluated: submit artifacts, view feedback, track your evaluation
+- **[Principals](./role-guides/principal.md)** — Both an evaluator and an evaluatee — how the two roles fit together
 
 ## Popular Topics
 

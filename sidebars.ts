@@ -14,6 +14,7 @@ const sidebars: SidebarsConfig = {
         'getting-started/what-is-eval',
         'getting-started/roles',
         'getting-started/work-areas',
+        'getting-started/account-status',
         'getting-started/evaluation-year',
         'getting-started/start-of-year',
       ],
@@ -41,7 +42,8 @@ const sidebars: SidebarsConfig = {
         'role-guides/district-admin',
         'role-guides/school-admin',
         'role-guides/evaluator',
-        'role-guides/teacher',
+        'role-guides/evaluatee',
+        'role-guides/principal',
       ],
     },
     {

@@ -35,5 +35,6 @@ eVAL serves several types of users:
 :::tip Where to Go Next
 - **New to eVAL?** See [Roles](./roles.md) to understand your role, then [Work Areas](./work-areas.md) to find where things are
 - **Administrator setting up a new year?** Go directly to [Start of Year Setup](./start-of-year.md)
-- **Looking for help with a specific task?** Check your [Role Guide](../role-guides/district-admin.md) or the [FAQ](../faq.md)
+- **An evaluator?** See the [Evaluator Guide](../role-guides/evaluator.md) — or, if you're a principal, the [Principal Guide](../role-guides/principal.md) (you're also evaluated)
+- **Being evaluated?** See the [Evaluatee Guide](../role-guides/evaluatee.md), or browse the [FAQ](../faq.md) for quick answers
 :::

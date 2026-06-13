@@ -102,6 +102,6 @@ A typical evaluation year follows this pattern:
 
 ## Next Steps
 
-- [For Teachers: Participating in your evaluation](../role-guides/teacher.md)
+- [For Evaluatees: Participating in your evaluation](../role-guides/evaluatee.md)
 - [For Evaluators: Conducting evaluations](../role-guides/evaluator.md)
 - [Working with Artifacts](../artifacts/index.md)

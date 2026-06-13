@@ -51,6 +51,7 @@ const sidebars: SidebarsConfig = {
       label: 'Reference',
       items: [
         'reference/evaluation-basics',
+        'reference/assignments',
         'reference/focused-evaluations',
         'reference/evidence-collection',
         'reference/plan-type-changes',

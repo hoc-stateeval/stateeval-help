@@ -231,51 +231,23 @@ See [Report Configuration](../reference/report-configuration.md) for details on 
 
 ## Task - Evaluator Assignments
 
-**Who:** District Admin (or School Admin if delegated)
+**Who:** District Admin (or School Admin/principal if delegated)
 **Where:** Assignments
 
-Each evaluatee needs an assigned evaluator before their evaluation can begin.
+Each evaluatee needs an assigned evaluator before their evaluation can begin. By default the District Admin assigns evaluators for all schools; the DA can delegate this to schools from the Assignments Summary page (per school, or "Delegate to All Schools").
 
-### Delegation
-
-By default, the DA assigns evaluators for all schools. The DA can delegate assignment responsibility to schools:
-
-| Responsibility | Who Assigns Evaluators |
-|----------------|------------------------|
-| **District** (default) | DA assigns evaluators for this school |
-| **School** | School Admin assigns evaluators for their school |
-
-From the Assignments Summary page, toggle per school or use "Delegate to All Schools" for all at once.
-
-:::tip District Size
-Large districts benefit from delegation to reduce central workload. Small districts may prefer central control for consistency.
-:::
-
-### Assignment Rules
-
-| Evaluatee | Can Be Assigned To |
-|-----------|-------------------|
-| Teachers | Principal at their school, or DTE |
-| Assistant Principals | Head Principal at their school, or DPE |
-| Head Principals | DPE |
+For who can be assigned to whom, and how delegation works, see [Assignments & Plan Types](../reference/assignments.md).
 
 ---
 
 ## Task - Plan Type Configuration
 
-**Who:** District Admin (or School Admin if delegated)
+**Who:** District Admin (or School Admin/principal if delegated)
 **Where:** Assignments
 
-Each evaluatee needs a plan type assigned:
+Each evaluatee also needs a plan type — **Comprehensive** (all 8 criteria) or **Focused** (one criterion, for evaluatees with a prior Proficient/Distinguished rating). New staff typically start with Comprehensive.
 
-| Plan Type | Who's Eligible | What It Means |
-|-----------|---------------|---------------|
-| Comprehensive | Everyone | All 8 criteria evaluated |
-| Focused | Must have prior Proficient/Distinguished rating | One criterion (evaluatee chooses) |
-
-:::tip New Staff
-New teachers and principals typically start with Comprehensive evaluations.
-:::
+See [Assignments & Plan Types](../reference/assignments.md) for details.
 
 ---
 

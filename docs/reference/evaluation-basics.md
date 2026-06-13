@@ -14,7 +14,7 @@ In Washington State, both teachers and principals are required to complete annua
 
 An evaluation in eVAL involves:
 - Collecting different types of **evidence** throughout the school year
-- Aligning that evidence with your district's **instructional framework**
+- Aligning that evidence to the rubric in your district's **selected framework**
 - Receiving a **summative performance rating** at the end of the year
 
 ## The Evaluation Process
@@ -29,6 +29,26 @@ Throughout the year, you'll participate in various activities that contribute to
 | **Observations** | Formal classroom/leadership observations | Evaluator |
 | **Student Growth** | Document student learning and growth data | Evaluatee |
 | **Summative Evaluation** | Final evaluation combining all evidence | Evaluator |
+
+## From Evidence to Your Summative Score
+
+Your evaluation is built from evidence collected across the year, which all flows into a single end-of-year review.
+
+1. **Collect evidence.** Throughout the year, evidence is gathered in different evidence collections — observations, artifacts, self-assessment, and student growth. Each piece is aligned to the rubric in your district's selected framework.
+
+2. **Package and align it.** Within a collection, evidence can be grouped into [evidence packages](../evidence/evidence-packages.md) and aligned to specific rubric **performance levels and descriptors** — the rubric language describing what each level of practice looks like.
+
+3. **Publish it.** When an evidence collection is submitted and locked, its evidence becomes **public** — ready to count toward the summative.
+
+4. **It aggregates by the eight criteria.** Published evidence from all of your collections is gathered into the **Summative Evaluation's Evidence View**, organized by the [eight state criteria (C1–C8)](./state-framework.md#the-eight-state-criteria). The evaluator sees every piece of evidence aligned to each criterion in one place.
+
+5. **The evaluator scores.** Reviewing the evidence criterion by criterion, the evaluator assigns a score for each of C1–C8.
+
+### Student Growth Flows In Too
+
+Alongside the criteria evidence, the evaluator also works through **Student Growth Goal Setting (SGGS)** and **Student Growth Goal Achievement (SGGA)** — collecting evidence and scoring the [student growth rubric components](./state-framework.md#student-growth). Those scores flow into the same Summative Evidence View and contribute to your final rating through the Student Growth Impact Rating.
+
+For how the C1–C8 scores and student growth combine into your overall performance rating, see [Scoring](./scoring.md).
 
 ## Evaluation Types
 
@@ -84,9 +104,9 @@ Your evaluation results in one of four performance levels:
 
 ## The Eight Criteria
 
-Washington State evaluations are organized around eight criteria. The specific criteria differ slightly for teachers and principals, but both are evaluated across eight areas aligned with state standards.
+Washington State evaluations are organized around eight criteria (C1–C8). The specific criteria differ slightly for teachers and principals, but both are evaluated across eight areas aligned with state standards.
 
-Your district's chosen **instructional framework** (such as Danielson, Marzano, or CEL 5D+) provides the detailed rubrics for each criterion.
+Your district's **selected framework** provides the detailed rubrics for each criterion. For teacher evaluations this is an instructional framework — such as Danielson, Marzano, or CEL 5D+ — whose components map to the eight criteria. Some principal frameworks, like the AWSP Leadership Framework, map directly to the eight criteria. See [State Evaluation Framework](./state-framework.md) for the full criteria and how frameworks map to them.
 
 ## Your Evaluation Timeline
 

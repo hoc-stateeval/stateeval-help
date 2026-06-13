@@ -66,13 +66,9 @@ The framework is loaded, but *your own* evaluation isn't fully configured yet.
 
 **Resolution:** Ask your administrator to finish your **evaluator assignment** and **plan type**. You may see one or both items listed.
 
-![Teacher account page pending evaluator and plan type assignment](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/account-teacher-pending-setup.png)
-
 ## What "Ready" Looks Like
 
-Once the relevant stages are complete, the work area changes from **Pending** to **Ready** and its activities open up. A principal whose teacher framework is loaded — but whose own evaluation is still being set up — sees a mix:
-
-![Principal account page after framework setup, some areas ready and some pending](https://raw.githubusercontent.com/hoc-stateeval/stateeval-help/main/static/img/account-principal-after-setup.png)
+Once the relevant stages are complete, the work area changes from **Pending** to **Ready** and its activities open up. A principal whose teacher framework is loaded — but whose own evaluation is still being set up — sees a mix of both on the User Location/Roles page. You can work in any area that's **Ready** without waiting on the others — so that principal can go ahead and evaluate their teachers (as long as the teacher framework is loaded and those evaluations are set up) even while their own evaluation is still **Pending**.
 
 ## Quick Reference
 

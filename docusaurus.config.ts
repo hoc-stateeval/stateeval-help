@@ -133,8 +133,8 @@ const config: Config = {
               to: '/role-guides/evaluator',
             },
             {
-              label: 'Teachers',
-              to: '/role-guides/teacher',
+              label: 'Evaluatees',
+              to: '/role-guides/evaluatee',
             },
           ],
         },
